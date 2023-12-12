@@ -1,11 +1,11 @@
 # AionStigmaCalculatorPHP
 
-Description
+# Description
 Fork of [Aion Stigma Calculator](https://aion.aspirine.su/stigma/) made by ASPirine and Guimera.
 This calculator will be updated with latest version of Aion Classic EU (Gameforge) as default version and Aion Classic NA (NCSoft) latest ahead of EU.
 Some hidden effects from the game client are added to stigmas tooltip.
 
-#Hidden effects
+# Hidden effects
 - Maximum Target Number for area skills
 - Area radius
 - Enmity
