@@ -1,0 +1,709 @@
+body {
+	background: #add0e8;
+	background-image: url(../img/aionClassicLoadingScreen_Jonnyjonsen.png);	
+    background-color: rgb(0 0 0 / 20%);
+    background-blend-mode: darken;
+	font-family: Calibri, Times New Roman;
+	color: #ffffff;
+	font-size: 14px;
+	overflow: hidden;
+	overflow-y: auto;
+}
+
+#page {
+	position:absolute;
+	top:60px;
+	left:-385px;
+	margin-left:50%;
+	margin-top:20px;
+	padding:0px;
+	width:770px;
+	background:none;
+	/*display:none;*/
+}
+
+#wrapper {
+	position:absolute;
+	padding:0px;
+	width:770px;
+	height:600px;
+	background:#312919;
+	/*display:none;*/
+}
+
+#stigma_tooltip {
+	position:absolute;
+	max-width:280px;
+	z-index:50;
+	border:#a6a580 1px solid;
+	padding:4px;
+	background:#2f2718;
+	display:none;
+}
+
+#stigma_tooltip hr {background-color:#645848;border:0 none;color:#645848;height:2px;width:100%}
+
+.cost-title:not([colspan]) {
+	white-space: nowrap;
+}
+
+.cost-title {
+    color: #B4B098;
+    font-size: 13px;
+    text-align: left;
+}
+.cost-value {
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: left;
+	width: 100%;
+}
+
+#class_wrapper {
+	position: absolute;
+	left: 410px;
+	top: 5px;
+	background: no-repeat url(../img/classbckgr3.png);
+	width:123px;
+	height:87px;
+	z-index: 30;
+}
+
+#version_wrapper {
+	position: absolute;    
+	right: 20px;
+    top: 330px;
+	z-index: 30;
+	width: 120px;
+	height: 34px;
+}
+
+#stigma_wrapper {
+	display: flex;
+    column-gap: 15px;
+	position:absolute;
+	left: 20px;
+    top: 20px;
+	padding:0px;
+	width:390px;
+	height:260px;
+	z-index: 10;
+}
+
+.stigma-slots {
+	display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 15px;
+    grid-row-gap: 10px;
+	justify-items: center;
+}
+
+#stigma_free_wrapper {
+	position:absolute;
+	padding:12px;
+	top:33px;
+	left: 418px;
+	width:326px;
+	height:256px;
+	z-index: 10;
+	background:url(img/sf.png);
+}
+
+#stigma_tree_wrapper {
+	position:absolute;
+	padding:0px;
+	top:310px;
+	left:20px;
+	width:390px;
+	height:200px;
+	z-index: 10;
+	min-height: 45%;
+}
+
+#stigma_tree_wrapper table, #stigma_tree_wrapper tr, #stigma_tree_wrapper td {
+	border-collapse:collapse;
+}
+
+#race_wrapper {
+	position:absolute;
+	top:269px;
+	left:673px;
+	width:50px;
+	height:32px;
+	background-image:url(img/races.png);
+	z-index: 15;
+	cursor:pointer;
+}
+
+#share_link {
+	position:absolute;
+	top:275px;
+	left:430px;
+	z-index:20;
+}
+
+#share_link input {
+	width:220px;
+	background: none repeat scroll 0 0 #2b241c;
+	border: 1px solid #a37734;
+	border-radius: 4px;
+	color: white;
+	height: 18px;
+	position: absolute;
+}
+
+.race-asmodian {
+	background-position: 0px -32px;
+}
+
+.stigma-slot {
+	width:80px;
+	height:80px;
+	background:url(img/stigmaslots.png);
+	padding: 19px 20px;
+	box-sizing: border-box;
+}
+
+.stigma-icon {
+	width:40px;
+	height:40px;
+	top:19px;
+	left:20px;
+}
+.stigma-tools {
+	display:none;
+	z-index: 30;    
+	position: relative;
+    left: -20px;
+    top: -59px;
+}
+
+.stigma-slot:hover .stigma-tools {
+	display:block;
+}
+
+#stigma_nor_1{left:20px;top:20px}
+#stigma_nor_2{left:115px;top:20px}
+#stigma_nor_3{left:20px;top:110px}
+#stigma_nor_4{left:115px;top:110px}
+#stigma_nor_5{left:20px;top:200px}
+#stigma_nor_6{left:115px;top:200px}
+
+#stigma_adv_1{left:210px;top:20px}
+#stigma_adv_2{left:305px;top:20px}
+#stigma_adv_3{left:210px;top:110px}
+#stigma_adv_4{left:305px;top:110px}
+#stigma_adv_5{left:210px;top:200px}
+#stigma_adv_6{left:305px;top:200px}
+
+.stigma-slot-advance {background-position: 0px -80px}
+.stigma-slot:hover, .stigma-slot-active {background-position: -80px 0px}
+.stigma-slot-inactive {background-position: -160px 0px !important}
+.stigma-slot-advance:hover, .stigma-slot-advance-active {background-position: -80px -80px}
+.stigma-slot-advance-inactive {background-position: -160px -80px !important}
+
+.stigma-border {
+	position: relative;
+	width:52px;
+	height:52px;
+	float: left;
+	padding:1px;
+	background:no-repeat url(img/border.png);
+}
+
+.stigma-padding {
+	position: relative;
+	width:106px;
+	height:52px;
+	float: left;
+	padding:1px;
+}
+
+.stigma-free {
+	position:absolute;
+	width:40px;
+	height:40px;
+	top:6px;
+	left:6px;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.stigma-gray {
+	position:absolute;
+	width:40px;
+	height:40px;
+	top:0px;
+	left:0px;
+	background: #ccc;
+	opacity: 0.7;
+	filter: alpha(opacity=70);
+}
+.stigma-red {
+	position:absolute;
+	width:40px;
+	height:40px;
+	top:0px;
+	left:0px;
+	background: #c11;
+	opacity: 0.7;
+	filter: alpha(opacity=70);
+}
+.stigma-green {
+	position:absolute;
+	width:40px;
+	height:40px;
+	top:0px;
+	left:0px;
+	background: #181;
+	opacity: 0.4;
+	filter: alpha(opacity=40);
+}
+
+.stigma-free-hover {
+	position:absolute;
+	width:40px;
+	height:40px;
+	top:-1px;
+	left:-1px;
+	background:no-repeat url(../img/item_hover.png);
+	display:none;
+}
+
+.stigma-level {
+	width:20px;
+	height:20px;
+	background:#060C14;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	cursor:pointer;
+	position: absolute;
+}
+.stigma-level-active {background: #5E961E;}
+.stigma-level:hover  {background: #ef7e4a;}
+
+.stigma-level table, .stigma-level tr, .stigma-level td {
+	padding:0px;
+	text-align:center;
+	vertical-align:middle;
+	width:100%;
+	height:100%;
+}
+
+.stigma-free:hover .stigma-free-hover {
+	display:block;
+}
+
+.bookmark-border {
+	width:140px;
+	height:140px;
+	position:absolute;
+	background: no-repeat url(../img/border.png);
+	z-index: 2;
+}
+#border_top_left {top:-25px;left:-25px;}
+#border_top_right {top:-25px;right:-25px;background-position:-140px 0}
+#border_bottom_left {bottom:-25px;left:-25px;background-position: 0 -140px}
+#border_bottom_right {bottom:-25px;right:-25px;background-position: -140px -140px}
+
+.bookmark-border-hor{
+	position:absolute;
+	height: 50px;
+	left:115px;
+	right:115px;
+	background: repeat-x url(../img/border_h.png);
+	z-index:2;
+}
+#border_top{top:-25px;left:115px;}
+#border_bottom {bottom:-25px;background-position:0 -50px;}
+
+.bookmark-border-vert{
+	position:absolute;
+	width:50px;
+	top:115px;
+	bottom:115px;
+	background: repeat-y url(../img/border_v.png);
+	z-index:2;
+}
+#border_left{left:-25px;}
+#border_right {right:-25px;background-position:-50px 0;}
+
+
+.class-picker-row {
+	width: 40px;
+	height: 32px;
+	margin-bottom: 2px;
+	margin-right: 2px;
+	float: left;
+	cursor: pointer;
+}
+
+#version-picker .class-picker-row {
+	width: 100%;
+}
+
+.class-picker-icon {
+	width:32px;
+	height:32px;
+	float: left;
+	background-image: url(../img/classes.png);
+}
+.class-picker-label, .version-picker-label {
+	width:105px;
+	height:32px;
+	float: left;
+	display: none;
+}
+
+.version-picker-label {
+	width: 100%;
+}
+
+.class-picker-label td, .version-picker-label td {
+	text-align: center;
+	vertical-align: middle;
+	font-weight: bold;
+	height: 30px;
+	width: 105px;
+	padding: 0px;
+	margin: 0px;
+}
+
+.version-picker-label td {
+	width: 152px;
+}
+
+.select-hidden {
+	display:none;
+	position:relative;
+	left: -50px;
+}
+
+#version-picker .select-hidden {
+	left: -16px;
+}
+
+.select-hidden .class-picker-row {
+	width: 152px !important; 
+	background: url(../img/classsmall.png);
+}
+
+.select-hidden .class-picker-row:hover {
+	background-position: 0 -32px;
+}
+
+.select-hidden .class-picker-icon {
+	left:5px;
+	position: relative;
+}
+
+.select-hidden .class-picker-label, .select-hidden .version-picker-label {
+	display: inline;
+}
+
+#class-icon-all div.class-picker-icon {background-position: -128px 0px}
+#class-icon-priest div.class-picker-icon {background-position: -32px -32px}
+#class-icon-chanter div.class-picker-icon {background-position: 0px -32px}
+#class-icon-fighter div.class-picker-icon {background-position: 0px 0px}
+#class-icon-knight div.class-picker-icon {background-position: -32px 0px}
+#class-icon-ranger div.class-picker-icon {background-position: -64px 0px}
+#class-icon-assassin div.class-picker-icon {background-position: -96px 0px}
+#class-icon-wizard div.class-picker-icon {background-position: -64px -32px}
+#class-icon-elementalist div.class-picker-icon {background-position: -96px -32px}
+#class-icon-gunner div.class-picker-icon {background-position: -160px -0px}
+#class-icon-bard div.class-picker-icon {background-position: -160px -32px}
+#class-icon-rider div.class-picker-icon {background-position: -128px -32px}
+#class-icon-thunderer div.class-picker-icon {background-position: -192px -0px}
+
+#class-level {
+	width: 30px;
+	height: 20px;
+	background: transparent;
+	border: 0 none;
+	padding: 0;
+	margin:0;
+	font-size: 16px;
+	position: absolute;
+	left: 23px;
+	top: 42px;
+	color: white;
+	text-align: center;
+}
+#class-picker {
+	width: 50px;
+	position: absolute;
+	top:36px;
+	left:69px;
+}
+
+#class-picker:hover {
+	width: 150px;
+}
+
+#version-picker, #select-version {
+	width: 100%;
+    position: absolute;
+    right: 0;
+}
+
+#select-version {
+	font-size: 1.2em;
+    color: #f9c94f;
+    text-align: center;
+    border: 1px solid #766b54;
+    border-radius: 5px;
+    padding: 2px;
+    box-sizing: border-box;
+    background-color: #4c4a42;
+}
+
+
+.tree-wrap {
+	position:relative;
+	width:100%;
+}
+.tree-wrap-2 {
+	position:absolute;
+	width:100%;
+	height:54px;
+}
+.tree-arrow-top {
+	position:absolute;
+	width:22px;
+	height:13px;
+	margin-top:28px;
+	top:-7px;
+	right:-15px;
+	background:url(img/arrows.png);
+	z-index:25;
+}
+
+.tree-arrow-top-line {
+	position:absolute;
+	width:11px;
+	top:27px;
+	height:100%;
+	bottom:0px;
+	right:-15px;
+	background:url(img/arrows.png);
+	background-position: -64px 0px;
+	z-index:22;
+}
+
+.tree-arrow-bottom {
+	position:absolute;
+	width:22px;
+	height:13px;
+	margin-top:25px;
+	top:-7px;
+	right:-15px;
+	background:url(img/arrows.png);
+	background-position: 0px -15px;
+	z-index:25;
+}
+
+.tree-arrow-bottom-line {
+	position:absolute;
+	width:11px;
+	height:100%;
+	bottom:27px;
+	right:-15px;
+	background:url(img/arrows.png);
+	background-position: -64px 0px;
+	z-index:22;
+}
+
+.tree-arrow-in {
+	position:absolute;
+	width:29px;
+	height:17px;
+	margin-top:27px;
+	top:-11px;
+	left:-21px;
+	background:url(img/arrows.png);
+	background-position: -24px 0px;
+	z-index:25;
+}
+
+.tree-arrow-in-single {
+	position:absolute;
+	width:40px;
+	height:19px;
+	margin-top:27px;
+	top:-11px;
+	left:-33px;
+	background:url(img/arrows.png);
+	background-position: -24px -19px;
+	z-index:25;
+}
+
+.tree-stigma-td {
+	padding:0px;
+	padding-right:25px;
+	position:relative;
+}
+
+.error-text {
+	color:#f00;
+}
+
+.rare-stigma-text {
+	color: #69e15e;
+}
+
+.legend-stigma-text {
+	color: #4ccfff;
+}
+
+.unique-stigma-text {
+	color: #f0b71c;
+}
+
+.main-button {
+	background: #473d3a;
+	border: 1px solid #b98147;
+	-moz-user-select: none;
+	font-weight: bold;
+	cursor: pointer;
+	float: right;
+	border-collapse: collapse;
+	position: relative;
+}
+
+#lang_buttons {
+	position:absolute;
+	top: -1px;
+	right: 30px;
+	z-index: 30;
+}
+
+#lang_buttons td {
+	width: 28px;
+	height: 18px;
+	padding: 0px;
+	font-size: 1px;
+}
+
+.lang-icon {
+	background: url(../img/flags.png);
+}
+
+#lang_en {background-position: -28px 0}
+#lang_fr {background-position: -56px 0}
+#lang_de {background-position: -84px 0}
+.lang-incative{
+	opacity: 0.3;
+	border: transparent 1px solid;
+}
+
+a:link, a:visited {
+    color: #CECE00;
+}
+
+#copyright {
+	position: absolute;
+	width: 720px;
+	top: 610px;
+	background-position: center center;
+	text-align:right;
+	font-size: 12px;
+}
+
+.bottom_link {
+	width: 154px;
+	height: 35px;
+	position:absolute;
+	background:url(../img/bottom_link.png);
+	top:600px;
+}
+
+.top_link {
+	position:absolute;
+	right: 10px;
+}
+
+.top_link a {	
+	display: flex;
+    align-items: center;
+	column-gap: 5px;
+	font-size: 16px;
+}
+
+.bottom_link a, .top_link a {
+	text-decoration: none;
+	color: #f9c94f;
+}
+
+.icon_wrapper {
+	width: 20px;
+	height: 20px;
+}
+
+#git-icon {
+	background:url(../img/gitlab-icon.png);
+	background-size: contain;
+}
+
+#calclink {left: 80px}
+
+#stigmalink_wrap {
+	position:absolute;
+	bottom: 5px;
+	width: 154px;
+	text-align:center;
+	z-index: 30;
+}
+
+#version_layer {
+	position:absolute;
+	bottom:20px;
+	right:15px;
+	width:120px;
+	height:102px;
+	opacity:0.6;
+	filter: alpha(opacity=60);
+	transform: rotate(-30deg);
+    font-size: 6.5em;
+    color: #695434;
+}
+
+#cost_wrapper {
+	position:absolute;
+	top:289px;
+	left:255px;
+	z-index: 15;
+}
+#cost_wrapper table {
+	border:#A37734 1px solid;
+	padding:2px;
+	border-radius:5px;
+}
+
+.cost-abyss {
+	width:16px;
+	height:16px;
+	background: url(img/cost.png);
+}
+
+.cost-shard {
+	width:16px;
+	height:16px;
+	background: url(img/cost.png);
+	background-position: 0px -16px;
+}
+
+#cost_shard, #cost_abyss {
+	width: 50px;
+	text-align: left;
+	vertical-align: middle;
+}
+
+.col-span-2 {
+	grid-column: span 2;
+}
+
+#title {
+	text-align: center;
+}

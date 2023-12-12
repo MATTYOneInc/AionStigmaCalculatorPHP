@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /icons/
+Disallow: /img/
+Disallow: /stigma/img/
+
+Sitemap: https://aion.dardok.eu/sitemap.xml

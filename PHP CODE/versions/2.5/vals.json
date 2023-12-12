@@ -1,0 +1,5221 @@
+{
+  "as_assaultslash": {
+    "1": {
+      "cooltime": "180",
+      "casttime": "-1",
+      "first_target_valid_distance": "20",
+      "target": "selected",
+      "cost": "165 MP",
+      "canmove": "true",
+      "e1.dashatk.mindamage": "936",
+      "e1.dashatk.maxdamage": "940"
+    },
+    "2": {
+      "cost": "196 MP",
+      "e1.dashatk.mindamage": "1031",
+      "e1.dashatk.maxdamage": "1035"
+    }
+  },
+  "as_blindingburst": {
+    "1": {
+      "cooltime": "180",
+      "casttime": "-1",
+      "target": "aroundcaster",
+      "nb_targets": "6",
+      "target_radius_effect": "15",
+      "cost": "79 MP",
+      "dispellvl": "1",
+      "canmove": "true",
+      "e1.blind.randomtime": "10",
+      "e1.blind.remaintime": "25",
+      "enmity": [
+        "2934 (BLIND)"
+      ]
+    },
+    "2": {
+      "cost": "63 MP"
+    }
+  },
+  "as_blindside": {
+    "1": {
+      "cooltime": "40",
+      "casttime": "-1",
+      "first_target_valid_distance": "20",
+      "target": "selected",
+      "cost": "65 MP",
+      "dispellvl": "1",
+      "canmove": "true",
+      "e1.movebehindatk.mindamage": "94",
+      "e1.movebehindatk.maxdamage": "98",
+      "e2.stun.randomtime": "1",
+      "e2.stun.remaintime": "3",
+      "accbonus": [
+        "100 $magicalhitaccuracy (STUN)"
+      ],
+      "enmity": [
+        "2131 (STUN)"
+      ]
+    },
+    "2": {
+      "cost": "73 MP",
+      "e1.movebehindatk.mindamage": "104",
+      "e1.movebehindatk.maxdamage": "108",
+      "enmity": [
+        "2561 (STUN)"
+      ]
+    },
+    "3": {
+      "cost": "79 MP",
+      "e1.movebehindatk.mindamage": "125",
+      "e1.movebehindatk.maxdamage": "129",
+      "accbonus": [
+        "200 $magicalhitaccuracy (STUN)"
+      ],
+      "enmity": [
+        "2934 (STUN)"
+      ]
+    },
+    "4": {
+      "cost": "82 MP",
+      "e1.movebehindatk.mindamage": "142",
+      "e1.movebehindatk.maxdamage": "146",
+      "accbonus": [
+        "300 $magicalhitaccuracy (STUN)"
+      ],
+      "enmity": [
+        "3360 (STUN)"
+      ]
+    },
+    "5": {
+      "cost": "82 MP",
+      "e1.movebehindatk.mindamage": "168",
+      "e1.movebehindatk.maxdamage": "172",
+      "accbonus": [
+        "400 $magicalhitaccuracy (STUN)"
+      ],
+      "enmity": [
+        "3712 (STUN)"
+      ]
+    },
+    "6": {
+      "cost": "101 MP",
+      "e1.movebehindatk.mindamage": "203",
+      "e1.movebehindatk.maxdamage": "207",
+      "accbonus": [
+        "500 $magicalhitaccuracy (STUN)"
+      ],
+      "enmity": [
+        "4160 (STUN)"
+      ]
+    }
+  },
+  "as_carvesignetchain": {
+    "1": {
+      "cooltime": "6",
+      "casttime": "-1",
+      "first_target_valid_distance": "1",
+      "target": "selected",
+      "canmove": "true",
+      "e1.carvesignet.mindamage": "34",
+      "e1.carvesignet.maxdamage": "38",
+      "e1.carvesignet.adddamage": "1",
+      "e1.carvesignet.addeffect": "3",
+      "e1.carvesignet.signetgrade": "3"
+    },
+    "2": {
+      "e1.carvesignet.mindamage": "42",
+      "e1.carvesignet.maxdamage": "46"
+    },
+    "3": {
+      "e1.carvesignet.mindamage": "46",
+      "e1.carvesignet.maxdamage": "50"
+    },
+    "4": {
+      "e1.carvesignet.mindamage": "51",
+      "e1.carvesignet.maxdamage": "55"
+    },
+    "5": {
+      "e1.carvesignet.mindamage": "56",
+      "e1.carvesignet.maxdamage": "60"
+    },
+    "6": {
+      "e1.carvesignet.mindamage": "61",
+      "e1.carvesignet.maxdamage": "65"
+    },
+    "7": {
+      "e1.carvesignet.mindamage": "72",
+      "e1.carvesignet.maxdamage": "76"
+    }
+  },
+  "as_chainsignetburst": {
+    "1": {
+      "cooltime": "60",
+      "casttime": "-1",
+      "first_target_valid_distance": "10",
+      "target": "selected",
+      "cost": "103 MP",
+      "canjumpshot": "true",
+      "e1.spellatk_instant.fixdamage": "1103",
+      "accbonus": [
+        "400 $magicalhitaccuracy (DAMAGE)"
+      ]
+    },
+    "2": {
+      "cost": "122 MP",
+      "e1.spellatk_instant.fixdamage": "1213",
+      "accbonus": [
+        "500 $magicalhitaccuracy (DAMAGE)"
+      ]
+    }
+  },
+  "as_explosionpoison": {
+    "1": {
+      "cooltime": "180",
+      "casttime": "-1",
+      "target": "self",
+      "cost": "206 MP",
+      "dispellvl": "1",
+      "canmove": "true",
+      "e1.provoker.remaintime": "30",
+      "e1.provoker.conditionprob": "20",
+      "e1.provoker.condition": "Nmlatk",
+      "enmity": [
+        "12101 (PROVOKER)"
+      ],
+      "e1.provoker.otherskill.e1.procatk_instant.damage": "516"
+    },
+    "2": {
+      "cost": "207 MP",
+      "enmity": [
+        "13309 (PROVOKER)"
+      ],
+      "e1.provoker.otherskill.e1.procatk_instant.damage": "544"
+    },
+    "3": {
+      "cost": "236 MP",
+      "enmity": [
+        "14094 (PROVOKER)"
+      ],
+      "e1.provoker.otherskill.e1.procatk_instant.damage": "607"
+    },
+    "4": {
+      "cost": "248 MP",
+      "enmity": [
+        "15314 (PROVOKER)"
+      ],
+      "e1.provoker.otherskill.e1.procatk_instant.damage": "672"
+    }
+  },
+  "as_flashslash": {
+    "1": {
+      "cooltime": "24",
+      "casttime": "-1",
+      "first_target_valid_distance": "1",
+      "target": "selected",
+      "cost": "83 MP",
+      "dispellvl": "1",
+      "canjumpshot": "true",
+      "e1.skillatk_instant.mindamage": "325",
+      "e1.skillatk_instant.maxdamage": "329",
+      "e2.statdown.remaintime": "30",
+      "e2.statdown.value": "200",
+      "e2.statdown.statname": "MagicalHitAccuracy"
+    },
+    "2": {
+      "e1.skillatk_instant.mindamage": "342",
+      "e1.skillatk_instant.maxdamage": "346"
+    },
+    "3": {
+      "cost": "95 MP",
+      "e1.skillatk_instant.mindamage": "383",
+      "e1.skillatk_instant.maxdamage": "387"
+    },
+    "4": {
+      "cost": "100 MP",
+      "e1.skillatk_instant.mindamage": "425",
+      "e1.skillatk_instant.maxdamage": "429"
+    }
+  },
+  "as_hitmanmind": {
+    "1": {
+      "cooltime": "300",
+      "casttime": "-1",
+      "target": "self",
+      "cost": "73 MP",
+      "dispellvl": "1",
+      "canmove": "true",
+      "e1.statup.remaintime": "20",
+      "e1.statup.value": "500",
+      "e1.statup.statname": "hitAccuracy",
+      "enmity": [
+        "470 (STATUP)"
+      ],
+      "e2.statup.remaintime": "20",
+      "e2.statup.value": "500",
+      "e2.statup.statname": "MagicalHitAccuracy"
+    }
+  },
+  "as_mirrorattack": {
+    "1": {
+      "cooltime": "30",
+      "casttime": "-1",
+      "first_target_valid_distance": "20",
+      "target": "selected",
+      "cost": "62 MP",
+      "canmove": "true",
+      "e1.skillatk_instant.mindamage": "582",
+      "e1.skillatk_instant.maxdamage": "586"
+    },
+    "2": {
+      "e1.skillatk_instant.mindamage": "674",
+      "e1.skillatk_instant.maxdamage": "678"
+    }
+  },
+  "as_quickmove": {
+    "1": {
+      "cooltime": "120",
+      "casttime": "-1",
+      "target": "self",
+      "cost": "115 MP",
+      "dispellvl": "1",
+      "canmove": "true",
+      "e1.statup.remaintime": "30",
+      "e1.statup.value": "20",
+      "e1.statup.statname": "AttackDelay",
+      "enmity": [
+        "338 (STATUP)"
+      ]
+    }
+  },
+  "as_senseboost": {
+    "1": {
+      "cooltime": "180",
+      "casttime": "-1",
+      "target": "self",
+      "cost": "144 MP",
+      "dispellvl": "1",
+      "canmove": "true",
+      "e1.statup.remaintime": "12",
+      "e1.statup.value": "800",
+      "e1.statup.statname": "dodge",
+      "enmity": [
+        "726 (STATUP)"
+      ],
+      "e2.statup.remaintime": "12",
+      "e2.statup.value": "500",
+      "e2.statup.statname": "MagicalResist"
+    },
+    "2": {
+      "cooltime": "10",
+      "cost": "100 MP",
+      "e1.statup.value": "1000",
+      "enmity": [
+        "12101 (STATUP)"
+      ],
+      "e2.statup.value": "1000"
+    }
+  },
+  "as_shadowdodge": {
+    "1": {
+      "cooltime": "180",
+      "casttime": "-1",
+      "target": "self",
+      "cost": "203 MP",
+      "canmove": "true",
+      "e1.randommoveloc.distance": "10"
+    }
+  },
+  "as_signetflare": {
+    "1": {
+      "cooltime": "12",
+      "casttime": "-1",
+      "first_target_valid_distance": "10",
+      "target": "selected",
+      "cost": "69 MP",
+      "canmove": "true",
+      "e1.signetburst.signetgrade": "5",
+      "accbonus": [
+        "300 $magicalhitaccuracy (RUNE)"
+      ]
+    },
+    "2": {
+      "cost": "76 MP"
+    },
+    "3": {
+      "cost": "81 MP"
+    },
+    "4": {
+      "cost": "83 MP"
+    },
+    "5": {
+      "cost": "96 MP"
+    }
+  },
+  "as_signetwave": {
+    "1": {
+      "cooltime": "7",
+      "casttime": "-1",
+      "first_target_valid_distance": "10",
+      "target": "selected",
+      "cost": "38 MP",
+      "canmove": "true",
+      "e1.carvesignet.mindamage": "48",
+      "e1.carvesignet.maxdamage": "52",
+      "e1.carvesignet.adddamage": "1",
+      "e1.carvesignet.addeffect": "3",
+      "e1.carvesignet.signetgrade": "3"
+    },
+    "2": {
+      "cost": "41 MP",
+      "e1.carvesignet.mindamage": "55",
+      "e1.carvesignet.maxdamage": "59"
+    },
+    "3": {
+      "cost": "42 MP",
+      "e1.carvesignet.mindamage": "60",
+      "e1.carvesignet.maxdamage": "64"
+    },
+    "4": {
+      "cost": "48 MP",
+      "e1.carvesignet.mindamage": "71",
+      "e1.carvesignet.maxdamage": "75"
+    }
+  },
+  "as_silentburst": {
+    "1": {
+      "cooltime": "90",
+      "casttime": "-1",
+      "first_target_valid_distance": "10",
+      "target": "selected",
+      "cost": "202 MP",
+      "dispellvl": "1",
+      "canmove": "true",
+      "e1.signetburst.signetgrade": "5",
+      "accbonus": [
+        "500 $magicalhitaccuracy (RUNE)"
+      ]
+    }
+  },
+  "as_stabstance": {
+    "1": {
+      "cooltime": "300",
+      "casttime": "-1",
+      "target": "self",
+      "cost": "100 MP",
+      "dispellvl": "1",
+      "canmove": "true",
+      "e1.statup.remaintime": "180",
+      "e1.statup.value": "20",
+      "e1.statup.statname": "phyAttack",
+      "enmity": [
+        "3666 (STATUP)"
+      ],
+      "e2.statdown.remaintime": "180",
+      "e2.statdown.value": "200",
+      "e2.statdown.statname": "Dodge"
+    }
+  },
+  "as_stigma_moonburst_dark": {
+    "1": {
+      "cooltime": "180",
+      "casttime": "-1",
+      "first_target_valid_distance": "20",
+      "target": "selected",
+      "cost": "165 MP",
+      "canmove": "true",
+      "e1.signetburst.signetgrade": "5",
+      "accbonus": [
+        "500 $magicalhitaccuracy (RUNE)"
+      ]
+    }
+  },
+  "as_stigma_shadowwalk": {
+    "1": {
+      "cooltime": "180",
+      "casttime": "-1",
+      "target": "self",
+      "cost": "124 MP",
+      "canmove": "true",
+      "e1.hide.remaintime": "300",
+      "e1.hide.speed": "80"
+    }
+  },
+  "as_stigma_sunburst_light": {
+    "1": {
+      "cooltime": "180",
+      "casttime": "-1",
+      "first_target_valid_distance": "20",
+      "target": "selected",
+      "cost": "165 MP",
+      "canmove": "true",
+      "e1.signetburst.signetgrade": "5",
+      "accbonus": [
+        "500 $magicalhitaccuracy (RUNE)"
+      ]
+    }
+  },
+  "as_stunburst": {
+    "1": {
+      "cooltime": "120",
+      "casttime": "1.2",
+      "cancelrate": "20 %",
+      "first_target_valid_distance": "10",
+      "target": "selected",
+      "cost": "144 MP",
+      "dispellvl": "1",
+      "e1.spellatk_instant.fixdamage": "966",
+      "e2.stun.remaintime": "3",
+      "accbonus": [
+        "200 $magicalhitaccuracy (STUN)"
+      ]
+    },
+    "2": {
+      "cost": "152 MP",
+      "e1.spellatk_instant.fixdamage": "1047"
+    }
+  },
+  "as_stuningintention": {
+    "1": {
+      "cooltime": "10",
+      "casttime": "-1",
+      "target": "self",
+      "cost": "52 MP",
+      "dispellvl": "1",
+      "canmove": "true",
+      "e1.provoker.remaintime": "120",
+      "e1.provoker.conditionprob": "2",
+      "e1.provoker.condition": "Nmlatk",
+      "enmity": [
+        "467 (PROVOKER)",
+        "2334 (STUN)"
+      ],
+      "e1.provoker.otherskill.e1.stun.randomtime": "2",
+      "e1.provoker.otherskill.e1.stun.remaintime": "3"
+    }
+  },
+  "as_tigerassault": {
+    "1": {
+      "cooltime": "6",
+      "casttime": "-1",
+      "first_target_valid_distance": "1",
+      "target": "selected",
+      "cost": "124 MP",
+      "canjumpshot": "true",
+      "e1.carvesignet.mindamage": "370",
+      "e1.carvesignet.maxdamage": "374",
+      "e1.carvesignet.adddamage": "1",
+      "e1.carvesignet.addeffect": "5",
+      "e1.carvesignet.signetgrade": "5",
+      "critprob": "300 %"
+    },
+    "2": {
+      "e1.carvesignet.mindamage": "389",
+      "e1.carvesignet.maxdamage": "393"
+    },
+    "3": {
+      "cost": "142 MP",
+      "e1.carvesignet.mindamage": "436",
+      "e1.carvesignet.maxdamage": "440"
+    },
+    "4": {
+      "cost": "149 MP",
+      "e1.carvesignet.mindamage": "484",
+      "e1.carvesignet.maxdamage": "488"
+    }
+  },
+  "as_venomslash": {
+    "1": {
+      "cooltime": "60",
+      "casttime": "-1",
+      "first_target_valid_distance": "1",
+      "target": "selected",
+      "cost": "152 MP",
+      "dispellvl": "1",
+      "canmove": "true",
+      "e1.skillatk_instant.mindamage": "715",
+      "e1.skillatk_instant.maxdamage": "719",
+      "e1.skillatk_instant.adddamage": "756",
+      "e2.stun.remaintime": "3"
+    }
+  },
+  "as_venomstab": {
+    "1": {
+      "cooltime": "120",
+      "casttime": "-1",
+      "first_target_valid_distance": "1",
+      "target": "selected",
+      "cost": "124 MP",
+      "dispellvl": "1",
+      "canmove": "true",
+      "e1.skillatk_instant.mindamage": "115",
+      "e1.skillatk_instant.maxdamage": "119",
+      "e1.skillatk_instant.adddamage": "702",
+      "e2.poison.remaintime": "15"
+    }
+  },
+  "as_visiouseye": {
+    "1": {
+      "cooltime": "60",
+      "casttime": "-1",
+      "target": "self",
+      "cost": "59 MP",
+      "dispellvl": "1",
+      "canmove": "true",
+      "e1.onetimeboostskillcritical.remaintime": "10",
+      "e1.onetimeboostskillcritical.boostcount": "1",
+      "enmity": [
+        "587 (ONETIMEBOOSTSKILLCRITICAL)"
+      ],
+      "e2.statdown.remaintime": "10",
+      "e2.statdown.value": "300",
+      "e2.statdown.statname": "Critical"
+    },
+    "2": {
+      "cost": "66 MP"
+    }
+  },
+  "as_whisperofgale": {
+    "1": {
+      "cooltime": "60",
+      "casttime": "-1",
+      "target": "self",
+      "dispellvl": "1",
+      "canmove": "true",
+      "e1.alwaysresist.remaintime": "8",
+      "e1.alwaysresist.count": "2",
+      "enmity": [
+        "368 (ALWAYSRESIST)"
+      ]
+    }
+  },
+  "as_windslash": {
+    "1": {
+      "cooltime": "24",
+      "casttime": "-1",
+      "first_target_valid_distance": "1",
+      "target": "selected",
+      "cost": "83 MP",
+      "dispellvl": "1",
+      "canjumpshot": "true",
+      "e1.skillatk_instant.mindamage": "325",
+      "e1.skillatk_instant.maxdamage": "329",
+      "e2.statdown.remaintime": "15",
+      "e2.statdown.value": "200",
+      "e2.statdown.statname": "MagicalResist",
+      "e3.statdown.remaintime": "15",
+      "e3.statdown.value": "50",
+      "e3.statdown.statname": "ElementalDefendAll"
+    },
+    "2": {
+      "e1.skillatk_instant.mindamage": "342",
+      "e1.skillatk_instant.maxdamage": "346"
+    },
+    "3": {
+      "cost": "95 MP",
+      "e1.skillatk_instant.mindamage": "383",
+      "e1.skillatk_instant.maxdamage": "387"
+    },
+    "4": {
+      "cost": "100 MP",
+      "e1.skillatk_instant.mindamage": "425",
+      "e1.skillatk_instant.maxdamage": "429"
+    }
+  },
+  "ch_blessprotect": {
+    "1": {
+      "cooltime": "1",
+      "casttime": "-1",
+      "first_target_valid_distance": "25",
+      "target": "selected",
+      "cost": "105 MP",
+      "dispellvl": "1",
+      "canmove": "true",
+      "e1.statup.remaintime": "1800",
+      "e1.statup.value": "10",
+      "e1.statup.statname": "MaxHP",
+      "enmity": [
+        "605 (STATUP)"
+      ],
+      "e2.statup.remaintime": "1800",
+      "e2.statup.value": "50",
+      "e2.statup.statname": "ElementalDefendAll",
+      "e3.statup.remaintime": "1800",
+      "e3.statup.value": "10",
+      "e3.statup.statname": "physicaldefend"
+    }
+  },
+  "ch_chakra": {
+    "1": {
+      "cooltime": "60",
+      "casttime": "-1",
+      "target": "self",
+      "cost": "208 MP",
+      "canmove": "true",
+      "e1.heal_instant.heal": "3137",
+      "enmity": [
+        "27159 (HEAL_INSTANT)"
+      ]
+    },
+    "2": {
+      "cost": "217 MP",
+      "e1.heal_instant.heal": "3308",
+      "enmity": [
+        "28647 (HEAL_INSTANT)"
+      ]
+    },
+    "3": {
+      "cost": "226 MP",
+      "e1.heal_instant.heal": "3470",
+      "enmity": [
+        "30103 (HEAL_INSTANT)"
+      ]
+    },
+    "4": {
+      "cost": "234 MP",
+      "e1.heal_instant.heal": "3627",
+      "enmity": [
+        "31496 (HEAL_INSTANT)"
+      ]
+    }
+  },
+  "ch_chant_improvedcritical": {
+    "1": {
+      "casttime": "-1",
+      "target": "self",
+      "canmove": "true",
+      "e1.aura.range": "20",
+      "enmity": [
+        "102 (AURA)"
+      ],
+      "e1.aura.otherskill.e1.statup.remaintime": "6.5",
+      "e1.aura.otherskill.e1.statup.value": "50",
+      "e1.aura.otherskill.e1.statup.statname": "critical",
+      "e1.aura.otherskill.e1.statup.value2": "50",
+      "e1.aura.otherskill.e1.statup.statname2": "MagicalCritical",
+      "e1.aura.otherskill.e2.statup.remaintime": "6.5",
+      "e1.aura.otherskill.e2.statup.value": "50",
+      "e1.aura.otherskill.e2.statup.statname": "PhysicalCriticalReduceRate",
+      "e1.aura.otherskill.e2.statup.value2": "50",
+      "e1.aura.otherskill.e2.statup.statname2": "MagicalCriticalReduceRate"
+    },
+    "2": {
+      "cooltime": "1",
+      "e1.aura.otherskill.e1.statup.value": "120",
+      "e1.aura.otherskill.e1.statup.statname": "Critical"
+    }
+  },
+  "ch_chant_improvedresiststun": {
+    "1": {
+      "casttime": "-1",
+      "target": "self",
+      "canmove": "true",
+      "e1.aura.range": "20",
+      "enmity": [
+        "68 (AURA)"
+      ],
+      "e1.aura.otherskill.e1.statup.remaintime": "6.5",
+      "e1.aura.otherskill.e1.statup.value": "500",
+      "e1.aura.otherskill.e1.statup.statname": "arStun"
+    }
+  },
+  "ch_chant_invincible": {
+    "1": {
+      "casttime": "-1",
+      "target": "self",
+      "canmove": "true",
+      "e1.aura.range": "20",
+      "enmity": [
+        "74 (AURA)"
+      ],
+      "e1.aura.otherskill.e1.mpheal.remaintime": "6.5",
+      "e1.aura.otherskill.e1.mpheal.checktimeheal": "32",
+      "e1.aura.otherskill.e2.statup.remaintime": "6.5",
+      "e1.aura.otherskill.e2.statup.value": "15",
+      "e1.aura.otherskill.e2.statup.statname": "PhyAttack",
+      "e1.aura.otherskill.e3.statup.remaintime": "6.5",
+      "e1.aura.otherskill.e3.statup.value": "35",
+      "e1.aura.otherskill.e3.statup.statname": "physicaldefend",
+      "e1.aura.otherskill.e4.statup.remaintime": "6.5",
+      "e1.aura.otherskill.e4.statup.value": "150",
+      "e1.aura.otherskill.e4.statup.statname": "MagicalSkillBoost"
+    }
+  },
+  "ch_healingtank": {
+    "1": {
+      "cooltime": "120",
+      "casttime": "-1",
+      "first_target_valid_distance": "1",
+      "target": "selected",
+      "cost": "59 MP",
+      "dispellvl": "1",
+      "canmove": "true",
+      "e1.healcastoronattacked.remaintime": "10",
+      "e1.healcastoronattacked.healpoint": "23",
+      "e1.healcastoronattacked.effectarea": "5",
+      "enmity": [
+        "1016 (HEALCASTORONATTACKED)"
+      ]
+    },
+    "2": {
+      "cost": "69 MP",
+      "e1.healcastoronattacked.healpoint": "29",
+      "enmity": [
+        "1278 (HEALCASTORONATTACKED)"
+      ]
+    },
+    "3": {
+      "cost": "80 MP",
+      "e1.healcastoronattacked.healpoint": "35",
+      "enmity": [
+        "1536 (HEALCASTORONATTACKED)"
+      ]
+    },
+    "4": {
+      "cost": "90 MP",
+      "e1.healcastoronattacked.healpoint": "41",
+      "enmity": [
+        "1760 (HEALCASTORONATTACKED)"
+      ]
+    },
+    "5": {
+      "cost": "102 MP",
+      "e1.healcastoronattacked.healpoint": "47",
+      "enmity": [
+        "2016 (HEALCASTORONATTACKED)"
+      ]
+    },
+    "6": {
+      "cost": "123 MP",
+      "e1.healcastoronattacked.healpoint": "57",
+      "enmity": [
+        "2227 (HEALCASTORONATTACKED)"
+      ]
+    },
+    "7": {
+      "cost": "138 MP",
+      "e1.healcastoronattacked.healpoint": "70",
+      "enmity": [
+        "3120 (HEALCASTORONATTACKED)"
+      ]
+    }
+  },
+  "ch_heroicstrike": {
+    "1": {
+      "cooltime": "60",
+      "casttime": "-1",
+      "first_target_valid_distance": "1",
+      "target": "selected",
+      "cost": "166 MP",
+      "canmove": "true",
+      "e1.skillatk_instant.mindamage": "546",
+      "e1.skillatk_instant.maxdamage": "550",
+      "e1.skillatk_instant.addeffect": "Stumble"
+    },
+    "2": {
+      "cost": "199 MP",
+      "e1.skillatk_instant.mindamage": "664",
+      "e1.skillatk_instant.maxdamage": "668"
+    }
+  },
+  "ch_imbuepower": {
+    "1": {
+      "cooltime": "180",
+      "casttime": "-1",
+      "target": "self",
+      "cost": "317 MP",
+      "dispellvl": "1",
+      "canmove": "true",
+      "e1.provoker.remaintime": "30",
+      "e1.provoker.conditionprob": "100",
+      "e1.provoker.condition": "Nmlatk",
+      "enmity": [
+        "12101 (PROVOKER)"
+      ],
+      "e1.provoker.otherskill.e1.procatk_instant.damage": "180"
+    },
+    "2": {
+      "cost": "333 MP",
+      "enmity": [
+        "13309 (PROVOKER)"
+      ],
+      "e1.provoker.otherskill.e1.procatk_instant.damage": "187"
+    },
+    "3": {
+      "cost": "354 MP",
+      "enmity": [
+        "14094 (PROVOKER)"
+      ],
+      "e1.provoker.otherskill.e1.procatk_instant.damage": "208"
+    },
+    "4": {
+      "cost": "385 MP",
+      "enmity": [
+        "15314 (PROVOKER)"
+      ],
+      "e1.provoker.otherskill.e1.procatk_instant.damage": "228"
+    }
+  },
+  "ch_improvedallattack": {
+    "1": {
+      "cooltime": "10",
+      "casttime": "-1",
+      "target": "self",
+      "cost": "300 MP",
+      "dispellvl": "1",
+      "canmove": "true",
+      "e1.statup.remaintime": "15",
+      "e1.statup.value": "100",
+      "e1.statup.statname": "MagicalSkillBoost",
+      "enmity": [
+        "628 (STATUP)"
+      ],
+      "e2.statup.remaintime": "15",
+      "e2.statup.value": "100",
+      "e2.statup.statname": "hitAccuracy",
+      "e3.statup.remaintime": "15",
+      "e3.statup.value": "20",
+      "e3.statup.statname": "Phyattack"
+    }
+  },
+  "ch_improvedalldefend": {
+    "1": {
+      "cooltime": "10",
+      "casttime": "-1",
+      "target": "self",
+      "cost": "300 MP",
+      "dispellvl": "1",
+      "canmove": "true",
+      "e1.statup.remaintime": "15",
+      "e1.statup.value": "100",
+      "e1.statup.statname": "ActiveDefend",
+      "enmity": [
+        "466 (STATUP)"
+      ],
+      "e2.statup.remaintime": "15",
+      "e2.statup.value": "100",
+      "e2.statup.statname": "ElementalDefendAll"
+    },
+    "2": {
+      "cost": "876 MP",
+      "e2.statup.value": "10"
+    },
+    "3": {
+      "cost": "591 MP",
+      "e2.statup.value": "10"
+    }
+  },
+  "ch_improvedbody": {
+    "1": {
+      "cooltime": "180",
+      "casttime": "-1",
+      "target": "aroundcaster",
+      "nb_targets": "6",
+      "target_radius_effect": "20",
+      "cost": "303 MP",
+      "dispellvl": "1",
+      "canmove": "true",
+      "e1.statup.remaintime": "30",
+      "e1.statup.value": "2000",
+      "e1.statup.statname": "PhysicalDefend",
+      "enmity": [
+        "780 (STATUP)",
+        "500 (STATUP)"
+      ],
+      "e2.statup.remaintime": "30",
+      "e2.statup.value": "200",
+      "e2.statup.statname": "ElementalDefendAll"
+    }
+  },
+  "ch_improvedlifestream": {
+    "1": {
+      "cooltime": "120",
+      "casttime": "-1",
+      "target": "self",
+      "cost": "278 MP",
+      "dispellvl": "1",
+      "canmove": "true",
+      "e1.heal.remaintime": "10",
+      "e1.heal.checktimeheal": "353",
+      "e1.heal.checktime": "2",
+      "enmity": [
+        "55 (HEAL)"
+      ]
+    },
+    "2": {
+      "cost": "299 MP",
+      "e1.heal.checktimeheal": "409",
+      "enmity": [
+        "62 (HEAL)"
+      ]
+    },
+    "3": {
+      "cost": "322 MP",
+      "e1.heal.checktimeheal": "463",
+      "enmity": [
+        "71 (HEAL)"
+      ]
+    },
+    "4": {
+      "cost": "356 MP",
+      "e1.heal.checktimeheal": "509",
+      "enmity": [
+        "97 (HEAL)"
+      ]
+    }
+  },
+  "ch_mountaincrash": {
+    "1": {
+      "cooltime": "30",
+      "casttime": "-1",
+      "first_target_valid_distance": "25",
+      "target": "selected",
+      "cost": "144 MP",
+      "dispellvl": "1",
+      "canjumpshot": "true",
+      "e1.skillatk_instant.mindamage": "1425",
+      "e1.skillatk_instant.maxdamage": "1429",
+      "accbonus": [
+        "500 $hitaccuracy (DAMAGE)"
+      ],
+      "e2.spellatk.remaintime": "12",
+      "e2.spellatk.damage": "103",
+      "e2.spellatk.checktime": "3"
+    },
+    "2": {
+      "cost": "171 MP",
+      "e1.skillatk_instant.mindamage": "1476",
+      "e1.skillatk_instant.maxdamage": "1480",
+      "e2.spellatk.damage": "109"
+    }
+  },
+  "ch_mpheal": {
+    "1": {
+      "cooltime": "300",
+      "casttime": "1",
+      "cancelrate": "20 %",
+      "first_target_valid_distance": "25",
+      "target": "selected",
+      "cost": "100 MP",
+      "e1.mpheal_instant.heal": "1995",
+      "enmity": [
+        "12000 (MPHEAL_INSTANT)"
+      ]
+    },
+    "2": {
+      "cost": "140 MP",
+      "e1.mpheal_instant.heal": "2141",
+      "enmity": [
+        "13000 (MPHEAL_INSTANT)"
+      ]
+    },
+    "3": {
+      "cost": "180 MP",
+      "e1.mpheal_instant.heal": "2287",
+      "enmity": [
+        "14000 (MPHEAL_INSTANT)"
+      ]
+    },
+    "4": {
+      "cost": "220 MP",
+      "e1.mpheal_instant.heal": "2433",
+      "enmity": [
+        "15000 (MPHEAL_INSTANT)"
+      ]
+    }
+  },
+  "ch_nightwish": {
+    "1": {
+      "cooltime": "15",
+      "casttime": "-1",
+      "target": "self",
+      "cost": "379 MP",
+      "dispellvl": "1",
+      "canmove": "true",
+      "e1.statup.remaintime": "1800",
+      "e1.statup.value": "15",
+      "e1.statup.statname": "phyAttack",
+      "enmity": [
+        "338 (STATUP)"
+      ],
+      "e2.boostskillcastingtime.remaintime": "1800",
+      "e2.boostskillcastingtime.castingbonus": "-20"
+    }
+  },
+  "ch_protectself": {
+    "1": {
+      "cooltime": "120",
+      "casttime": "-1",
+      "target": "self",
+      "cost": "77 MP",
+      "dispellvl": "1",
+      "canmove": "true",
+      "e1.shield.remaintime": "10",
+      "e1.shield.covervalue": "30",
+      "e1.shield.shieldvalue": "100000000",
+      "e1.shield.condition": "EveryHit",
+      "e1.shield.conditionprob": "100",
+      "enmity": [
+        "365 (SHIELD)"
+      ],
+      "e2.statup.remaintime": "10",
+      "e2.statup.value": "500",
+      "e2.statup.statname": "arStumble",
+      "e2.statup.value2": "200",
+      "e2.statup.statname2": "arStun"
+    },
+    "2": {
+      "cost": "100 MP",
+      "e1.shield.covervalue": "33",
+      "enmity": [
+        "435 (SHIELD)"
+      ]
+    },
+    "3": {
+      "cost": "124 MP",
+      "e1.shield.covervalue": "36",
+      "enmity": [
+        "501 (SHIELD)"
+      ]
+    },
+    "4": {
+      "cost": "142 MP",
+      "e1.shield.covervalue": "39",
+      "enmity": [
+        "551 (SHIELD)"
+      ]
+    },
+    "5": {
+      "cost": "159 MP",
+      "e1.shield.covervalue": "42",
+      "enmity": [
+        "617 (SHIELD)"
+      ]
+    },
+    "6": {
+      "cost": "182 MP",
+      "e1.shield.covervalue": "44",
+      "enmity": [
+        "726 (SHIELD)"
+      ]
+    }
+  },
+  "ch_shockwave": {
+    "1": {
+      "cooltime": "60",
+      "casttime": "-1",
+      "first_target_valid_distance": "1",
+      "target": "selected",
+      "cost": "144 MP",
+      "canjumpshot": "true",
+      "e1.skillatk_instant.mindamage": "236",
+      "e1.skillatk_instant.maxdamage": "240",
+      "e1.skillatk_instant.addeffect": "stumble"
+    },
+    "2": {
+      "cost": "152 MP",
+      "e1.skillatk_instant.mindamage": "255",
+      "e1.skillatk_instant.maxdamage": "259"
+    }
+  },
+  "ch_slowcrash": {
+    "1": {
+      "cooltime": "40",
+      "casttime": "-1",
+      "first_target_valid_distance": "1",
+      "target": "selected",
+      "cost": "152 MP",
+      "dispellvl": "1",
+      "canmove": "true",
+      "e1.skillatk_instant.mindamage": "615",
+      "e1.skillatk_instant.maxdamage": "619",
+      "e2.slow.remaintime": "7",
+      "e3.boostskillcastingtime.remaintime": "7",
+      "e3.boostskillcastingtime.castingbonus": "-50"
+    }
+  },
+  "ch_soaredrock": {
+    "1": {
+      "cooltime": "60",
+      "casttime": "-1",
+      "first_target_valid_distance": "25",
+      "target": "selected",
+      "cost": "123 MP",
+      "dispellvl": "1",
+      "canmove": "true",
+      "e1.skillatk_instant.mindamage": "497",
+      "e1.skillatk_instant.maxdamage": "501",
+      "e2.bind.remaintime": "3",
+      "enmity": [
+        "1052 (BIND)"
+      ]
+    },
+    "2": {
+      "cost": "152 MP",
+      "e1.skillatk_instant.mindamage": "628",
+      "e1.skillatk_instant.maxdamage": "632",
+      "enmity": [
+        "1337 (BIND)"
+      ]
+    }
+  },
+  "ch_splashswing": {
+    "1": {
+      "cooltime": "30",
+      "casttime": "-1",
+      "first_target_valid_distance": "1",
+      "target": "selected",
+      "cost": "81 MP",
+      "canmove": "true",
+      "e1.skillatk_instant.mindamage": "747",
+      "e1.skillatk_instant.maxdamage": "751"
+    },
+    "2": {
+      "cost": "83 MP",
+      "e1.skillatk_instant.mindamage": "855",
+      "e1.skillatk_instant.maxdamage": "859"
+    },
+    "3": {
+      "cost": "96 MP",
+      "e1.skillatk_instant.mindamage": "1107",
+      "e1.skillatk_instant.maxdamage": "1111"
+    }
+  },
+  "ch_stigma_angelicwall_light": {
+    "1": {
+      "cooltime": "600",
+      "casttime": "-1",
+      "target": "aroundcaster",
+      "nb_targets": "12",
+      "target_radius_effect": "20",
+      "cost": "622 MP",
+      "dispellvl": "2",
+      "canmove": "true",
+      "e1.shield.remaintime": "15",
+      "e1.shield.covervalue": "55",
+      "e1.shield.shieldvalue": "5000",
+      "e1.shield.condition": "EveryHit",
+      "e1.shield.conditionprob": "100",
+      "enmity": [
+        "13479 (SHIELD)"
+      ],
+      "e2.heal.remaintime": "15",
+      "e2.heal.checktimeheal": "493",
+      "e2.heal.checktime": "3"
+    }
+  },
+  "ch_stigma_demonicwall_dark": {
+    "1": {
+      "cooltime": "600",
+      "casttime": "-1",
+      "target": "aroundcaster",
+      "nb_targets": "12",
+      "target_radius_effect": "20",
+      "cost": "622 MP",
+      "dispellvl": "2",
+      "canmove": "true",
+      "e1.shield.remaintime": "15",
+      "e1.shield.covervalue": "65",
+      "e1.shield.shieldvalue": "5000",
+      "e1.shield.condition": "EveryHit",
+      "e1.shield.conditionprob": "100",
+      "enmity": [
+        "13479 (SHIELD)"
+      ]
+    }
+  },
+  "ch_stigma_recoverword": {
+    "1": {
+      "cooltime": "10",
+      "casttime": "1",
+      "cancelrate": "20 %",
+      "first_target_valid_distance": "25",
+      "target": "selected",
+      "cost": "290 MP",
+      "dispellvl": "1",
+      "e1.heal_instant.heal": "771",
+      "enmity": [
+        "8424 (HEAL_INSTANT)"
+      ],
+      "e2.heal.remaintime": "6",
+      "e2.heal.checktimeheal": "771",
+      "e2.heal.checktime": "2"
+    },
+    "2": {
+      "cost": "314 MP",
+      "e1.heal_instant.heal": "854",
+      "enmity": [
+        "10262 (HEAL_INSTANT)"
+      ],
+      "e2.heal.checktimeheal": "854"
+    }
+  },
+  "ch_surperiorheal": {
+    "1": {
+      "cooltime": "10",
+      "casttime": "3",
+      "cancelrate": "20 %",
+      "first_target_valid_distance": "23",
+      "target": "selected",
+      "cost": "280 MP",
+      "e1.heal_instant.heal": "3184",
+      "enmity": [
+        "38219 (HEAL_INSTANT)"
+      ]
+    },
+    "2": {
+      "cost": "291 MP",
+      "e1.heal_instant.heal": "3327",
+      "enmity": [
+        "39932 (HEAL_INSTANT)"
+      ]
+    }
+  },
+  "ch_swordbind": {
+    "1": {
+      "cooltime": "45",
+      "casttime": "-1",
+      "first_target_valid_distance": "25",
+      "target": "selected",
+      "cost": "251 MP",
+      "pvpremaintimeratio": "80 %",
+      "dispellvl": "1",
+      "canmove": "true",
+      "e1.bind.remaintime": "5",
+      "accbonus": [
+        "300 $magicalhitaccuracy (BIND)"
+      ],
+      "enmity": [
+        "1400 (BIND)"
+      ],
+      "e2.snare.remaintime": "5",
+      "slow": "60 %"
+    }
+  },
+  "cl_imbuemana": {
+    "1": {
+      "cooltime": "10",
+      "casttime": "-1",
+      "target": "self",
+      "cost": "58 MP",
+      "dispellvl": "1",
+      "canmove": "true",
+      "e1.provoker.remaintime": "1800",
+      "e1.provoker.conditionprob": "5",
+      "e1.provoker.condition": "Nmlatk",
+      "enmity": [
+        "426 (PROVOKER)"
+      ],
+      "e1.provoker.otherskill.e1.mpheal.remaintime": "1",
+      "e1.provoker.otherskill.e1.mpheal.checktimeheal": "58"
+    },
+    "2": {
+      "cost": "71 MP",
+      "e1.provoker.otherskill.e1.mpheal.checktimeheal": "71"
+    },
+    "3": {
+      "cost": "91 MP",
+      "enmity": [
+        "742 (PROVOKER)"
+      ],
+      "e1.provoker.otherskill.e1.mpheal.checktimeheal": "91"
+    },
+    "4": {
+      "cost": "106 MP",
+      "enmity": [
+        "1820 (PROVOKER)"
+      ],
+      "e1.provoker.otherskill.e1.mpheal.checktimeheal": "121"
+    }
+  },
+  "el_bind": {
+    "1": {
+      "cooltime": "20",
+      "casttime": "0.5",
+      "cancelrate": "20 %",
+      "first_target_valid_distance": "25",
+      "target": "selected",
+      "cost": "108 MP",
+      "dispellvl": "1",
+      "e1.bind.randomtime": "2",
+      "e1.bind.remaintime": "8",
+      "enmity": [
+        "1016 (BIND)"
+      ]
+    }
+  },
+  "el_dimisspolymorph": {
+    "1": {
+      "cooltime": "12",
+      "casttime": "2",
+      "cancelrate": "20 %",
+      "first_target_valid_distance": "25",
+      "target": "selected",
+      "cost": "190 MP",
+      "e1.spellatk_instant.fixdamage": "749",
+      "e1.spellatk_instant.adddamage": "374"
+    },
+    "2": {
+      "cost": "216 MP",
+      "e1.spellatk_instant.fixdamage": "823",
+      "e1.spellatk_instant.adddamage": "411"
+    },
+    "3": {
+      "cost": "242 MP",
+      "e1.spellatk_instant.fixdamage": "923",
+      "e1.spellatk_instant.adddamage": "461"
+    },
+    "4": {
+      "cost": "278 MP",
+      "e1.spellatk_instant.fixdamage": "1035",
+      "e1.spellatk_instant.adddamage": "518"
+    }
+  },
+  "el_drainenergy": {
+    "1": {
+      "cooltime": "12",
+      "casttime": "2",
+      "cancelrate": "20 %",
+      "first_target_valid_distance": "25",
+      "target": "selected",
+      "cost": "109 MP",
+      "e1.spellatkdrain_instant.fixdamage": "243",
+      "e1.spellatkdrain_instant.hpheal": "50"
+    },
+    "2": {
+      "cost": "143 MP",
+      "e1.spellatkdrain_instant.fixdamage": "289",
+      "e1.spellatkdrain_instant.hpheal": "55"
+    },
+    "3": {
+      "cost": "176 MP",
+      "e1.spellatkdrain_instant.fixdamage": "338",
+      "e1.spellatkdrain_instant.hpheal": "60"
+    },
+    "4": {
+      "cost": "190 MP",
+      "e1.spellatkdrain_instant.fixdamage": "375",
+      "e1.spellatkdrain_instant.hpheal": "65"
+    },
+    "5": {
+      "cost": "221 MP",
+      "e1.spellatkdrain_instant.fixdamage": "404",
+      "e1.spellatkdrain_instant.hpheal": "70"
+    },
+    "6": {
+      "cost": "250 MP",
+      "e1.spellatkdrain_instant.fixdamage": "447",
+      "e1.spellatkdrain_instant.hpheal": "75"
+    },
+    "7": {
+      "cost": "284 MP",
+      "e1.spellatkdrain_instant.fixdamage": "508",
+      "e1.spellatkdrain_instant.hpheal": "75"
+    }
+  },
+  "el_elementalcharge": {
+    "1": {
+      "cooltime": "120",
+      "casttime": "-1",
+      "first_target_valid_distance": "15",
+      "target": "pet",
+      "cost": "335 MP",
+      "canmove": "true",
+      "e1.heal_instant.heal": "100",
+      "dispeldebuff.dispelcount": "10",
+      "dispeldebuff.dispellvl": "1",
+      "dispeldebuff.dispelstrength": "5"
+    },
+    "2": {
+      "cost": "100 MP"
+    }
+  },
+  "el_elementtransfer": {
+    "1": {
+      "cooltime": "300",
+      "casttime": "1",
+      "cancelrate": "30 %",
+      "first_target_valid_distance": "25",
+      "target": "selected",
+      "cost": "10% HP",
+      "e1.mpheal_instant.heal": "3500",
+      "enmity": [
+        "8153 (MPHEAL_INSTANT)"
+      ]
+    },
+    "2": {
+      "e1.mpheal_instant.heal": "4000",
+      "enmity": [
+        "10191 (MPHEAL_INSTANT)"
+      ]
+    }
+  },
+  "el_enchantarmor": {
+    "1": {
+      "cooltime": "60",
+      "casttime": "1",
+      "cancelrate": "20 %",
+      "first_target_valid_distance": "25",
+      "target": "pet",
+      "cost": "400 MP",
+      "dispellvl": "1",
+      "e1.statup.remaintime": "300",
+      "e1.statup.value": "40",
+      "e1.statup.statname": "PMAttack",
+      "e1.statup.value2": "10",
+      "e1.statup.statname2": "PMDefend",
+      "e1.statup.value3": "400",
+      "e1.statup.statname3": "MagicalSkillBoost",
+      "enmity": [
+        "696 (STATUP)"
+      ],
+      "e2.statup.remaintime": "300",
+      "e2.statup.value": "30",
+      "e2.statup.statname": "Speed",
+      "e2.statup.value2": "1000",
+      "e2.statup.statname2": "MagicalHitAccuracy",
+      "e2.statup.value3": "1000",
+      "e2.statup.statname3": "hitAccuracy"
+    }
+  },
+  "el_enchantmentburst": {
+    "1": {
+      "cooltime": "30",
+      "casttime": "-1",
+      "first_target_valid_distance": "25",
+      "target": "selected",
+      "cost": "114 MP",
+      "canmove": "true",
+      "e1.dispelbuffcounteratk.dispelcount": "3",
+      "e1.dispelbuffcounteratk.damage": "189",
+      "e1.dispelbuffcounteratk.adddamage": "189",
+      "dispelbuff.dispelcount": "3",
+      "dispelbuff.dispellvl": "1",
+      "dispelbuff.dispelstrength": "1",
+      "accbonus": [
+        "3000 $magicalhitaccuracy (DISPEL)"
+      ]
+    },
+    "2": {
+      "cost": "141 MP",
+      "e1.dispelbuffcounteratk.damage": "225",
+      "e1.dispelbuffcounteratk.adddamage": "225"
+    },
+    "3": {
+      "cost": "157 MP",
+      "e1.dispelbuffcounteratk.damage": "250",
+      "e1.dispelbuffcounteratk.adddamage": "250"
+    },
+    "4": {
+      "cost": "181 MP",
+      "e1.dispelbuffcounteratk.damage": "274",
+      "e1.dispelbuffcounteratk.adddamage": "274"
+    },
+    "5": {
+      "cost": "202 MP",
+      "e1.dispelbuffcounteratk.damage": "304",
+      "e1.dispelbuffcounteratk.adddamage": "304"
+    },
+    "6": {
+      "cost": "234 MP",
+      "e1.dispelbuffcounteratk.damage": "360",
+      "e1.dispelbuffcounteratk.adddamage": "360"
+    }
+  },
+  "el_enervationcurse": {
+    "1": {
+      "cooltime": "120",
+      "casttime": "2",
+      "cancelrate": "20 %",
+      "first_target_valid_distance": "25",
+      "target": "selected",
+      "cost": "293 MP",
+      "dispellvl": "1",
+      "e1.curse.remaintime": "60",
+      "e1.curse.value": "1500",
+      "enmity": [
+        "23102 (CURSE)"
+      ]
+    }
+  },
+  "el_enfeeblement": {
+    "1": {
+      "cooltime": "30",
+      "casttime": "1",
+      "cancelrate": "20 %",
+      "first_target_valid_distance": "25",
+      "target": "selected",
+      "cost": "100 MP",
+      "dispellvl": "1",
+      "e1.slow.remaintime": "30",
+      "accbonus": [
+        "1000 $magicalhitaccuracy (SLOW)",
+        "1000 $magicalhitaccuracy (INCANT)"
+      ],
+      "enmity": [
+        "3025 (SLOW)"
+      ],
+      "e2.statdown.remaintime": "60",
+      "e2.statdown.value": "150",
+      "e2.statdown.statname": "ElementalDefendAll",
+      "e2.statdown.value2": "100",
+      "e2.statdown.statname2": "MagicalResist",
+      "e3.boostskillcastingtime.remaintime": "30",
+      "e3.boostskillcastingtime.castingbonus": "-50"
+    },
+    "2": {
+      "e2.statdown.value": "200"
+    },
+    "3": {
+      "e2.statdown.value": "200"
+    },
+    "4": {
+      "e2.statdown.value": "200"
+    }
+  },
+  "el_escape": {
+    "1": {
+      "cooltime": "600",
+      "casttime": "0.5",
+      "cancelrate": "20 %",
+      "target": "self",
+      "cost": "420 MP",
+      "e1.hide.remaintime": "30",
+      "e1.hide.speed": "0",
+      "enmity": [
+        "1 (HIDE)"
+      ],
+      "e2.root.remaintime": "30"
+    }
+  },
+  "el_ethercharge": {
+    "1": {
+      "cooltime": "180",
+      "casttime": "-1",
+      "first_target_valid_distance": "25",
+      "target": "pet",
+      "cost": "169 MP",
+      "canmove": "true",
+      "e1.heal_instant.heal": "100"
+    }
+  },
+  "el_fireaid": {
+    "1": {
+      "cooltime": "150",
+      "casttime": "2",
+      "cancelrate": "20 %",
+      "target": "self",
+      "cost": "175 MP",
+      "dispellvl": "0",
+      "e1.provoker.remaintime": "60",
+      "e1.provoker.conditionprob": "100",
+      "e1.provoker.condition": "Nmlatk",
+      "enmity": [
+        "470 (PROVOKER)"
+      ],
+      "e1.provoker.otherskill.e1.procatk_instant.damage": "30"
+    },
+    "2": {
+      "cost": "195 MP",
+      "enmity": [
+        "522 (PROVOKER)"
+      ],
+      "e1.provoker.otherskill.e1.procatk_instant.damage": "35"
+    },
+    "3": {
+      "cost": "230 MP",
+      "enmity": [
+        "584 (PROVOKER)"
+      ],
+      "e1.provoker.otherskill.e1.procatk_instant.damage": "40"
+    },
+    "4": {
+      "cost": "256 MP",
+      "enmity": [
+        "638 (PROVOKER)"
+      ],
+      "e1.provoker.otherskill.e1.procatk_instant.damage": "45"
+    },
+    "5": {
+      "cost": "299 MP",
+      "enmity": [
+        "669 (PROVOKER)"
+      ],
+      "e1.provoker.otherskill.e1.procatk_instant.damage": "50"
+    }
+  },
+  "el_hellcurse": {
+    "1": {
+      "cooltime": "90",
+      "casttime": "1",
+      "cancelrate": "20 %",
+      "first_target_valid_distance": "25",
+      "target": "selected",
+      "cost": "588 MP",
+      "dispellvl": "1",
+      "e1.statdown.remaintime": "30",
+      "e1.statdown.value": "1000",
+      "e1.statdown.statname": "PhysicalDefend",
+      "accbonus": [
+        "300 $magicalhitaccuracy (DEBUFF $PhysicalDefend)",
+        "300 $magicalhitaccuracy (DEBUFF $ElementalDefendAll)"
+      ],
+      "enmity": [
+        "3744 (STATDOWN)"
+      ],
+      "e2.statdown.remaintime": "30",
+      "e2.statdown.value": "200",
+      "e2.statdown.statname": "ElementalDefendAll",
+      "e2.statdown.value2": "200",
+      "e2.statdown.statname2": "MagicalResist"
+    }
+  },
+  "el_hellpain": {
+    "1": {
+      "cooltime": "30",
+      "casttime": "1.5",
+      "cancelrate": "20 %",
+      "first_target_valid_distance": "25",
+      "target": "selected",
+      "cost": "482 MP",
+      "pvpdmgratio": "80 %",
+      "dispellvl": "1",
+      "e1.spellatk_instant.fixdamage": "445",
+      "enmity": [
+        "6498 (SPELLATK_INSTANT)"
+      ],
+      "e2.spellatk.remaintime": "12",
+      "e2.spellatk.damage": "445",
+      "e2.spellatk.checktime": "3"
+    },
+    "2": {
+      "cost": "512 MP",
+      "e1.spellatk_instant.fixdamage": "482",
+      "enmity": [
+        "6354 (SPELLATK_INSTANT)"
+      ],
+      "e2.spellatk.damage": "482"
+    }
+  },
+  "el_manareverse": {
+    "1": {
+      "cooltime": "30",
+      "casttime": "-1",
+      "first_target_valid_distance": "25",
+      "target": "selected",
+      "cost": "257 MP",
+      "dispellvl": "1",
+      "canmove": "true",
+      "e1.dispelbuffcounteratk.dispelcount": "3",
+      "e1.dispelbuffcounteratk.damage": "400",
+      "e1.dispelbuffcounteratk.adddamage": "400",
+      "dispelbuff.dispelcount": "3",
+      "dispelbuff.dispellvl": "1",
+      "dispelbuff.dispelstrength": "1",
+      "accbonus": [
+        "3000 $magicalhitaccuracy (DISPEL)",
+        "500 $magicalhitaccuracy (DAMAGE)"
+      ],
+      "e2.skilllauncher.otherskill.e1.spellatk.remaintime": "30",
+      "e2.skilllauncher.otherskill.e1.spellatk.damage": "100",
+      "e2.skilllauncher.otherskill.e1.spellatk.checktime": "3",
+      "enmity": [
+        "3025 (SPELLATK)"
+      ]
+    },
+    "2": {
+      "cost": "270 MP",
+      "e1.dispelbuffcounteratk.damage": "427",
+      "e1.dispelbuffcounteratk.adddamage": "427",
+      "e2.skilllauncher.otherskill.e1.spellatk.damage": "104",
+      "enmity": [
+        "3194 (SPELLATK)"
+      ]
+    },
+    "3": {
+      "cost": "288 MP",
+      "e1.dispelbuffcounteratk.damage": "452",
+      "e1.dispelbuffcounteratk.adddamage": "452",
+      "e2.skilllauncher.otherskill.e1.spellatk.damage": "110",
+      "enmity": [
+        "3383 (SPELLATK)"
+      ]
+    },
+    "4": {
+      "cost": "313 MP",
+      "e1.dispelbuffcounteratk.damage": "491",
+      "e1.dispelbuffcounteratk.adddamage": "491",
+      "e2.skilllauncher.otherskill.e1.spellatk.damage": "120"
+    }
+  },
+  "el_order_elementalfield": {
+    "1": {
+      "cooltime": "120",
+      "casttime": "0.8",
+      "cancelrate": "20 %",
+      "first_target_valid_distance": "25",
+      "target": "pet",
+      "cost": "220 MP",
+      "enmity": [
+        "1537 (PETORDERUSEULTRASKILL)"
+      ]
+    },
+    "2": {
+      "cooltime": "30",
+      "casttime": "1",
+      "first_target_valid_distance": "15"
+    }
+  },
+  "el_order_omen": {
+    "1": {
+      "cooltime": "30",
+      "casttime": "1",
+      "cancelrate": "20 %",
+      "first_target_valid_distance": "15",
+      "target": "selected",
+      "enmity": [
+        "1 (PETORDERUSEULTRASKILL)"
+      ]
+    }
+  },
+  "el_order_sacrifice": {
+    "1": {
+      "cooltime": "600",
+      "casttime": "-1",
+      "target": "self",
+      "canmove": "true",
+      "enmity": [
+        "2199 (PETORDERUSEULTRASKILL)"
+      ]
+    }
+  },
+  "el_silence": {
+    "1": {
+      "cooltime": "20",
+      "casttime": "1",
+      "cancelrate": "20 %",
+      "first_target_valid_distance": "25",
+      "target": "selected",
+      "cost": "131 MP",
+      "dispellvl": "1",
+      "e1.silence.randomtime": "2",
+      "e1.silence.remaintime": "8",
+      "enmity": [
+        "1400 (SILENCE)"
+      ]
+    }
+  },
+  "el_slave_stormservent_dark": {
+    "1": {
+      "cooltime": "30",
+      "casttime": "1.5",
+      "cancelrate": "20 %",
+      "first_target_valid_distance": "25",
+      "target": "selected",
+      "cost": "295 MP",
+      "e1.summonhoming.unitnumber": "7",
+      "enmity": [
+        "1 (SUMMONHOMING)"
+      ]
+    },
+    "2": {
+      "cost": "312 MP"
+    },
+    "3": {
+      "cost": "333 MP"
+    },
+    "4": {
+      "cost": "362 MP"
+    }
+  },
+  "el_slave_stormservent_light": {
+    "1": {
+      "cooltime": "30",
+      "casttime": "1.5",
+      "cancelrate": "20 %",
+      "first_target_valid_distance": "25",
+      "target": "selected",
+      "cost": "295 MP",
+      "e1.summonhoming.unitnumber": "7",
+      "enmity": [
+        "1 (SUMMONHOMING)"
+      ]
+    },
+    "2": {
+      "cost": "312 MP"
+    },
+    "3": {
+      "cost": "333 MP"
+    },
+    "4": {
+      "cost": "362 MP"
+    }
+  },
+  "el_sleepingspirit": {
+    "1": {
+      "cooltime": "60",
+      "casttime": "2.5",
+      "cancelrate": "30 %",
+      "first_target_valid_distance": "25",
+      "target": "selected",
+      "cost": "335 MP",
+      "pvpremaintimeratio": "25 %",
+      "dispellvl": "1",
+      "e1.sleep.remaintime": "20",
+      "enmity": [
+        "24896 (SLEEP)"
+      ],
+      "e2.statup.remaintime": "20",
+      "e2.statup.value": "500",
+      "e2.statup.statname": "ElementalDefendAll"
+    },
+    "2": {
+      "cost": "100 MP"
+    }
+  },
+  "el_stigma_order_destructimpact": {
+    "1": {
+      "cooltime": "60",
+      "casttime": "0.8",
+      "cancelrate": "20 %",
+      "first_target_valid_distance": "15",
+      "target": "selected",
+      "cost": "200 MP",
+      "enmity": [
+        "1949 (PETORDERUSEULTRASKILL)"
+      ]
+    }
+  },
+  "el_stigma_order_ethereruption_light": {
+    "1": {
+      "cooltime": "180",
+      "casttime": "2",
+      "first_target_valid_distance": "25",
+      "target": "pet",
+      "cost": "500 MP",
+      "enmity": [
+        "2694 (PETORDERUSEULTRASKILL)"
+      ]
+    }
+  },
+  "el_stigma_order_shadoweruption_dark": {
+    "1": {
+      "cooltime": "180",
+      "casttime": "2",
+      "first_target_valid_distance": "25",
+      "target": "pet",
+      "cost": "500 MP",
+      "enmity": [
+        "2694 (PETORDERUSEULTRASKILL)"
+      ]
+    }
+  },
+  "el_stigma_stormblade": {
+    "1": {
+      "cooltime": "12",
+      "casttime": "2",
+      "cancelrate": "20 %",
+      "first_target_valid_distance": "25",
+      "target": "selected",
+      "cost": "246 MP",
+      "dispellvl": "1",
+      "e1.spellatk_instant.fixdamage": "311",
+      "enmity": [
+        "3345 (SPELLATK_INSTANT)"
+      ],
+      "e2.spellatk.remaintime": "8",
+      "e2.spellatk.damage": "311",
+      "e2.spellatk.checktime": "2"
+    },
+    "2": {
+      "cost": "278 MP",
+      "e1.spellatk_instant.fixdamage": "344",
+      "enmity": [
+        "6040 (SPELLATK_INSTANT)"
+      ],
+      "e2.spellatk.damage": "344"
+    }
+  },
+  "el_sympatheticswitch": {
+    "1": {
+      "cooltime": "60",
+      "casttime": "-1",
+      "first_target_valid_distance": "15",
+      "target": "selected",
+      "cost": "37 MP",
+      "canmove": "true"
+    },
+    "2": {
+      "cooltime": "120",
+      "cost": "645 MP"
+    },
+    "3": {
+      "cooltime": "120",
+      "cost": "39 MP"
+    }
+  },
+  "el_terrorspirit": {
+    "1": {
+      "cooltime": "60",
+      "casttime": "1.5",
+      "cancelrate": "30 %",
+      "target": "aroundcaster",
+      "nb_targets": "6",
+      "target_radius_effect": "15",
+      "cost": "520 MP",
+      "pvpremaintimeratio": "50 %",
+      "dispellvl": "1",
+      "e1.fear.randomtime": "3",
+      "e1.fear.remaintime": "18",
+      "accbonus": [
+        "-150 $magicalhitaccuracy (FEAR)"
+      ],
+      "enmity": [
+        "11737 (FEAR)",
+        "911 (DEFORM)"
+      ],
+      "e2.deform.randomtime": "3",
+      "e2.deform.remaintime": "18",
+      "e3.snare.randomtime": "3",
+      "e3.snare.remaintime": "18",
+      "slow": "40 %"
+    }
+  },
+  "fi_anklegrab": {
+    "1": {
+      "cooltime": "120",
+      "casttime": "-1",
+      "first_target_valid_distance": "25",
+      "target": "selected",
+      "cost": "69 MP",
+      "dispellvl": "1",
+      "canmove": "true",
+      "e1.root.remaintime": "10",
+      "accbonus": [
+        "150 $magicalhitaccuracy (ROOT)"
+      ],
+      "enmity": [
+        "2334 (ROOT)"
+      ],
+      "e2.statdown.remaintime": "10",
+      "e2.statdown.value": "1000",
+      "e2.statdown.statname": "Dodge"
+    }
+  },
+  "fi_berserkstance": {
+    "1": {
+      "cooltime": "180",
+      "casttime": "-1",
+      "target": "self",
+      "cost": "247 MP",
+      "dispellvl": "1",
+      "canmove": "true",
+      "e1.statup.remaintime": "30",
+      "e1.statup.value": "80",
+      "e1.statup.statname": "phyattack",
+      "enmity": [
+        "11901 (STATUP)"
+      ],
+      "e2.statdown.remaintime": "30",
+      "e2.statdown.value": "200",
+      "e2.statdown.statname": "hitAccuracy",
+      "e3.statdown.remaintime": "30",
+      "e3.statdown.value": "50",
+      "e3.statdown.statname": "physicaldefend"
+    }
+  },
+  "fi_blademode": {
+    "1": {
+      "cooltime": "1",
+      "casttime": "-1",
+      "target": "self",
+      "canmove": "true",
+      "e1.statboost.statname": "PVPAttackRatio",
+      "e1.statboost.fixvalue": "150",
+      "e2.statboost.statname": "MagicalHitAccuracy",
+      "e2.statboost.fixvalue": "300"
+    }
+  },
+  "fi_burserklance": {
+    "1": {
+      "cooltime": "120",
+      "casttime": "2.1",
+      "cancelrate": "20 %",
+      "first_target_valid_distance": "1",
+      "target": "selected",
+      "cost": "404 MP",
+      "pvpdmgratio": "120 %",
+      "e1.skillatk_instant.mindamage": "2414",
+      "e1.skillatk_instant.maxdamage": "2418"
+    }
+  },
+  "fi_charginghit": {
+    "1": {
+      "cooltime": "30",
+      "casttime": "1.7",
+      "first_target_valid_distance": "1",
+      "target": "selected",
+      "cost": "247 MP",
+      "pvpdmgratio": "130 %",
+      "e1.skillatk_instant.mindamage": "1429",
+      "e1.skillatk_instant.maxdamage": "1433"
+    },
+    "2": {
+      "cost": "289 MP",
+      "e1.skillatk_instant.mindamage": "1479",
+      "e1.skillatk_instant.maxdamage": "1483"
+    },
+    "3": {
+      "cost": "331 MP",
+      "e1.skillatk_instant.mindamage": "1603",
+      "e1.skillatk_instant.maxdamage": "1607"
+    },
+    "4": {
+      "cost": "348 MP",
+      "e1.skillatk_instant.mindamage": "1729",
+      "e1.skillatk_instant.maxdamage": "1733"
+    }
+  },
+  "fi_chargingshock": {
+    "1": {
+      "cooltime": "30",
+      "casttime": "2",
+      "target": "aroundcaster",
+      "nb_targets": "6",
+      "target_radius_effect": "7",
+      "cost": "329 MP",
+      "pvpdmgratio": "130 %",
+      "e1.skillatk_instant.mindamage": "1652",
+      "e1.skillatk_instant.maxdamage": "1656",
+      "e1.skillatk_instant.addeffect": "Stumble"
+    },
+    "2": {
+      "cost": "391 MP",
+      "e1.skillatk_instant.mindamage": "1773",
+      "e1.skillatk_instant.maxdamage": "1777"
+    }
+  },
+  "fi_cripplingcut": {
+    "1": {
+      "cooltime": "18",
+      "casttime": "-1",
+      "first_target_valid_distance": "1",
+      "target": "selected",
+      "cost": "61 MP",
+      "canjumpshot": "true",
+      "e1.skillatk_instant.mindamage": "289",
+      "e1.skillatk_instant.maxdamage": "293"
+    },
+    "2": {
+      "cost": "69 MP",
+      "e1.skillatk_instant.mindamage": "376",
+      "e1.skillatk_instant.maxdamage": "380"
+    },
+    "3": {
+      "cost": "76 MP",
+      "e1.skillatk_instant.mindamage": "455",
+      "e1.skillatk_instant.maxdamage": "459"
+    },
+    "4": {
+      "cost": "81 MP",
+      "e1.skillatk_instant.mindamage": "507",
+      "e1.skillatk_instant.maxdamage": "511"
+    },
+    "5": {
+      "cost": "83 MP",
+      "e1.skillatk_instant.mindamage": "624",
+      "e1.skillatk_instant.maxdamage": "628"
+    },
+    "6": {
+      "cost": "96 MP",
+      "e1.skillatk_instant.mindamage": "716",
+      "e1.skillatk_instant.maxdamage": "720"
+    }
+  },
+  "fi_drainsword": {
+    "1": {
+      "cooltime": "16",
+      "casttime": "-1",
+      "first_target_valid_distance": "1",
+      "target": "selected",
+      "cost": "152 MP",
+      "canmove": "true",
+      "e1.skillatkdrain_instant.mindamage": "735",
+      "e1.skillatkdrain_instant.maxdamage": "739",
+      "e1.skillatkdrain_instant.hpheal": "50"
+    }
+  },
+  "fi_enfeeblehit": {
+    "1": {
+      "cooltime": "21",
+      "casttime": "-1",
+      "first_target_valid_distance": "1",
+      "target": "selected",
+      "cost": "81 MP",
+      "dispellvl": "1",
+      "canmove": "true",
+      "e1.skillatk_instant.mindamage": "109",
+      "e1.skillatk_instant.maxdamage": "113",
+      "e2.statdown.remaintime": "10",
+      "e2.statdown.value": "200",
+      "e2.statdown.statname": "physicaldefend",
+      "e2.statdown.value2": "200",
+      "e2.statdown.statname2": "Dodge"
+    },
+    "2": {
+      "cost": "91 MP",
+      "e1.skillatk_instant.mindamage": "126",
+      "e1.skillatk_instant.maxdamage": "130",
+      "e2.statdown.value": "250",
+      "e2.statdown.value2": "250"
+    },
+    "3": {
+      "cost": "98 MP",
+      "e1.skillatk_instant.mindamage": "145",
+      "e1.skillatk_instant.maxdamage": "149",
+      "e2.statdown.value": "300",
+      "e2.statdown.value2": "300"
+    },
+    "4": {
+      "cost": "103 MP",
+      "e1.skillatk_instant.mindamage": "155",
+      "e1.skillatk_instant.maxdamage": "159",
+      "e2.statdown.value": "350",
+      "e2.statdown.value2": "350"
+    },
+    "5": {
+      "cost": "103 MP",
+      "e1.skillatk_instant.mindamage": "184",
+      "e1.skillatk_instant.maxdamage": "188",
+      "e2.statdown.value": "400",
+      "e2.statdown.value2": "400"
+    },
+    "6": {
+      "cost": "126 MP",
+      "e1.skillatk_instant.mindamage": "205",
+      "e1.skillatk_instant.maxdamage": "209",
+      "e2.statdown.value": "400",
+      "e2.statdown.value2": "400"
+    }
+  },
+  "fi_heavyimpact": {
+    "1": {
+      "cooltime": "120",
+      "casttime": "-1",
+      "target": "aroundcaster",
+      "nb_targets": "5",
+      "target_radius_effect": "10",
+      "cost": "83 MP",
+      "dispellvl": "1",
+      "canjumpshot": "true",
+      "e1.skillatk_instant.mindamage": "258",
+      "e1.skillatk_instant.maxdamage": "262",
+      "e2.snare.randomtime": "2",
+      "e2.snare.remaintime": "10",
+      "slow": "50 %",
+      "enmity": [
+        "1369 (SNARE)"
+      ]
+    },
+    "2": {
+      "e1.skillatk_instant.mindamage": "280",
+      "e1.skillatk_instant.maxdamage": "284",
+      "enmity": [
+        "1512 (SNARE)"
+      ]
+    }
+  },
+  "fi_howling": {
+    "1": {
+      "cooltime": "300",
+      "casttime": "-1",
+      "target": "aroundcaster",
+      "nb_targets": "6",
+      "target_radius_effect": "7",
+      "cost": "114 MP",
+      "dispellvl": "1",
+      "canmove": "true",
+      "e1.statdown.remaintime": "15",
+      "e1.statdown.value": "300",
+      "e1.statdown.statname": "phyattack",
+      "enmity": [
+        "27767 (STATDOWN)"
+      ]
+    },
+    "2": {
+      "cost": "57 MP",
+      "e1.statdown.value": "364",
+      "enmity": [
+        "26440 (STATDOWN)"
+      ]
+    },
+    "3": {
+      "e1.statdown.remaintime": "30",
+      "e1.statdown.value": "444"
+    }
+  },
+  "fi_jumpattack": {
+    "1": {
+      "cooltime": "60",
+      "casttime": "-1",
+      "first_target_valid_distance": "15",
+      "target": "selected",
+      "cost": "72 MP",
+      "canjumpshot": "true",
+      "e1.dashatk.mindamage": "692",
+      "e1.dashatk.maxdamage": "696"
+    },
+    "2": {
+      "cost": "76 MP",
+      "e1.dashatk.mindamage": "730",
+      "e1.dashatk.maxdamage": "734"
+    }
+  },
+  "fi_kneecrash": {
+    "1": {
+      "cooltime": "120",
+      "casttime": "-1",
+      "first_target_valid_distance": "1",
+      "target": "selected",
+      "cost": "192 MP",
+      "dispellvl": "1",
+      "canmove": "true",
+      "e1.skillatk_instant.mindamage": "617",
+      "e1.skillatk_instant.maxdamage": "621",
+      "e2.root.remaintime": "8",
+      "enmity": [
+        "1694 (ROOT)"
+      ]
+    },
+    "2": {
+      "cost": "202 MP",
+      "e1.skillatk_instant.mindamage": "650",
+      "e1.skillatk_instant.maxdamage": "654",
+      "enmity": [
+        "4160 (ROOT)"
+      ]
+    }
+  },
+  "fi_lockdownimpact": {
+    "1": {
+      "cooltime": "12",
+      "casttime": "-1",
+      "first_target_valid_distance": "1",
+      "target": "selected",
+      "dispellvl": "1",
+      "canjumpshot": "true",
+      "e1.skillatk_instant.mindamage": "54",
+      "e1.skillatk_instant.maxdamage": "58",
+      "e2.bind.remaintime": "3",
+      "enmity": [
+        "1537 (BIND)"
+      ]
+    },
+    "2": {
+      "e1.skillatk_instant.mindamage": "58",
+      "e1.skillatk_instant.maxdamage": "62",
+      "enmity": [
+        "1760 (BIND)"
+      ]
+    },
+    "3": {
+      "e1.skillatk_instant.mindamage": "65",
+      "e1.skillatk_instant.maxdamage": "69",
+      "enmity": [
+        "2016 (BIND)"
+      ]
+    },
+    "4": {
+      "e1.skillatk_instant.mindamage": "70",
+      "e1.skillatk_instant.maxdamage": "74",
+      "enmity": [
+        "2227 (BIND)"
+      ]
+    },
+    "5": {
+      "e1.skillatk_instant.mindamage": "78",
+      "e1.skillatk_instant.maxdamage": "82",
+      "enmity": [
+        "2600 (BIND)"
+      ]
+    }
+  },
+  "fi_potentialhealth": {
+    "1": {
+      "cooltime": "180",
+      "casttime": "-1",
+      "target": "self",
+      "cost": "72 MP",
+      "dispellvl": "1",
+      "canmove": "true",
+      "e1.heal_instant.heal": "20",
+      "enmity": [
+        "6761 (HEAL_INSTANT)"
+      ],
+      "e2.statup.remaintime": "120",
+      "e2.statup.value": "20",
+      "e2.statup.statname": "MaxHP",
+      "e3.statup.remaintime": "120",
+      "e3.statup.value": "150",
+      "e3.statup.statname": "Block",
+      "e4.statup.remaintime": "120",
+      "e4.statup.value": "100",
+      "e4.statup.statname": "Parry"
+    },
+    "2": {
+      "cost": "150 MP",
+      "e1.heal_instant.heal": "30",
+      "enmity": [
+        "1322 (HEAL_INSTANT)"
+      ],
+      "e2.statup.value": "30"
+    },
+    "3": {
+      "cost": "170 MP",
+      "e1.heal_instant.heal": "35",
+      "e2.statup.value": "35"
+    }
+  },
+  "fi_ragespirit": {
+    "1": {
+      "cooltime": "60",
+      "casttime": "-1",
+      "target": "self",
+      "cost": "95 MP",
+      "dispellvl": "1",
+      "canmove": "true",
+      "e1.shield.remaintime": "10",
+      "e1.shield.covervalue": "342",
+      "e1.shield.shieldvalue": "342",
+      "e1.shield.condition": "EveryHit",
+      "e1.shield.conditionprob": "100",
+      "enmity": [
+        "501 (SHIELD)"
+      ]
+    },
+    "2": {
+      "cost": "102 MP",
+      "e1.shield.covervalue": "386",
+      "e1.shield.shieldvalue": "386",
+      "enmity": [
+        "551 (SHIELD)"
+      ]
+    },
+    "3": {
+      "cost": "103 MP",
+      "e1.shield.covervalue": "438",
+      "e1.shield.shieldvalue": "438",
+      "enmity": [
+        "621 (SHIELD)"
+      ]
+    },
+    "4": {
+      "cost": "122 MP",
+      "e1.shield.covervalue": "480",
+      "e1.shield.shieldvalue": "480",
+      "enmity": [
+        "741 (SHIELD)"
+      ]
+    }
+  },
+  "fi_revengeslash": {
+    "1": {
+      "cooltime": "30",
+      "casttime": "-1",
+      "first_target_valid_distance": "1",
+      "target": "selected",
+      "cost": "18 MP",
+      "canmove": "true",
+      "e1.skillatk_instant.mindamage": "385",
+      "e1.skillatk_instant.maxdamage": "389"
+    },
+    "2": {
+      "cost": "19 MP",
+      "e1.skillatk_instant.mindamage": "415",
+      "e1.skillatk_instant.maxdamage": "419"
+    },
+    "3": {
+      "cost": "21 MP",
+      "e1.skillatk_instant.mindamage": "517",
+      "e1.skillatk_instant.maxdamage": "521"
+    },
+    "4": {
+      "cost": "21 MP",
+      "e1.skillatk_instant.mindamage": "574",
+      "e1.skillatk_instant.maxdamage": "578"
+    },
+    "5": {
+      "cost": "25 MP",
+      "e1.skillatk_instant.mindamage": "725",
+      "e1.skillatk_instant.maxdamage": "729"
+    }
+  },
+  "fi_seismicdrain": {
+    "1": {
+      "cooltime": "10",
+      "casttime": "-1",
+      "target": "aroundcaster",
+      "nb_targets": "3",
+      "target_radius_effect": "7",
+      "cost": "151 MP",
+      "canjumpshot": "true",
+      "e1.skillatkdrain_instant.mindamage": "168",
+      "e1.skillatkdrain_instant.maxdamage": "172",
+      "e1.skillatkdrain_instant.hpheal": "50"
+    },
+    "2": {
+      "cost": "166 MP",
+      "e1.skillatkdrain_instant.mindamage": "234",
+      "e1.skillatkdrain_instant.maxdamage": "238"
+    }
+  },
+  "fi_sharpnesshit": {
+    "1": {
+      "cooltime": "16",
+      "casttime": "-1",
+      "first_target_valid_distance": "1",
+      "target": "selected",
+      "cost": "124 MP",
+      "canmove": "true",
+      "e1.skillatk_instant.mindamage": "298",
+      "e1.skillatk_instant.maxdamage": "302",
+      "critprob": "200 %"
+    },
+    "2": {
+      "e1.skillatk_instant.mindamage": "305",
+      "e1.skillatk_instant.maxdamage": "309"
+    },
+    "3": {
+      "cost": "142 MP",
+      "e1.skillatk_instant.mindamage": "326",
+      "e1.skillatk_instant.maxdamage": "330"
+    },
+    "4": {
+      "cost": "149 MP",
+      "e1.skillatk_instant.mindamage": "347",
+      "e1.skillatk_instant.maxdamage": "351"
+    }
+  },
+  "fi_stigma_draincut": {
+    "1": {
+      "cooltime": "30",
+      "casttime": "-1",
+      "first_target_valid_distance": "1",
+      "target": "selected",
+      "cost": "124 MP",
+      "canmove": "true",
+      "e1.skillatkdrain_instant.mindamage": "440",
+      "e1.skillatkdrain_instant.maxdamage": "444",
+      "e1.skillatkdrain_instant.hpheal": "100"
+    },
+    "2": {
+      "cost": "139 MP",
+      "e1.skillatkdrain_instant.mindamage": "486",
+      "e1.skillatkdrain_instant.maxdamage": "490"
+    }
+  },
+  "fi_stigma_forceburst_light": {
+    "1": {
+      "cooltime": "60",
+      "casttime": "-1",
+      "first_target_valid_distance": "15",
+      "target": "targetarea",
+      "nb_targets": "18",
+      "target_radius_effect": "10",
+      "cost": "165 MP",
+      "dispellvl": "1",
+      "canmove": "true",
+      "e1.skillatk_instant.mindamage": "443",
+      "e1.skillatk_instant.maxdamage": "447",
+      "e2.statdown.remaintime": "30",
+      "e2.statdown.value": "1000",
+      "e2.statdown.statname": "physicaldefend",
+      "e2.statdown.value2": "500",
+      "e2.statdown.statname2": "dodge"
+    }
+  },
+  "fi_stigma_shockburst_dark": {
+    "1": {
+      "cooltime": "60",
+      "casttime": "-1",
+      "target": "aroundcaster",
+      "nb_targets": "18",
+      "target_radius_effect": "10",
+      "cost": "165 MP",
+      "dispellvl": "1",
+      "canjumpshot": "true",
+      "e1.skillatk_instant.mindamage": "1081",
+      "e1.skillatk_instant.maxdamage": "1085",
+      "e2.statdown.remaintime": "30",
+      "e2.statdown.value": "600",
+      "e2.statdown.statname": "physicaldefend"
+    }
+  },
+  "fi_survivorstance": {
+    "1": {
+      "cooltime": "180",
+      "casttime": "-1",
+      "target": "self",
+      "cost": "298 MP",
+      "dispellvl": "1",
+      "canmove": "true",
+      "e1.heal_instant.heal": "35",
+      "enmity": [
+        "15314 (HEAL_INSTANT)"
+      ],
+      "e2.statup.remaintime": "60",
+      "e2.statup.value": "35",
+      "e2.statup.statname": "MaxHP",
+      "e3.statup.remaintime": "60",
+      "e3.statup.value": "500",
+      "e3.statup.statname": "PhysicalCriticalDamageReduce"
+    }
+  },
+  "fi_technicalcounter": {
+    "1": {
+      "cooltime": "30",
+      "casttime": "-1",
+      "first_target_valid_distance": "1",
+      "target": "selected",
+      "cost": "247 MP",
+      "canmove": "true",
+      "e1.skillatk_instant.mindamage": "401",
+      "e1.skillatk_instant.maxdamage": "405",
+      "e1.skillatk_instant.addeffect": "Stumble"
+    },
+    "2": {
+      "cost": "248 MP",
+      "e1.skillatk_instant.mindamage": "412",
+      "e1.skillatk_instant.maxdamage": "416"
+    },
+    "3": {
+      "cost": "284 MP",
+      "e1.skillatk_instant.mindamage": "442",
+      "e1.skillatk_instant.maxdamage": "446"
+    },
+    "4": {
+      "cost": "298 MP",
+      "e1.skillatk_instant.mindamage": "473",
+      "e1.skillatk_instant.maxdamage": "477"
+    }
+  },
+  "fi_vorpalhit": {
+    "1": {
+      "cooltime": "16",
+      "casttime": "-1",
+      "first_target_valid_distance": "1",
+      "target": "selected",
+      "cost": "165 MP",
+      "canjumpshot": "true",
+      "e1.skillatk_instant.mindamage": "585",
+      "e1.skillatk_instant.maxdamage": "589",
+      "critprob": "200 %"
+    },
+    "2": {
+      "cost": "196 MP",
+      "e1.skillatk_instant.mindamage": "624",
+      "e1.skillatk_instant.maxdamage": "628"
+    }
+  },
+  "kn_absolutescare": {
+    "1": {
+      "cooltime": "300",
+      "casttime": "-1",
+      "target": "aroundcaster",
+      "nb_targets": "4",
+      "target_radius_effect": "10",
+      "cost": "124 MP",
+      "dispellvl": "1",
+      "canmove": "true",
+      "enmity": "36664",
+      "e2.fear.remaintime": "4",
+      "e3.snare.remaintime": "4",
+      "slow": "50 %"
+    }
+  },
+  "kn_brainstorm": {
+    "1": {
+      "cooltime": "120",
+      "casttime": "0.5",
+      "cancelrate": "10 %",
+      "first_target_valid_distance": "25",
+      "target": "selected",
+      "cost": "165 MP",
+      "dispellvl": "1",
+      "e1.spellatk_instant.fixdamage": "845",
+      "accbonus": [
+        "200 $magicalhitaccuracy (DAMAGE)",
+        "200 $magicalhitaccuracy (STUN)"
+      ],
+      "e2.stun.remaintime": "2",
+      "enmity": [
+        "12101 (STUN)"
+      ]
+    },
+    "2": {
+      "e1.spellatk_instant.fixdamage": "870",
+      "enmity": [
+        "13309 (STUN)"
+      ]
+    },
+    "3": {
+      "cost": "189 MP",
+      "e1.spellatk_instant.fixdamage": "900",
+      "enmity": [
+        "14094 (STUN)"
+      ]
+    },
+    "4": {
+      "cost": "199 MP",
+      "e1.spellatk_instant.fixdamage": "930",
+      "enmity": [
+        "15314 (STUN)"
+      ]
+    }
+  },
+  "kn_breakpower": {
+    "1": {
+      "cooltime": "16",
+      "casttime": "-1",
+      "first_target_valid_distance": "2",
+      "target": "selected",
+      "cost": "57 MP",
+      "dispellvl": "1",
+      "canmove": "true",
+      "e1.skillatk_instant.mindamage": "339",
+      "e1.skillatk_instant.maxdamage": "343",
+      "e2.statdown.remaintime": "30",
+      "e2.statdown.value": "20",
+      "e2.statdown.statname": "PhyAttack",
+      "enmity": [
+        "1111 (STATDOWN)"
+      ],
+      "e0.kn_breakpower_g1_buff.casttime": "-1",
+      "e0.kn_breakpower_g1_buff.first_target_valid_distance": "1",
+      "e0.kn_breakpower_g1_buff.target": "selected",
+      "e0.kn_breakpower_g1_buff.canjumpshot": "true",
+      "e0.kn_breakpower_g1_buff.e1.statup.remaintime": "30",
+      "e0.kn_breakpower_g1_buff.e1.statup.value": "20",
+      "e0.kn_breakpower_g1_buff.e1.statup.statname": "PhyAttack"
+    },
+    "2": {
+      "cost": "61 MP",
+      "e1.skillatk_instant.mindamage": "387",
+      "e1.skillatk_instant.maxdamage": "391",
+      "e2.statdown.value": "25",
+      "enmity": [
+        "1256 (STATDOWN)"
+      ],
+      "e0.kn_breakpower_g1_buff.e1.statup.value": "25"
+    },
+    "3": {
+      "cost": "63 MP",
+      "e1.skillatk_instant.mindamage": "513",
+      "e1.skillatk_instant.maxdamage": "517",
+      "e2.statdown.value": "25",
+      "enmity": [
+        "1256 (STATDOWN)"
+      ],
+      "e0.kn_breakpower_g1_buff.e1.statup.value": "25"
+    },
+    "4": {
+      "cost": "72 MP",
+      "e1.skillatk_instant.mindamage": "598",
+      "e1.skillatk_instant.maxdamage": "602",
+      "e2.statdown.value": "25",
+      "e0.kn_breakpower_g1_buff.e1.statup.value": "25"
+    }
+  },
+  "kn_conquestmind": {
+    "1": {
+      "cooltime": "300",
+      "casttime": "-1",
+      "target": "self",
+      "cost": "87 MP",
+      "dispellvl": "1",
+      "canmove": "true",
+      "e1.heal.remaintime": "60",
+      "e1.heal.checktimeheal": "80",
+      "e1.heal.checktime": "6",
+      "enmity": [
+        "13530 (HEAL)"
+      ]
+    },
+    "2": {
+      "cost": "93 MP",
+      "e1.heal.checktimeheal": "89",
+      "enmity": [
+        "16176 (HEAL)"
+      ]
+    }
+  },
+  "kn_destructshield": {
+    "1": {
+      "cooltime": "30",
+      "casttime": "1",
+      "cancelrate": "20 %",
+      "first_target_valid_distance": "5",
+      "target": "selected",
+      "cost": "252 MP",
+      "pvpdmgratio": "120 %",
+      "e1.skillatk_instant.mindamage": "1175",
+      "e1.skillatk_instant.maxdamage": "1179",
+      "e1.skillatk_instant.addeffect": "stumble"
+    }
+  },
+  "kn_destructwish": {
+    "1": {
+      "cooltime": "90",
+      "casttime": "-1",
+      "target": "self",
+      "cost": "165 MP",
+      "dispellvl": "1",
+      "canmove": "true",
+      "e1.statup.remaintime": "30",
+      "e1.statup.value": "50",
+      "e1.statup.statname": "phyattack",
+      "enmity": [
+        "12996 (STATUP)"
+      ],
+      "e2.statup.remaintime": "30",
+      "e2.statup.value": "200",
+      "e2.statup.statname": "MagicalHitAccuracy",
+      "e3.statup.remaintime": "30",
+      "e3.statup.value": "200",
+      "e3.statup.statname": "MagicalSkillBoost"
+    }
+  },
+  "kn_divinepower": {
+    "1": {
+      "cooltime": "180",
+      "casttime": "-1",
+      "target": "self",
+      "cost": "86 MP",
+      "dispellvl": "1",
+      "canmove": "true",
+      "e1.statup.remaintime": "30",
+      "e1.statup.value": "30",
+      "e1.statup.statname": "PhyAttack",
+      "enmity": [
+        "338 (STATUP)"
+      ]
+    }
+  },
+  "kn_divineslash": {
+    "1": {
+      "cooltime": "30",
+      "casttime": "-1",
+      "first_target_valid_distance": "1",
+      "target": "selected",
+      "cost": "86 MP",
+      "canmove": "true",
+      "e1.skillatk_instant.mindamage": "377",
+      "e1.skillatk_instant.maxdamage": "381"
+    },
+    "2": {
+      "cost": "95 MP",
+      "e1.skillatk_instant.mindamage": "418",
+      "e1.skillatk_instant.maxdamage": "422"
+    },
+    "3": {
+      "cost": "102 MP",
+      "e1.skillatk_instant.mindamage": "536",
+      "e1.skillatk_instant.maxdamage": "540"
+    },
+    "4": {
+      "cost": "104 MP",
+      "e1.skillatk_instant.mindamage": "638",
+      "e1.skillatk_instant.maxdamage": "642"
+    },
+    "5": {
+      "cost": "120 MP",
+      "e1.skillatk_instant.mindamage": "822",
+      "e1.skillatk_instant.maxdamage": "826"
+    }
+  },
+  "kn_fortitudewave": {
+    "1": {
+      "cooltime": "180",
+      "casttime": "-1",
+      "target": "self",
+      "cost": "240 MP",
+      "dispellvl": "1",
+      "canjumpshot": "true",
+      "e1.skillatk_instant.mindamage": "489",
+      "e1.skillatk_instant.maxdamage": "493",
+      "e2.root.remaintime": "10",
+      "enmity": [
+        "3873 (ROOT)"
+      ]
+    },
+    "2": {
+      "cost": "252 MP",
+      "e1.skillatk_instant.mindamage": "523",
+      "e1.skillatk_instant.maxdamage": "527",
+      "enmity": [
+        "4160 (ROOT)"
+      ]
+    }
+  },
+  "kn_grandprotection": {
+    "1": {
+      "cooltime": "120",
+      "casttime": "-1",
+      "first_target_valid_distance": "25",
+      "target": "selected",
+      "cost": "79 MP",
+      "dispellvl": "1",
+      "canmove": "true",
+      "e1.protect.remaintime": "30",
+      "e1.protect.value": "100",
+      "e1.protect.range": "25",
+      "e1.protect.condition": "EveryHit",
+      "enmity": [
+        "586 (PROTECT)"
+      ]
+    },
+    "2": {
+      "first_target_valid_distance": "10",
+      "cost": "300 MP",
+      "e1.protect.range": "10",
+      "enmity": [
+        "1322 (PROTECT)"
+      ]
+    },
+    "3": {
+      "first_target_valid_distance": "10",
+      "cost": "350 MP",
+      "e1.protect.range": "10"
+    }
+  },
+  "kn_highprovoke": {
+    "1": {
+      "cooltime": "60",
+      "casttime": "-1",
+      "first_target_valid_distance": "15",
+      "target": "selected",
+      "cost": "86 MP",
+      "canmove": "true",
+      "enmity": "34766"
+    },
+    "2": {
+      "cost": "95 MP",
+      "enmity": "40105"
+    },
+    "3": {
+      "cost": "102 MP",
+      "enmity": "53972"
+    },
+    "4": {
+      "cost": "104 MP",
+      "enmity": "60495"
+    },
+    "5": {
+      "cost": "120 MP",
+      "enmity": "62238"
+    }
+  },
+  "kn_holywrath": {
+    "1": {
+      "cooltime": "60",
+      "casttime": "-1",
+      "target": "self",
+      "cost": "58 MP",
+      "dispellvl": "1",
+      "canmove": "true",
+      "e1.reflector.remaintime": "30",
+      "e1.reflector.fixeddamage": "46",
+      "e1.reflector.maxrange": "5",
+      "e1.reflector.condition": "EveryHit",
+      "enmity": [
+        "6761 (REFLECTOR)"
+      ]
+    },
+    "2": {
+      "cost": "73 MP",
+      "e1.reflector.fixeddamage": "83",
+      "enmity": [
+        "10245 (REFLECTOR)"
+      ]
+    },
+    "3": {
+      "cost": "83 MP",
+      "e1.reflector.fixeddamage": "115",
+      "enmity": [
+        "13102 (REFLECTOR)"
+      ]
+    },
+    "4": {
+      "cost": "100 MP",
+      "e1.reflector.fixeddamage": "168",
+      "enmity": [
+        "15314 (REFLECTOR)"
+      ]
+    }
+  },
+  "kn_intimidation": {
+    "1": {
+      "cooltime": "60",
+      "casttime": "-1",
+      "first_target_valid_distance": "15",
+      "target": "selected",
+      "cost": "48 MP",
+      "dispellvl": "1",
+      "canmove": "true",
+      "enmity": "62238",
+      "e2.slow.remaintime": "10"
+    },
+    "2": {
+      "cost": "51 MP",
+      "enmity": "66854"
+    }
+  },
+  "kn_invinsibleprotect": {
+    "1": {
+      "cooltime": "600",
+      "casttime": "-1",
+      "target": "self",
+      "cost": "404 MP",
+      "dispellvl": "1",
+      "canmove": "true",
+      "e1.shield.remaintime": "15",
+      "e1.shield.covervalue": "50",
+      "e1.shield.shieldvalue": "10000000",
+      "e1.shield.condition": "EveryHit",
+      "e1.shield.conditionprob": "100",
+      "enmity": [
+        "780 (SHIELD)"
+      ],
+      "e2.statup.remaintime": "15",
+      "e2.statup.value": "1000",
+      "e2.statup.statname": "arstunlike"
+    }
+  },
+  "kn_invinsibleshield": {
+    "1": {
+      "cooltime": "180",
+      "casttime": "-1",
+      "target": "self",
+      "cost": "165 MP",
+      "dispellvl": "1",
+      "canmove": "true",
+      "e1.alwaysblock.remaintime": "30",
+      "e1.alwaysblock.count": "10",
+      "enmity": [
+        "12996 (ALWAYSBLOCK)"
+      ]
+    }
+  },
+  "kn_massiveprovoke": {
+    "1": {
+      "cooltime": "30",
+      "casttime": "-1",
+      "target": "aroundcaster",
+      "nb_targets": "5",
+      "target_radius_effect": "10",
+      "cost": "81 MP",
+      "canmove": "true",
+      "enmity": "8055"
+    },
+    "2": {
+      "cost": "91 MP",
+      "enmity": "9393"
+    },
+    "3": {
+      "cost": "98 MP",
+      "enmity": "10430"
+    },
+    "4": {
+      "cost": "103 MP",
+      "enmity": "11688"
+    },
+    "5": {
+      "cost": "103 MP",
+      "enmity": "12764"
+    },
+    "6": {
+      "cost": "126 MP",
+      "enmity": "43158"
+    }
+  },
+  "kn_powersink": {
+    "1": {
+      "cooltime": "30",
+      "casttime": "-1",
+      "first_target_valid_distance": "25",
+      "target": "selected",
+      "cost": "165 MP",
+      "canjumpshot": "true",
+      "e1.spellatk_instant.fixdamage": "1208",
+      "accbonus": [
+        "200 $magicalhitaccuracy (DAMAGE)"
+      ]
+    },
+    "2": {
+      "e1.spellatk_instant.fixdamage": "1261"
+    },
+    "3": {
+      "cost": "189 MP",
+      "e1.spellatk_instant.fixdamage": "1382"
+    },
+    "4": {
+      "cost": "199 MP",
+      "e1.spellatk_instant.fixdamage": "1507"
+    }
+  },
+  "kn_recover": {
+    "1": {
+      "cooltime": "180",
+      "casttime": "-1",
+      "target": "self",
+      "cost": "206 MP",
+      "canmove": "true",
+      "e1.heal_instant.heal": "2181",
+      "enmity": [
+        "30252 (HEAL_INSTANT)"
+      ]
+    },
+    "2": {
+      "cost": "207 MP",
+      "e1.heal_instant.heal": "2342",
+      "enmity": [
+        "32961 (HEAL_INSTANT)"
+      ]
+    },
+    "3": {
+      "cost": "236 MP",
+      "e1.heal_instant.heal": "3027",
+      "enmity": [
+        "34637 (HEAL_INSTANT)"
+      ]
+    },
+    "4": {
+      "cost": "248 MP",
+      "e1.heal_instant.heal": "3167",
+      "enmity": [
+        "36238 (HEAL_INSTANT)"
+      ]
+    }
+  },
+  "kn_reflectshield": {
+    "1": {
+      "cooltime": "6",
+      "casttime": "-1",
+      "target": "self",
+      "canmove": "true",
+      "e1.reflector.fixeddamage": "210",
+      "e1.reflector.maxrange": "20",
+      "e1.reflector.condition": "PhHit",
+      "enmity": [
+        "766 (REFLECTOR)"
+      ],
+      "e2.statboost.statname": "block",
+      "e2.statboost.fixvalue": "1000",
+      "e3.statboost.statname": "physicaldefend",
+      "e3.statboost.ratevalue": "15",
+      "e4.statboost.statname": "arStunLike",
+      "e4.statboost.fixvalue": "1000"
+    }
+  },
+  "kn_sentinel": {
+    "1": {
+      "cooltime": "300",
+      "casttime": "-1",
+      "target": "aroundcaster",
+      "nb_targets": "6",
+      "target_radius_effect": "30",
+      "cost": "206 MP",
+      "dispellvl": "1",
+      "canmove": "true",
+      "e1.statup.remaintime": "120",
+      "e1.statup.value": "1000",
+      "e1.statup.statname": "maxHp",
+      "enmity": [
+        "12101 (STATUP)"
+      ]
+    },
+    "2": {
+      "cost": "207 MP",
+      "e1.statup.value": "1100",
+      "enmity": [
+        "13309 (STATUP)"
+      ]
+    },
+    "3": {
+      "cost": "236 MP",
+      "e1.statup.value": "1200",
+      "enmity": [
+        "14094 (STATUP)"
+      ]
+    },
+    "4": {
+      "cost": "248 MP",
+      "e1.statup.value": "1300",
+      "enmity": [
+        "15314 (STATUP)"
+      ]
+    }
+  },
+  "kn_stigma_demonpunishment_dark": {
+    "1": {
+      "cooltime": "60",
+      "casttime": "-1",
+      "first_target_valid_distance": "1",
+      "target": "selected",
+      "cost": "165 MP",
+      "canmove": "true",
+      "e1.skillatkdrain_instant.mindamage": "996",
+      "e1.skillatkdrain_instant.maxdamage": "1000",
+      "e1.skillatkdrain_instant.hpheal": "100"
+    }
+  },
+  "kn_stigma_godpunishment_light": {
+    "1": {
+      "cooltime": "120",
+      "casttime": "-1",
+      "first_target_valid_distance": "1",
+      "target": "selected",
+      "cost": "165 MP",
+      "dispellvl": "1",
+      "canmove": "true",
+      "e1.skillatk_instant.mindamage": "907",
+      "e1.skillatk_instant.maxdamage": "911",
+      "e2.stun.remaintime": "2",
+      "enmity": [
+        "3780 (STUN)"
+      ]
+    }
+  },
+  "kn_stigma_resistarmor": {
+    "1": {
+      "cooltime": "300",
+      "casttime": "-1",
+      "target": "self",
+      "cost": "103 MP",
+      "dispellvl": "1",
+      "canmove": "true",
+      "e1.statup.remaintime": "30",
+      "e1.statup.value": "800",
+      "e1.statup.statname": "MagicalResist",
+      "enmity": [
+        "707 (STATUP)"
+      ]
+    }
+  },
+  "kn_stunningsnacher": {
+    "1": {
+      "cooltime": "30",
+      "casttime": "-1",
+      "first_target_valid_distance": "15",
+      "target": "selected",
+      "cost": "76 MP",
+      "dispellvl": "1",
+      "canmove": "true",
+      "e1.skillatk_instant.mindamage": "16",
+      "e1.skillatk_instant.maxdamage": "20",
+      "e1.skillatk_instant.addeffect": "Pulled",
+      "enmity": [
+        "17203 (SKILLATK_INSTANT)"
+      ],
+      "e2.snare.remaintime": "10",
+      "slow": "50 %"
+    }
+  },
+  "kn_thunderblade": {
+    "1": {
+      "cooltime": "30",
+      "casttime": "-1",
+      "first_target_valid_distance": "15",
+      "target": "selected",
+      "cost": "81 MP",
+      "canmove": "true",
+      "e1.skillatk_instant.mindamage": "443",
+      "e1.skillatk_instant.maxdamage": "447"
+    },
+    "2": {
+      "cost": "96 MP",
+      "e1.skillatk_instant.mindamage": "682",
+      "e1.skillatk_instant.maxdamage": "686"
+    }
+  },
+  "p_equip_dual": {
+    "1": {
+      "casttime": "-1",
+      "target": "self"
+    }
+  },
+  "pr_bindingheal": {
+    "1": {
+      "cooltime": "10",
+      "casttime": "2",
+      "cancelrate": "20 %",
+      "first_target_valid_distance": "25",
+      "target": "selected",
+      "cost": "107 MP",
+      "e1.heal_instant.heal": "1171",
+      "enmity": [
+        "15223 (HEAL_INSTANT)"
+      ],
+      "e0.pr_bindingheal_g1_buff.casttime": "-1",
+      "e0.pr_bindingheal_g1_buff.first_target_valid_distance": "1",
+      "e0.pr_bindingheal_g1_buff.target": "selected",
+      "e0.pr_bindingheal_g1_buff.canjumpshot": "true"
+    },
+    "2": {
+      "cost": "117 MP",
+      "e1.heal_instant.heal": "1312"
+    }
+  },
+  "pr_blindinglight": {
+    "1": {
+      "cooltime": "300",
+      "casttime": "-1",
+      "first_target_valid_distance": "15",
+      "target": "selected",
+      "cost": "31 MP",
+      "dispellvl": "1",
+      "canmove": "true",
+      "e1.blind.remaintime": "20",
+      "enmity": [
+        "1693 (BLIND)"
+      ]
+    }
+  },
+  "pr_calllightning": {
+    "1": {
+      "cooltime": "120",
+      "casttime": "3",
+      "cancelrate": "20 %",
+      "first_target_valid_distance": "25",
+      "target": "selected",
+      "cost": "393 MP",
+      "e1.spellatk_instant.fixdamage": "2183"
+    }
+  },
+  "pr_coursewound": {
+    "1": {
+      "cooltime": "60",
+      "casttime": "-1",
+      "first_target_valid_distance": "15",
+      "target": "selected",
+      "cost": "21 MP",
+      "dispellvl": "1",
+      "canmove": "true",
+      "e1.spellatk_instant.fixdamage": "40",
+      "enmity": [
+        "1867 (SPELLATK_INSTANT)",
+        "911 (DEBOOSTHEALAMOUNT)"
+      ],
+      "e2.deboosthealamount.remaintime": "60"
+    },
+    "2": {
+      "cost": "208 MP",
+      "e1.spellatk_instant.fixdamage": "153",
+      "enmity": [
+        "2970 (DEBOOSTHEALAMOUNT)"
+      ]
+    }
+  },
+  "pr_eternalservent_dark": {
+    "1": {
+      "cooltime": "30",
+      "casttime": "-1",
+      "first_target_valid_distance": "25",
+      "target": "selected",
+      "cost": "202 MP",
+      "canmove": "true",
+      "e0.eternalservent_g1.casttime": "2",
+      "e0.eternalservent_g1.first_target_valid_distance": "30",
+      "e0.eternalservent_g1.target": "selected",
+      "e0.eternalservent_g1.cost": "300 HP",
+      "e0.eternalservent_g1.e1.spellatk_instant.fixdamage": "1800",
+      "enmity": [
+        "1949 (SUMMONSERVANT)"
+      ]
+    },
+    "2": {
+      "cost": "224 MP",
+      "e0.eternalservent_g2.casttime": "2",
+      "e0.eternalservent_g2.first_target_valid_distance": "30",
+      "e0.eternalservent_g2.target": "selected",
+      "e0.eternalservent_g2.cost": "300 HP",
+      "e0.eternalservent_g2.e1.spellatk_instant.fixdamage": "1977",
+      "enmity": [
+        "2966 (SUMMONSERVANT)"
+      ]
+    }
+  },
+  "pr_eternalservent_light": {
+    "1": {
+      "cooltime": "30",
+      "casttime": "-1",
+      "first_target_valid_distance": "25",
+      "target": "selected",
+      "cost": "202 MP",
+      "canmove": "true",
+      "e0.eternalservent_g1.casttime": "2",
+      "e0.eternalservent_g1.first_target_valid_distance": "30",
+      "e0.eternalservent_g1.target": "selected",
+      "e0.eternalservent_g1.cost": "300 HP",
+      "e0.eternalservent_g1.e1.spellatk_instant.fixdamage": "1800",
+      "enmity": [
+        "1949 (SUMMONSERVANT)"
+      ]
+    },
+    "2": {
+      "cost": "224 MP",
+      "e0.eternalservent_g2.casttime": "2",
+      "e0.eternalservent_g2.first_target_valid_distance": "30",
+      "e0.eternalservent_g2.target": "selected",
+      "e0.eternalservent_g2.cost": "300 HP",
+      "e0.eternalservent_g2.e1.spellatk_instant.fixdamage": "1977",
+      "enmity": [
+        "2966 (SUMMONSERVANT)"
+      ]
+    }
+  },
+  "pr_firstaid": {
+    "1": {
+      "cooltime": "30",
+      "casttime": "-1",
+      "first_target_valid_distance": "23",
+      "target": "selected",
+      "cost": "166 MP",
+      "canmove": "true",
+      "e1.heal_instant.heal": "1194",
+      "enmity": [
+        "5948 (HEAL_INSTANT)"
+      ]
+    },
+    "2": {
+      "cost": "191 MP",
+      "e1.heal_instant.heal": "1465",
+      "enmity": [
+        "8794 (HEAL_INSTANT)"
+      ]
+    },
+    "3": {
+      "cost": "215 MP",
+      "e1.heal_instant.heal": "1728",
+      "enmity": [
+        "10373 (HEAL_INSTANT)"
+      ]
+    },
+    "4": {
+      "cost": "236 MP",
+      "e1.heal_instant.heal": "1978",
+      "enmity": [
+        "11868 (HEAL_INSTANT)"
+      ]
+    },
+    "5": {
+      "cost": "257 MP",
+      "e1.heal_instant.heal": "2210",
+      "enmity": [
+        "13259 (HEAL_INSTANT)"
+      ]
+    },
+    "6": {
+      "cost": "291 MP",
+      "e1.heal_instant.heal": "2420",
+      "enmity": [
+        "14528 (HEAL_INSTANT)"
+      ]
+    }
+  },
+  "pr_graceofgod": {
+    "1": {
+      "cooltime": "180",
+      "casttime": "-1",
+      "target": "self",
+      "dispellvl": "1",
+      "canmove": "true",
+      "e1.boostskillcost.remaintime": "12",
+      "e1.boostskillcost.bonusrate": "100",
+      "enmity": [
+        "338 (BOOSTSKILLCOST)"
+      ]
+    }
+  },
+  "pr_healershand": {
+    "1": {
+      "cooltime": "1",
+      "casttime": "-1",
+      "target": "self",
+      "canmove": "true",
+      "e1.statup.value": "250",
+      "e1.statup.statname": "HealSkillBoost",
+      "enmity": [
+        "760 (STATUP)"
+      ],
+      "e2.boostskillcost.bonusrate": "-8"
+    }
+  },
+  "pr_healinggrace": {
+    "1": {
+      "cooltime": "300",
+      "casttime": "-1",
+      "target": "self",
+      "cost": "238 MP",
+      "dispellvl": "1",
+      "canmove": "true",
+      "e1.deboosthealamount.remaintime": "15",
+      "enmity": [
+        "2347 (DEBOOSTHEALAMOUNT)"
+      ]
+    }
+  },
+  "pr_healingservent_dark": {
+    "1": {
+      "cooltime": "60",
+      "casttime": "1",
+      "cancelrate": "20 %",
+      "target": "self",
+      "cost": "254 MP",
+      "e0.pr_dark_totem_healingservent_g1.casttime": "-1",
+      "e0.pr_dark_totem_healingservent_g1.target": "aroundcaster",
+      "e0.pr_dark_totem_healingservent_g1.nb_targets": "6",
+      "e0.pr_dark_totem_healingservent_g1.target_radius_effect": "30",
+      "e0.pr_dark_totem_healingservent_g1.canjumpshot": "true",
+      "e0.pr_dark_totem_healingservent_g1.e1.heal_instant.heal": "361",
+      "enmity": [
+        "2904 (HEAL_INSTANT)"
+      ]
+    },
+    "2": {
+      "cost": "264 MP",
+      "e0.pr_dark_totem_healingservent_g2.casttime": "-1",
+      "e0.pr_dark_totem_healingservent_g2.target": "aroundcaster",
+      "e0.pr_dark_totem_healingservent_g2.nb_targets": "6",
+      "e0.pr_dark_totem_healingservent_g2.target_radius_effect": "30",
+      "e0.pr_dark_totem_healingservent_g2.canjumpshot": "true",
+      "e0.pr_dark_totem_healingservent_g2.e1.heal_instant.heal": "377",
+      "enmity": [
+        "3120 (HEAL_INSTANT)"
+      ]
+    }
+  },
+  "pr_healingservent_light": {
+    "1": {
+      "cooltime": "60",
+      "casttime": "1",
+      "cancelrate": "20 %",
+      "target": "self",
+      "cost": "254 MP",
+      "e0.pr_light_totem_healingservent_g1.casttime": "-1",
+      "e0.pr_light_totem_healingservent_g1.target": "aroundcaster",
+      "e0.pr_light_totem_healingservent_g1.nb_targets": "6",
+      "e0.pr_light_totem_healingservent_g1.target_radius_effect": "30",
+      "e0.pr_light_totem_healingservent_g1.canjumpshot": "true",
+      "e0.pr_light_totem_healingservent_g1.e1.heal_instant.heal": "361",
+      "enmity": [
+        "2904 (HEAL_INSTANT)"
+      ]
+    },
+    "2": {
+      "cost": "264 MP",
+      "e0.pr_light_totem_healingservent_g2.casttime": "-1",
+      "e0.pr_light_totem_healingservent_g2.target": "aroundcaster",
+      "e0.pr_light_totem_healingservent_g2.nb_targets": "6",
+      "e0.pr_light_totem_healingservent_g2.target_radius_effect": "30",
+      "e0.pr_light_totem_healingservent_g2.canjumpshot": "true",
+      "e0.pr_light_totem_healingservent_g2.e1.heal_instant.heal": "377",
+      "enmity": [
+        "3120 (HEAL_INSTANT)"
+      ]
+    }
+  },
+  "pr_massdispel": {
+    "1": {
+      "cooltime": "10",
+      "casttime": "1",
+      "cancelrate": "20 %",
+      "target": "self",
+      "cost": "37 MP",
+      "dispeldebuffphysical.dispelcount": "2",
+      "dispeldebuffphysical.dispellvl": "1",
+      "dispeldebuffphysical.dispelstrength": "3",
+      "enmity": [
+        "3423 (DISPELDEBUFFPHYSICAL)"
+      ],
+      "dispeldebuffmental.dispelcount": "2",
+      "dispeldebuffmental.dispellvl": "1",
+      "dispeldebuffmental.dispelstrength": "3"
+    }
+  },
+  "pr_massemergentheal": {
+    "1": {
+      "cooltime": "60",
+      "casttime": "2",
+      "cancelrate": "20 %",
+      "target": "self",
+      "cost": "360 MP",
+      "e1.heal_instant.heal": "2041",
+      "enmity": [
+        "4453 (HEAL_INSTANT)"
+      ]
+    },
+    "2": {
+      "cost": "393 MP",
+      "e1.heal_instant.heal": "2306",
+      "enmity": [
+        "5031 (HEAL_INSTANT)"
+      ]
+    },
+    "3": {
+      "cost": "447 MP",
+      "e1.heal_instant.heal": "2548",
+      "enmity": [
+        "5098 (HEAL_INSTANT)"
+      ]
+    }
+  },
+  "pr_memoryblur": {
+    "1": {
+      "cooltime": "120",
+      "casttime": "-1",
+      "first_target_valid_distance": "25",
+      "target": "selected",
+      "cost": "211 MP",
+      "canmove": "true",
+      "enmity": "-211765"
+    },
+    "2": {
+      "cost": "222 MP",
+      "enmity": "-221817"
+    },
+    "3": {
+      "cost": "236 MP",
+      "enmity": "-234896"
+    },
+    "4": {
+      "cost": "257 MP",
+      "enmity": "-255230"
+    }
+  },
+  "pr_painlinks": {
+    "1": {
+      "cooltime": "300",
+      "casttime": "2",
+      "cancelrate": "20 %",
+      "first_target_valid_distance": "25",
+      "target": "selected",
+      "cost": "317 MP",
+      "dispellvl": "1",
+      "e1.spellatk_instant.fixdamage": "507",
+      "enmity": [
+        "6050 (SPELLATK_INSTANT)"
+      ],
+      "e2.spellatk.remaintime": "120",
+      "e2.spellatk.damage": "507",
+      "e2.spellatk.checktime": "12",
+      "e3.resurrectbase.remaintime": "120",
+      "e4.statdown.remaintime": "120",
+      "e4.statdown.value": "400",
+      "e4.statdown.statname": "MagicalResist"
+    },
+    "2": {
+      "cost": "333 MP",
+      "e1.spellatk_instant.fixdamage": "531",
+      "enmity": [
+        "6654 (SPELLATK_INSTANT)"
+      ],
+      "e2.spellatk.damage": "531"
+    },
+    "3": {
+      "cost": "355 MP",
+      "e1.spellatk_instant.fixdamage": "562",
+      "enmity": [
+        "7047 (SPELLATK_INSTANT)"
+      ],
+      "e2.spellatk.damage": "562"
+    },
+    "4": {
+      "cost": "386 MP",
+      "e1.spellatk_instant.fixdamage": "612",
+      "enmity": [
+        "7657 (SPELLATK_INSTANT)"
+      ],
+      "e2.spellatk.damage": "612"
+    }
+  },
+  "pr_powersmite": {
+    "1": {
+      "cooltime": "30",
+      "casttime": "2.5",
+      "cancelrate": "20 %",
+      "first_target_valid_distance": "25",
+      "target": "selected",
+      "cost": "205 MP",
+      "e1.spellatk_instant.fixdamage": "1225"
+    }
+  },
+  "pr_purgatory": {
+    "1": {
+      "cooltime": "12",
+      "casttime": "1.5",
+      "cancelrate": "20 %",
+      "first_target_valid_distance": "25",
+      "target": "selected",
+      "cost": "120 MP",
+      "dispellvl": "1",
+      "e1.spellatk_instant.fixdamage": "212",
+      "enmity": [
+        "4346 (SPELLATK_INSTANT)"
+      ],
+      "e2.spellatk.remaintime": "9",
+      "e2.spellatk.damage": "212",
+      "e2.spellatk.checktime": "3"
+    },
+    "2": {
+      "cost": "149 MP",
+      "e1.spellatk_instant.fixdamage": "245",
+      "enmity": [
+        "5013 (SPELLATK_INSTANT)"
+      ],
+      "e2.spellatk.damage": "245"
+    },
+    "3": {
+      "cost": "170 MP",
+      "e1.spellatk_instant.fixdamage": "269",
+      "enmity": [
+        "4608 (SPELLATK_INSTANT)"
+      ],
+      "e2.spellatk.damage": "269"
+    },
+    "4": {
+      "cost": "191 MP",
+      "e1.spellatk_instant.fixdamage": "302",
+      "enmity": [
+        "6173 (SPELLATK_INSTANT)"
+      ],
+      "e2.spellatk.damage": "302"
+    },
+    "5": {
+      "cost": "219 MP",
+      "e1.spellatk_instant.fixdamage": "338",
+      "enmity": [
+        "6173 (SPELLATK_INSTANT)"
+      ],
+      "e2.spellatk.damage": "338"
+    }
+  },
+  "pr_regeneraitionshine": {
+    "1": {
+      "cooltime": "60",
+      "casttime": "2",
+      "cancelrate": "20 %",
+      "first_target_valid_distance": "25",
+      "target": "selected",
+      "cost": "290 MP",
+      "dispellvl": "1",
+      "e1.heal_instant.heal": "320",
+      "enmity": [
+        "7614 (HEAL_INSTANT)"
+      ],
+      "e2.heal.remaintime": "21",
+      "e2.heal.checktimeheal": "320",
+      "e2.heal.checktime": "3",
+      "e3.statup.remaintime": "21",
+      "e3.statup.value": "200",
+      "e3.statup.statname": "physicaldefend"
+    },
+    "2": {
+      "cost": "302 MP",
+      "e1.heal_instant.heal": "338",
+      "enmity": [
+        "8143 (HEAL_INSTANT)"
+      ],
+      "e2.heal.checktimeheal": "338"
+    },
+    "3": {
+      "cost": "314 MP",
+      "e1.heal_instant.heal": "356",
+      "enmity": [
+        "8556 (HEAL_INSTANT)"
+      ],
+      "e2.heal.checktimeheal": "356"
+    },
+    "4": {
+      "cost": "326 MP",
+      "e1.heal_instant.heal": "373",
+      "enmity": [
+        "8952 (HEAL_INSTANT)"
+      ],
+      "e2.heal.checktimeheal": "373"
+    }
+  },
+  "pr_reversecondition": {
+    "1": {
+      "cooltime": "600",
+      "casttime": "1",
+      "cancelrate": "20 %",
+      "target": "self"
+    }
+  },
+  "pr_revivehand": {
+    "1": {
+      "cooltime": "300",
+      "casttime": "1",
+      "cancelrate": "20 %",
+      "first_target_valid_distance": "25",
+      "target": "selected",
+      "cost": "158 MP",
+      "dispellvl": "1",
+      "e1.rebirth.remaintime": "300",
+      "e1.rebirth.currenthpmp": "50",
+      "enmity": [
+        "605 (REBIRTH)"
+      ]
+    }
+  },
+  "pr_sageswisdom": {
+    "1": {
+      "cooltime": "300",
+      "casttime": "-1",
+      "target": "self",
+      "cost": "187 MP",
+      "dispellvl": "1",
+      "canmove": "true",
+      "e1.boostskillcastingtime.remaintime": "10",
+      "e1.boostskillcastingtime.castingbonus": "50",
+      "enmity": [
+        "587 (BOOSTSKILLCASTINGTIME)"
+      ]
+    },
+    "2": {
+      "casttime": "1",
+      "cancelrate": "20 %",
+      "cost": "267 MP",
+      "e1.boostskillcastingtime.castingbonus": "60"
+    }
+  },
+  "pr_stigma_abysalsanctuary_dark": {
+    "1": {
+      "cooltime": "180",
+      "casttime": "3",
+      "cancelrate": "20 %",
+      "first_target_valid_distance": "25",
+      "target": "targetarea",
+      "nb_targets": "6",
+      "target_radius_effect": "20",
+      "cost": "498 MP",
+      "dispellvl": "1",
+      "e1.heal_instant.heal": "1403",
+      "enmity": [
+        "8424 (HEAL_INSTANT)"
+      ],
+      "e2.shield.remaintime": "10",
+      "e2.shield.covervalue": "1683",
+      "e2.shield.shieldvalue": "1683",
+      "e2.shield.condition": "EveryHit",
+      "e2.shield.conditionprob": "100"
+    }
+  },
+  "pr_stigma_divinesanctuary_light": {
+    "1": {
+      "cooltime": "180",
+      "casttime": "3",
+      "cancelrate": "20 %",
+      "first_target_valid_distance": "25",
+      "target": "targetarea",
+      "nb_targets": "6",
+      "target_radius_effect": "20",
+      "cost": "498 MP",
+      "dispellvl": "1",
+      "e1.heal_instant.heal": "1403",
+      "enmity": [
+        "8424 (HEAL_INSTANT)"
+      ],
+      "e2.heal.remaintime": "10",
+      "e2.heal.checktimeheal": "336",
+      "e2.heal.checktime": "2"
+    }
+  },
+  "pr_stigma_suggestion": {
+    "1": {
+      "cooltime": "600",
+      "casttime": "1",
+      "cancelrate": "20 %",
+      "first_target_valid_distance": "25",
+      "target": "targetarea",
+      "nb_targets": "6",
+      "target_radius_effect": "20",
+      "cost": "123 MP",
+      "enmity": "-136135"
+    },
+    "2": {
+      "cost": "141 MP",
+      "enmity": "-151005"
+    }
+  },
+  "pr_suffermemory": {
+    "1": {
+      "cooltime": "120",
+      "casttime": "1",
+      "cancelrate": "20 %",
+      "first_target_valid_distance": "25",
+      "target": "selected",
+      "cost": "244 MP",
+      "dispellvl": "1",
+      "e1.spellatk_instant.fixdamage": "193",
+      "e2.spellatk.remaintime": "27",
+      "e2.spellatk.damage": "193",
+      "e2.spellatk.checktime": "3",
+      "e3.statdown.remaintime": "27",
+      "e3.statdown.value": "50",
+      "e3.statdown.statname": "phyAttack"
+    },
+    "2": {
+      "cost": "262 MP",
+      "e1.spellatk_instant.fixdamage": "207",
+      "e2.spellatk.damage": "207"
+    }
+  },
+  "pr_tranquility": {
+    "1": {
+      "cooltime": "120",
+      "casttime": "2",
+      "cancelrate": "20 %",
+      "target": "aroundcaster",
+      "nb_targets": "6",
+      "target_radius_effect": "20",
+      "cost": "748 MP",
+      "dispeldebuff.dispelcount": "3",
+      "dispeldebuff.dispellvl": "2",
+      "dispeldebuff.dispelstrength": "5",
+      "enmity": [
+        "11120 (DISPELDEBUFF)"
+      ],
+      "e2.heal.remaintime": "1",
+      "e2.heal.checktimeheal": "3706",
+      "e2.heal.checktime": "1"
+    },
+    "2": {
+      "cost": "774 MP",
+      "enmity": [
+        "11645 (DISPELDEBUFF)"
+      ],
+      "e2.heal.checktimeheal": "3881"
+    }
+  },
+  "ra_backdashstab": {
+    "1": {
+      "cooltime": "60",
+      "casttime": "-1",
+      "first_target_valid_distance": "6",
+      "target": "selected",
+      "cost": "41 MP",
+      "dispellvl": "1",
+      "canmove": "true",
+      "e1.backdashatk.mindamage": "41",
+      "e1.backdashatk.maxdamage": "45",
+      "e2.stun.remaintime": "3",
+      "enmity": [
+        "1483 (STUN)"
+      ]
+    },
+    "2": {
+      "cost": "23 MP",
+      "enmity": [
+        "2625 (STUN)"
+      ]
+    },
+    "3": {
+      "cost": "29 MP"
+    },
+    "4": {
+      "cost": "29 MP"
+    },
+    "5": {
+      "cost": "29 MP"
+    }
+  },
+  "ra_blazingtrap_dark": {
+    "1": {
+      "cooltime": "20",
+      "casttime": "-1",
+      "target": "self",
+      "canmove": "true",
+      "e1.summontrap.summontime": "60",
+      "enmity": [
+        "2904 (SUMMONTRAP)"
+      ]
+    },
+    "2": {
+      "enmity": [
+        "3120 (SUMMONTRAP)"
+      ]
+    }
+  },
+  "ra_blazingtrap_light": {
+    "1": {
+      "cooltime": "20",
+      "casttime": "-1",
+      "target": "self",
+      "canmove": "true",
+      "e1.summontrap.summontime": "60",
+      "enmity": [
+        "2904 (SUMMONTRAP)"
+      ]
+    },
+    "2": {
+      "enmity": [
+        "3120 (SUMMONTRAP)"
+      ]
+    }
+  },
+  "ra_breathofnature": {
+    "1": {
+      "cooltime": "300",
+      "casttime": "2",
+      "cancelrate": "30 %",
+      "target": "self",
+      "cost": "114 MP",
+      "dispellvl": "1",
+      "e1.statup.remaintime": "300",
+      "e1.statup.value": "50",
+      "e1.statup.statname": "HPRegen",
+      "e1.statup.value2": "20",
+      "e1.statup.statname2": "MPRegen",
+      "enmity": [
+        "2777 (STATUP)"
+      ]
+    },
+    "2": {
+      "cost": "122 MP",
+      "e1.statup.value": "65",
+      "e1.statup.value2": "30",
+      "enmity": [
+        "3141 (STATUP)"
+      ]
+    },
+    "3": {
+      "cost": "125 MP",
+      "e1.statup.value": "80",
+      "e1.statup.value2": "35",
+      "enmity": [
+        "3570 (STATUP)"
+      ]
+    },
+    "4": {
+      "cost": "144 MP",
+      "e1.statup.value": "90",
+      "e1.statup.value2": "40",
+      "enmity": [
+        "3873 (STATUP)"
+      ]
+    }
+  },
+  "ra_callcompanion_dark": {
+    "1": {
+      "cooltime": "120",
+      "casttime": "-1",
+      "first_target_valid_distance": "25",
+      "target": "selected",
+      "cost": "149 MP",
+      "canjumpshot": "true",
+      "e1.summonhoming.unitnumber": "6",
+      "enmity": [
+        "3063 (SUMMONHOMING)"
+      ]
+    }
+  },
+  "ra_callcompanion_light": {
+    "1": {
+      "cooltime": "120",
+      "casttime": "-1",
+      "first_target_valid_distance": "25",
+      "target": "selected",
+      "cost": "149 MP",
+      "canjumpshot": "true",
+      "e1.summonhoming.unitnumber": "6",
+      "enmity": [
+        "3063 (SUMMONHOMING)"
+      ]
+    }
+  },
+  "ra_draineye": {
+    "1": {
+      "cooltime": "180",
+      "casttime": "-1",
+      "target": "self",
+      "dispellvl": "1",
+      "canmove": "true",
+      "e1.provoker.remaintime": "90",
+      "e1.provoker.conditionprob": "100",
+      "e1.provoker.condition": "Nmlatk",
+      "enmity": [
+        "444 (PROVOKER)"
+      ]
+    }
+  },
+  "ra_enchantbow": {
+    "1": {
+      "cooltime": "180",
+      "casttime": "-1",
+      "target": "self",
+      "cost": "103 MP",
+      "dispellvl": "1",
+      "canmove": "true",
+      "e1.weaponstatup.remaintime": "60",
+      "e1.weaponstatup.statname": "PhyAttack",
+      "e1.weaponstatup.weaponcategory": "bow",
+      "e1.weaponstatup.value": "20",
+      "enmity": [
+        "435 (WEAPONSTATUP)"
+      ]
+    }
+  },
+  "ra_explosionarrow": {
+    "1": {
+      "cooltime": "30",
+      "casttime": "-1",
+      "first_target_valid_distance": "15",
+      "target": "selected",
+      "cost": "124 MP",
+      "canjumpshot": "true",
+      "e1.skillatk_instant.mindamage": "883",
+      "e1.skillatk_instant.maxdamage": "887"
+    },
+    "2": {
+      "e1.skillatk_instant.mindamage": "927",
+      "e1.skillatk_instant.maxdamage": "931"
+    },
+    "3": {
+      "cost": "142 MP",
+      "e1.skillatk_instant.mindamage": "1009",
+      "e1.skillatk_instant.maxdamage": "1013"
+    },
+    "4": {
+      "cost": "149 MP",
+      "e1.skillatk_instant.mindamage": "1102",
+      "e1.skillatk_instant.maxdamage": "1106"
+    }
+  },
+  "ra_fairyflare_dark": {
+    "1": {
+      "cooltime": "60",
+      "casttime": "-1",
+      "first_target_valid_distance": "15",
+      "target": "targetpoint",
+      "canjumpshot": "true",
+      "e1.summontrap.summontime": "60"
+    }
+  },
+  "ra_fairyflare_light": {
+    "1": {
+      "cooltime": "60",
+      "casttime": "-1",
+      "first_target_valid_distance": "15",
+      "target": "targetpoint",
+      "canjumpshot": "true",
+      "e1.summontrap.summontime": "60"
+    }
+  },
+  "ra_heavenstrap_dark": {
+    "1": {
+      "cooltime": "20",
+      "casttime": "1",
+      "cancelrate": "30 %",
+      "target": "self",
+      "e1.summontrap.summontime": "60",
+      "enmity": [
+        "1400 (SUMMONTRAP)"
+      ]
+    },
+    "2": {
+      "enmity": [
+        "1666 (SUMMONTRAP)"
+      ]
+    },
+    "3": {
+      "enmity": [
+        "1884 (SUMMONTRAP)"
+      ]
+    },
+    "4": {
+      "enmity": [
+        "2142 (SUMMONTRAP)"
+      ]
+    },
+    "5": {
+      "enmity": [
+        "2904 (SUMMONTRAP)"
+      ]
+    }
+  },
+  "ra_heavenstrap_light": {
+    "1": {
+      "cooltime": "20",
+      "casttime": "1",
+      "cancelrate": "30 %",
+      "target": "self",
+      "e1.summontrap.summontime": "60",
+      "enmity": [
+        "1400 (SUMMONTRAP)"
+      ]
+    },
+    "2": {
+      "enmity": [
+        "1666 (SUMMONTRAP)"
+      ]
+    },
+    "3": {
+      "enmity": [
+        "1884 (SUMMONTRAP)"
+      ]
+    },
+    "4": {
+      "enmity": [
+        "2142 (SUMMONTRAP)"
+      ]
+    },
+    "5": {
+      "enmity": [
+        "2904 (SUMMONTRAP)"
+      ]
+    }
+  },
+  "ra_huntermind": {
+    "1": {
+      "cooltime": "120",
+      "casttime": "-1",
+      "target": "self",
+      "cost": "165 MP",
+      "dispellvl": "1",
+      "canmove": "true",
+      "e1.onetimeboostskillcritical.remaintime": "10",
+      "e1.onetimeboostskillcritical.boostcount": "2",
+      "enmity": [
+        "587 (ONETIMEBOOSTSKILLCRITICAL)"
+      ],
+      "e2.weaponstatup.remaintime": "10",
+      "e2.weaponstatup.statname": "attackRange",
+      "e2.weaponstatup.weaponcategory": "Bow",
+      "e2.weaponstatup.value": "-5"
+    }
+  },
+  "ra_lightningshot": {
+    "1": {
+      "cooltime": "24",
+      "casttime": "-1",
+      "first_target_valid_distance": "15",
+      "target": "selected",
+      "cost": "202 MP",
+      "canmove": "true",
+      "e1.skillatk_instant.mindamage": "840",
+      "e1.skillatk_instant.maxdamage": "844",
+      "e2.stun.remaintime": "1"
+    }
+  },
+  "ra_marksmanmode": {
+    "1": {
+      "cooltime": "60",
+      "casttime": "-1",
+      "target": "self",
+      "canmove": "true",
+      "e1.weaponstatboost.statname": "attackRange",
+      "e1.weaponstatboost.weaponcategory": "bow",
+      "e1.weaponstatboost.ratevalue": "10",
+      "enmity": [
+        "587 (WEAPONSTATBOOST)"
+      ],
+      "e2.statboost.statname": "AllSpeed",
+      "e2.statboost.fixvalue": "-10000"
+    }
+  },
+  "ra_massexplosionarrow": {
+    "1": {
+      "cooltime": "60",
+      "casttime": "2",
+      "first_target_valid_distance": "27",
+      "target": "selected",
+      "cost": "206 MP",
+      "pvpdmgratio": "80 %",
+      "e1.skillatk_instant.mindamage": "1789",
+      "e1.skillatk_instant.maxdamage": "1793",
+      "critprob": "500 %"
+    },
+    "2": {
+      "cost": "244 MP",
+      "e1.skillatk_instant.mindamage": "1965",
+      "e1.skillatk_instant.maxdamage": "1969"
+    }
+  },
+  "ra_movingshot": {
+    "1": {
+      "cooltime": "8",
+      "casttime": "-1",
+      "first_target_valid_distance": "15",
+      "target": "selected",
+      "cost": "124 MP",
+      "canmove": "true",
+      "e1.skillatk_instant.mindamage": "410",
+      "e1.skillatk_instant.maxdamage": "414"
+    },
+    "2": {
+      "e1.skillatk_instant.mindamage": "427",
+      "e1.skillatk_instant.maxdamage": "431"
+    },
+    "3": {
+      "cost": "142 MP",
+      "e1.skillatk_instant.mindamage": "461",
+      "e1.skillatk_instant.maxdamage": "465"
+    },
+    "4": {
+      "cost": "149 MP",
+      "e1.skillatk_instant.mindamage": "499",
+      "e1.skillatk_instant.maxdamage": "503"
+    }
+  },
+  "ra_painarrow": {
+    "1": {
+      "cooltime": "60",
+      "casttime": "-1",
+      "first_target_valid_distance": "27",
+      "target": "selected",
+      "cost": "202 MP",
+      "canjumpshot": "true",
+      "e1.skillatk_instant.mindamage": "1664",
+      "e1.skillatk_instant.maxdamage": "1668",
+      "e2.poison.remaintime": "60"
+    }
+  },
+  "ra_panthermove": {
+    "1": {
+      "cooltime": "180",
+      "casttime": "-1",
+      "target": "self",
+      "cost": "165 MP",
+      "dispellvl": "1",
+      "canmove": "true",
+      "e1.statup.remaintime": "60",
+      "e1.statup.value": "18",
+      "e1.statup.statname": "Speed",
+      "enmity": [
+        "605 (STATUP)"
+      ],
+      "e2.statup.remaintime": "60",
+      "e2.statup.value": "100",
+      "e2.statup.statname": "Critical",
+      "e3.weaponstatup.remaintime": "60",
+      "e3.weaponstatup.statname": "phyAttack",
+      "e3.weaponstatup.weaponcategory": "Bow",
+      "e3.weaponstatup.value": "10"
+    }
+  },
+  "ra_paralyzearrow": {
+    "1": {
+      "cooltime": "180",
+      "casttime": "-1",
+      "first_target_valid_distance": "15",
+      "target": "selected",
+      "cost": "110 MP",
+      "dispellvl": "1",
+      "canjumpshot": "true",
+      "e1.sleep.remaintime": "12",
+      "accbonus": [
+        "50 $magicalhitaccuracy (SLEEP)"
+      ],
+      "enmity": [
+        "9914 (SLEEP)"
+      ],
+      "e2.statup.remaintime": "12",
+      "e2.statup.value": "500",
+      "e2.statup.statname": "ElementalDefendAll"
+    },
+    "2": {
+      "cost": "2 MP"
+    },
+    "3": {
+      "cost": "2 MP"
+    }
+  },
+  "ra_resistmind": {
+    "1": {
+      "cooltime": "300",
+      "casttime": "-1",
+      "target": "self",
+      "dispellvl": "1",
+      "canmove": "true",
+      "dispeldebuffphysical.dispelcount": "1",
+      "dispeldebuffphysical.dispellvl": "1",
+      "dispeldebuffphysical.dispelstrength": "3",
+      "enmity": [
+        "733 (DISPELDEBUFFPHYSICAL)"
+      ],
+      "e2.alwaysresist.remaintime": "10",
+      "e2.alwaysresist.count": "1"
+    }
+  },
+  "ra_shadowarrow": {
+    "1": {
+      "cooltime": "20",
+      "casttime": "-1",
+      "first_target_valid_distance": "15",
+      "target": "selected",
+      "cost": "165 MP",
+      "canmove": "true",
+      "e1.skillatk_instant.mindamage": "813",
+      "e1.skillatk_instant.maxdamage": "817",
+      "critprob": "200 %"
+    },
+    "2": {
+      "cost": "196 MP",
+      "e1.skillatk_instant.mindamage": "889",
+      "e1.skillatk_instant.maxdamage": "893"
+    }
+  },
+  "ra_silentarrow": {
+    "1": {
+      "cooltime": "18",
+      "casttime": "-1",
+      "first_target_valid_distance": "15",
+      "target": "selected",
+      "cost": "72 MP",
+      "dispellvl": "1",
+      "canjumpshot": "true",
+      "e1.skillatk_instant.mindamage": "63",
+      "e1.skillatk_instant.maxdamage": "67",
+      "e2.silence.randomtime": "2",
+      "e2.silence.remaintime": "6"
+    },
+    "2": {
+      "cost": "81 MP",
+      "e1.skillatk_instant.mindamage": "72",
+      "e1.skillatk_instant.maxdamage": "76",
+      "e2.silence.randomtime": "1"
+    },
+    "3": {
+      "cost": "88 MP",
+      "e1.skillatk_instant.mindamage": "81",
+      "e1.skillatk_instant.maxdamage": "85",
+      "e2.silence.remaintime": "7"
+    },
+    "4": {
+      "cost": "92 MP",
+      "e1.skillatk_instant.mindamage": "90",
+      "e1.skillatk_instant.maxdamage": "94",
+      "e2.silence.randomtime": "1",
+      "e2.silence.remaintime": "7",
+      "enmity": [
+        "1965 (SILENCE)"
+      ]
+    },
+    "5": {
+      "cost": "93 MP",
+      "e1.skillatk_instant.mindamage": "99",
+      "e1.skillatk_instant.maxdamage": "103",
+      "e2.silence.remaintime": "8",
+      "enmity": [
+        "2199 (SILENCE)"
+      ]
+    },
+    "6": {
+      "cost": "100 MP",
+      "e1.skillatk_instant.mindamage": "116",
+      "e1.skillatk_instant.maxdamage": "120",
+      "e2.silence.remaintime": "8",
+      "enmity": [
+        "3063 (SILENCE)"
+      ]
+    }
+  },
+  "ra_spoutarrow": {
+    "1": {
+      "cooltime": "18",
+      "casttime": "-1",
+      "first_target_valid_distance": "15",
+      "target": "targetarea",
+      "nb_targets": "3",
+      "target_radius_effect": "5",
+      "canjumpshot": "true",
+      "e1.skillatk_instant.mindamage": "122",
+      "e1.skillatk_instant.maxdamage": "126"
+    },
+    "2": {
+      "e1.skillatk_instant.mindamage": "154",
+      "e1.skillatk_instant.maxdamage": "158"
+    },
+    "3": {
+      "e1.skillatk_instant.mindamage": "185",
+      "e1.skillatk_instant.maxdamage": "189"
+    },
+    "4": {
+      "e1.skillatk_instant.mindamage": "203",
+      "e1.skillatk_instant.maxdamage": "207"
+    },
+    "5": {
+      "e1.skillatk_instant.mindamage": "243",
+      "e1.skillatk_instant.maxdamage": "247"
+    },
+    "6": {
+      "e1.skillatk_instant.mindamage": "259",
+      "e1.skillatk_instant.maxdamage": "263"
+    },
+    "7": {
+      "e1.skillatk_instant.mindamage": "325",
+      "e1.skillatk_instant.maxdamage": "329"
+    }
+  },
+  "ra_stigma_ancientarrow_light": {
+    "1": {
+      "cooltime": "60",
+      "casttime": "-1",
+      "first_target_valid_distance": "15",
+      "target": "selected",
+      "cost": "247 MP",
+      "canjumpshot": "true",
+      "e1.skillatk_instant.mindamage": "1345",
+      "e1.skillatk_instant.maxdamage": "1349"
+    }
+  },
+  "ra_stigma_mysticarrow_dark": {
+    "1": {
+      "cooltime": "60",
+      "casttime": "-1",
+      "first_target_valid_distance": "15",
+      "target": "selected",
+      "cost": "247 MP",
+      "canjumpshot": "true",
+      "e1.skillatk_instant.mindamage": "1345",
+      "e1.skillatk_instant.maxdamage": "1349"
+    }
+  },
+  "ra_stigma_tigereye": {
+    "1": {
+      "cooltime": "1",
+      "casttime": "-1",
+      "target": "self",
+      "cost": "124 MP",
+      "dispellvl": "1",
+      "canmove": "true",
+      "e1.weaponstatup.remaintime": "60",
+      "e1.weaponstatup.statname": "attackRange",
+      "e1.weaponstatup.weaponcategory": "bow",
+      "e1.weaponstatup.value": "-15",
+      "enmity": [
+        "696 (WEAPONSTATUP)"
+      ],
+      "e2.weaponstatup.remaintime": "60",
+      "e2.weaponstatup.statname": "phyAttack",
+      "e2.weaponstatup.weaponcategory": "Bow",
+      "e2.weaponstatup.value": "50",
+      "e3.weaponstatup.remaintime": "60",
+      "e3.weaponstatup.statname": "attackDelay",
+      "e3.weaponstatup.weaponcategory": "Bow",
+      "e3.weaponstatup.value": "20"
+    }
+  },
+  "ra_throwingtrap_dark": {
+    "1": {
+      "cooltime": "120",
+      "casttime": "-1",
+      "target": "self",
+      "canmove": "true",
+      "e1.summontrap.summontime": "60",
+      "enmity": [
+        "1565 (SUMMONTRAP)"
+      ]
+    },
+    "2": {
+      "enmity": [
+        "1753 (SUMMONTRAP)"
+      ]
+    },
+    "3": {
+      "enmity": [
+        "1915 (SUMMONTRAP)"
+      ]
+    },
+    "4": {
+      "enmity": [
+        "3120 (SUMMONTRAP)"
+      ]
+    }
+  },
+  "ra_throwingtrap_light": {
+    "1": {
+      "cooltime": "120",
+      "casttime": "-1",
+      "target": "self",
+      "canmove": "true",
+      "e1.summontrap.summontime": "60",
+      "enmity": [
+        "1565 (SUMMONTRAP)"
+      ]
+    },
+    "2": {
+      "enmity": [
+        "1753 (SUMMONTRAP)"
+      ]
+    },
+    "3": {
+      "enmity": [
+        "1915 (SUMMONTRAP)"
+      ]
+    },
+    "4": {
+      "enmity": [
+        "3120 (SUMMONTRAP)"
+      ]
+    }
+  },
+  "ra_trackermind": {
+    "1": {
+      "cooltime": "1",
+      "casttime": "-1",
+      "target": "self",
+      "canmove": "true",
+      "e1.weaponstatup.statname": "PhyAttack",
+      "e1.weaponstatup.weaponcategory": "bow",
+      "e1.weaponstatup.value": "10",
+      "enmity": [
+        "726 (WEAPONSTATUP)"
+      ],
+      "e2.boostskillcost.bonusrate": "-10"
+    },
+    "2": {
+      "enmity": [
+        "426 (WEAPONSTATUP)"
+      ]
+    }
+  },
+  "sc_trueshotmind": {
+    "1": {
+      "cooltime": "1",
+      "casttime": "0.5",
+      "cancelrate": "20 %",
+      "target": "self",
+      "cost": "248 MP",
+      "dispellvl": "1",
+      "e1.onetimeboostskillattack.remaintime": "60",
+      "e1.onetimeboostskillattack.attacktype": "Physical",
+      "e1.onetimeboostskillattack.bonusrate": "30",
+      "e1.onetimeboostskillattack.attackcount": "5",
+      "enmity": [
+        "684 (ONETIMEBOOSTSKILLATTACK)"
+      ],
+      "e2.statdown.remaintime": "60",
+      "e2.statdown.value": "50",
+      "e2.statdown.statname": "physicaldefend"
+    }
+  },
+  "wa_gatecrush": {
+    "1": {
+      "cooltime": "12",
+      "casttime": "-1",
+      "first_target_valid_distance": "1",
+      "target": "selected",
+      "canmove": "true",
+      "e1.skillatk_instant.mindamage": "16",
+      "e1.skillatk_instant.maxdamage": "20",
+      "e1.skillatk_instant.adddamage": "4000"
+    },
+    "2": {
+      "e1.skillatk_instant.adddamage": "5500"
+    },
+    "3": {
+      "e1.skillatk_instant.adddamage": "6500"
+    }
+  },
+  "wa_steadiness": {
+    "1": {
+      "cooltime": "180",
+      "casttime": "-1",
+      "target": "self",
+      "cost": "79 MP",
+      "dispellvl": "1",
+      "canmove": "true",
+      "e1.statup.remaintime": "90",
+      "e1.statup.value": "1000",
+      "e1.statup.statname": "arStunLike",
+      "enmity": [
+        "11737 (STATUP)"
+      ]
+    }
+  },
+  "wi_arcaneboost": {
+    "1": {
+      "cooltime": "30",
+      "casttime": "-1",
+      "target": "self",
+      "cost": "229 MP",
+      "dispellvl": "1",
+      "canmove": "true",
+      "e1.boostskillcastingtime.remaintime": "15",
+      "e1.boostskillcastingtime.castingbonus": "25",
+      "enmity": [
+        "586 (BOOSTSKILLCASTINGTIME)"
+      ]
+    }
+  },
+  "wi_arcanepower": {
+    "1": {
+      "cooltime": "30",
+      "casttime": "-1",
+      "target": "self",
+      "cost": "229 MP",
+      "dispellvl": "1",
+      "canmove": "true",
+      "e1.statup.remaintime": "15",
+      "e1.statup.value": "300",
+      "e1.statup.statname": "MagicalSkillBoost",
+      "enmity": [
+        "466 (STATUP)"
+      ]
+    }
+  },
+  "wi_arcanewisdom": {
+    "1": {
+      "cooltime": "30",
+      "casttime": "-1",
+      "target": "self",
+      "dispellvl": "1",
+      "canmove": "true",
+      "e1.boostskillcost.remaintime": "15",
+      "e1.boostskillcost.bonusrate": "50",
+      "enmity": [
+        "338 (BOOSTSKILLCOST)"
+      ]
+    }
+  },
+  "wi_countermagic": {
+    "1": {
+      "cooltime": "300",
+      "casttime": "-1",
+      "first_target_valid_distance": "25",
+      "target": "selected",
+      "cost": "103 MP",
+      "dispellvl": "1",
+      "canmove": "true",
+      "e1.magiccounteratk.remaintime": "60",
+      "e1.magiccounteratk.damage": "5",
+      "e1.magiccounteratk.maxdamage": "500",
+      "enmity": [
+        "1400 (MAGICCOUNTERATK)"
+      ]
+    },
+    "2": {
+      "cost": "148 MP",
+      "e1.magiccounteratk.damage": "10",
+      "e1.magiccounteratk.maxdamage": "1000",
+      "enmity": [
+        "1884 (MAGICCOUNTERATK)"
+      ]
+    },
+    "3": {
+      "cost": "190 MP",
+      "e1.magiccounteratk.damage": "12",
+      "e1.magiccounteratk.maxdamage": "1200",
+      "enmity": [
+        "2904 (MAGICCOUNTERATK)"
+      ]
+    }
+  },
+  "wi_cursedtree": {
+    "1": {
+      "cooltime": "30",
+      "casttime": "1.5",
+      "cancelrate": "30 %",
+      "first_target_valid_distance": "25",
+      "target": "selected",
+      "cost": "74 MP",
+      "pvpremaintimeratio": "40 %",
+      "dispellvl": "1",
+      "e1.deform.remaintime": "20",
+      "accbonus": [
+        "-50 $magicalhitaccuracy (TRANSFO)"
+      ],
+      "enmity": [
+        "6775 (DEFORM)"
+      ],
+      "e2.sleep.remaintime": "20",
+      "e3.statup.remaintime": "20",
+      "e3.statup.value": "500",
+      "e3.statup.statname": "ElementalDefendAll"
+    },
+    "2": {
+      "cost": "392 MP",
+      "e1.deform.remaintime": "30",
+      "e2.sleep.remaintime": "30",
+      "e3.statup.remaintime": "30",
+      "e3.statup.value": "600"
+    }
+  },
+  "wi_elementalseal": {
+    "1": {
+      "cooltime": "180",
+      "casttime": "-1",
+      "target": "self",
+      "cost": "270 MP",
+      "dispellvl": "1",
+      "canmove": "true",
+      "e1.statup.remaintime": "60",
+      "e1.statup.value": "300",
+      "e1.statup.statname": "ElementalDefendAll",
+      "enmity": [
+        "726 (STATUP)"
+      ],
+      "e2.statup.remaintime": "60",
+      "e2.statup.value": "300",
+      "e2.statup.statname": "MagicalResist"
+    },
+    "2": {
+      "cooltime": "10",
+      "cost": "202 MP",
+      "enmity": [
+        "1000 (STATUP)"
+      ]
+    }
+  },
+  "wi_flamestrike": {
+    "1": {
+      "cooltime": "30",
+      "casttime": "3.5",
+      "cancelrate": "20 %",
+      "first_target_valid_distance": "25",
+      "target": "selected",
+      "cost": "895 MP",
+      "pvpdmgratio": "70 %",
+      "e1.spellatk_instant.fixdamage": "2597"
+    },
+    "2": {
+      "cost": "972 MP",
+      "e1.spellatk_instant.fixdamage": "2864"
+    }
+  },
+  "wi_frostpillar_dark": {
+    "1": {
+      "cooltime": "180",
+      "casttime": "-1",
+      "first_target_valid_distance": "25",
+      "target": "targetpoint",
+      "cost": "154 MP",
+      "canmove": "true",
+      "enmity": [
+        "1 (SUMMONSKILLAREA)"
+      ]
+    },
+    "2": {
+      "cost": "213 MP"
+    },
+    "3": {
+      "cost": "279 MP"
+    },
+    "4": {
+      "cost": "323 MP",
+      "dispellvl": "1"
+    }
+  },
+  "wi_frostpillar_light": {
+    "1": {
+      "cooltime": "180",
+      "casttime": "-1",
+      "first_target_valid_distance": "25",
+      "target": "targetpoint",
+      "cost": "154 MP",
+      "canmove": "true",
+      "enmity": [
+        "1 (SUMMONSKILLAREA)"
+      ]
+    },
+    "2": {
+      "cost": "213 MP"
+    },
+    "3": {
+      "cost": "279 MP"
+    },
+    "4": {
+      "cost": "323 MP",
+      "dispellvl": "1"
+    }
+  },
+  "wi_hpmpexchange": {
+    "1": {
+      "cooltime": "600",
+      "casttime": "-1",
+      "target": "self",
+      "canmove": "true",
+      "enmity": [
+        "766 (SWITCHHPMP_INSTANT)"
+      ]
+    }
+  },
+  "wi_icebarrier": {
+    "1": {
+      "cooltime": "300",
+      "casttime": "2",
+      "cancelrate": "20 %",
+      "target": "self",
+      "cost": "217 MP",
+      "e1.shield.remaintime": "8",
+      "e1.shield.covervalue": "20000",
+      "e1.shield.shieldvalue": "10000000",
+      "e1.shield.condition": "EveryHit",
+      "e1.shield.conditionprob": "100",
+      "enmity": [
+        "1 (SHIELD)"
+      ],
+      "e2.buffstun.remaintime": "8"
+    },
+    "2": {
+      "dispellvl": "1"
+    }
+  },
+  "wi_icyshield": {
+    "1": {
+      "cooltime": "300",
+      "casttime": "-1",
+      "target": "self",
+      "cost": "749 MP",
+      "dispellvl": "1",
+      "canmove": "true",
+      "e1.reflector.remaintime": "30",
+      "e1.reflector.fixeddamage": "1000",
+      "e1.reflector.maxrange": "5",
+      "e1.reflector.condition": "EveryHit",
+      "enmity": [
+        "780 (REFLECTOR)",
+        "1 (SLOW)"
+      ],
+      "e2.provoker.remaintime": "15",
+      "e2.provoker.conditionprob": "100",
+      "e2.provoker.condition": "EveryHit",
+      "e2.provoker.otherskill.e1.snare.remaintime": "2",
+      "slow": "30 %",
+      "e2.provoker.otherskill.e2.slow.remaintime": "2"
+    }
+  },
+  "wi_icyveins_dark": {
+    "1": {
+      "cooltime": "300",
+      "casttime": "-1",
+      "target": "self",
+      "cost": "201 MP",
+      "dispellvl": "1",
+      "canmove": "true",
+      "e1.boostskillcastingtime.remaintime": "15",
+      "e1.boostskillcastingtime.castingbonus": "50",
+      "enmity": [
+        "684 (BOOSTSKILLCASTINGTIME)"
+      ]
+    }
+  },
+  "wi_icyveins_light": {
+    "1": {
+      "cooltime": "300",
+      "casttime": "-1",
+      "target": "self",
+      "cost": "201 MP",
+      "dispellvl": "1",
+      "canmove": "true",
+      "e1.statup.remaintime": "15",
+      "e1.statup.value": "500",
+      "e1.statup.statname": "MagicalSkillBoost",
+      "e1.statup.value2": "500",
+      "e1.statup.statname2": "MagicalHitAccuracy",
+      "enmity": [
+        "684 (STATUP)"
+      ]
+    }
+  },
+  "wi_illusiondance": {
+    "1": {
+      "cooltime": "120",
+      "casttime": "-1",
+      "target": "self",
+      "cost": "274 MP",
+      "dispellvl": "1",
+      "canmove": "true",
+      "dispeldebuffphysical.dispelcount": "1",
+      "dispeldebuffphysical.dispellvl": "1",
+      "dispeldebuffphysical.dispelstrength": "3",
+      "enmity": [
+        "605 (DISPELDEBUFFPHYSICAL)"
+      ],
+      "e2.alwaysdodge.remaintime": "10",
+      "e2.alwaysdodge.count": "2"
+    }
+  },
+  "wi_illusionstorm": {
+    "1": {
+      "cooltime": "300",
+      "casttime": "-1",
+      "target": "aroundcaster",
+      "nb_targets": "6",
+      "target_radius_effect": "10",
+      "cost": "548 MP",
+      "canmove": "true",
+      "e1.spellatk_instant.fixdamage": "483",
+      "enmity": [
+        "12101 (SPELLATK_INSTANT)"
+      ],
+      "e2.stun.remaintime": "4"
+    },
+    "2": {
+      "cost": "578 MP",
+      "dispellvl": "1",
+      "e1.spellatk_instant.fixdamage": "506",
+      "enmity": [
+        "13309 (SPELLATK_INSTANT)"
+      ]
+    },
+    "3": {
+      "cost": "616 MP",
+      "dispellvl": "1",
+      "e1.spellatk_instant.fixdamage": "541",
+      "enmity": [
+        "14094 (SPELLATK_INSTANT)"
+      ]
+    },
+    "4": {
+      "cost": "669 MP",
+      "dispellvl": "1",
+      "e1.spellatk_instant.fixdamage": "585",
+      "enmity": [
+        "15314 (SPELLATK_INSTANT)"
+      ]
+    }
+  },
+  "wi_massexplosion": {
+    "1": {
+      "cooltime": "12",
+      "casttime": "2",
+      "cancelrate": "30 %",
+      "first_target_valid_distance": "25",
+      "target": "targetarea",
+      "nb_targets": "6",
+      "target_radius_effect": "5",
+      "cost": "181 MP",
+      "e1.spellatk_instant.fixdamage": "554"
+    },
+    "2": {
+      "cost": "231 MP",
+      "e1.spellatk_instant.fixdamage": "713"
+    },
+    "3": {
+      "cost": "261 MP",
+      "e1.spellatk_instant.fixdamage": "837"
+    },
+    "4": {
+      "cost": "1231 MP",
+      "e1.spellatk_instant.fixdamage": "3690"
+    }
+  },
+  "wi_rockfall": {
+    "1": {
+      "cooltime": "120",
+      "casttime": "-1",
+      "first_target_valid_distance": "25",
+      "target": "selected",
+      "cost": "412 MP",
+      "pvpdmgratio": "80 %",
+      "canmove": "true",
+      "e1.spellatk_instant.fixdamage": "725"
+    },
+    "2": {
+      "cost": "433 MP",
+      "e1.spellatk_instant.fixdamage": "759"
+    },
+    "3": {
+      "cost": "462 MP",
+      "e1.spellatk_instant.fixdamage": "812"
+    },
+    "4": {
+      "cost": "502 MP",
+      "e1.spellatk_instant.fixdamage": "878"
+    }
+  },
+  "wi_sleepingstorm": {
+    "1": {
+      "cooltime": "180",
+      "casttime": "1",
+      "cancelrate": "20 %",
+      "first_target_valid_distance": "25",
+      "target": "targetarea",
+      "nb_targets": "6",
+      "target_radius_effect": "12",
+      "cost": "522 MP",
+      "pvpremaintimeratio": "40 %",
+      "dispellvl": "1",
+      "e1.sleep.remaintime": "20",
+      "accbonus": [
+        "200 $magicalhitaccuracy (SLEEP)"
+      ],
+      "enmity": [
+        "12997 (SLEEP)"
+      ],
+      "e2.statup.remaintime": "20",
+      "e2.statup.value": "500",
+      "e2.statup.statname": "ElementalDefendAll"
+    }
+  },
+  "wi_soulgain": {
+    "1": {
+      "cooltime": "120",
+      "casttime": "-1",
+      "target": "self",
+      "cost": "136 MP",
+      "dispellvl": "1",
+      "canmove": "true",
+      "e1.statup.remaintime": "20",
+      "e1.statup.value": "1000",
+      "e1.statup.statname": "MagicalHitAccuracy",
+      "enmity": [
+        "605 (STATUP)"
+      ]
+    }
+  },
+  "wi_stigma_icelance": {
+    "1": {
+      "cooltime": "6",
+      "casttime": "2.5",
+      "cancelrate": "20 %",
+      "first_target_valid_distance": "25",
+      "target": "selected",
+      "cost": "284 MP",
+      "e1.spellatk_instant.fixdamage": "1120"
+    },
+    "2": {
+      "cost": "323 MP",
+      "e1.spellatk_instant.fixdamage": "1253",
+      "accbonus": [
+        "-100 $magicalhitaccuracy (DAMAGE)"
+      ]
+    }
+  },
+  "wi_stigma_lavawave_dark": {
+    "1": {
+      "cooltime": "60",
+      "casttime": "2",
+      "cancelrate": "20 %",
+      "first_target_valid_distance": "25",
+      "target": "targetarea",
+      "nb_targets": "6",
+      "target_radius_effect": "10",
+      "cost": "570 MP",
+      "e1.delayedspellatk_instant.damage": "1636",
+      "e1.delayedspellatk_instant.delayedtime": "4"
+    }
+  },
+  "wi_stigma_volcanicflame_light": {
+    "1": {
+      "cooltime": "60",
+      "casttime": "2",
+      "cancelrate": "20 %",
+      "first_target_valid_distance": "25",
+      "target": "targetarea",
+      "nb_targets": "6",
+      "target_radius_effect": "10",
+      "cost": "570 MP",
+      "e1.delayedspellatk_instant.damage": "1636",
+      "e1.delayedspellatk_instant.delayedtime": "4"
+    }
+  },
+  "wi_stormshock": {
+    "1": {
+      "cooltime": "150",
+      "casttime": "1",
+      "cancelrate": "20 %",
+      "first_target_valid_distance": "25",
+      "target": "selected",
+      "cost": "405 MP",
+      "dispellvl": "1",
+      "e1.spellatk_instant.fixdamage": "837",
+      "e2.stun.remaintime": "3"
+    },
+    "2": {
+      "cost": "426 MP",
+      "e1.spellatk_instant.fixdamage": "898"
+    }
+  },
+  "wi_summontornado_dark": {
+    "1": {
+      "cooltime": "180",
+      "casttime": "-1",
+      "first_target_valid_distance": "15",
+      "target": "selected",
+      "cost": "658 MP",
+      "canmove": "true",
+      "enmity": [
+        "1 (SUMMONSKILLAREA)"
+      ]
+    },
+    "2": {
+      "cost": "853 MP"
+    }
+  },
+  "wi_summontornado_light": {
+    "1": {
+      "cooltime": "180",
+      "casttime": "-1",
+      "first_target_valid_distance": "15",
+      "target": "selected",
+      "cost": "658 MP",
+      "canmove": "true",
+      "enmity": [
+        "1 (SUMMONSKILLAREA)"
+      ]
+    },
+    "2": {
+      "cost": "853 MP"
+    }
+  },
+  "wi_windcutter": {
+    "1": {
+      "cooltime": "16",
+      "casttime": "1.5",
+      "cancelrate": "20 %",
+      "first_target_valid_distance": "25",
+      "target": "selected",
+      "cost": "200 MP",
+      "dispellvl": "1",
+      "e1.spellatk_instant.fixdamage": "608",
+      "enmity": [
+        "4697 (SPELLATK_INSTANT)"
+      ],
+      "e2.bleed.remaintime": "6"
+    },
+    "2": {
+      "cost": "223 MP",
+      "e1.spellatk_instant.fixdamage": "676",
+      "enmity": [
+        "5215 (SPELLATK_INSTANT)"
+      ]
+    },
+    "3": {
+      "cost": "262 MP",
+      "e1.spellatk_instant.fixdamage": "758",
+      "enmity": [
+        "5844 (SPELLATK_INSTANT)"
+      ]
+    },
+    "4": {
+      "cost": "292 MP",
+      "e1.spellatk_instant.fixdamage": "828",
+      "enmity": [
+        "6382 (SPELLATK_INSTANT)"
+      ]
+    },
+    "5": {
+      "cost": "341 MP",
+      "e1.spellatk_instant.fixdamage": "972",
+      "enmity": [
+        "7800 (SPELLATK_INSTANT)"
+      ]
+    }
+  },
+  "wi_zeropoint": {
+    "1": {
+      "cooltime": "60",
+      "casttime": "4",
+      "cancelrate": "10 %",
+      "first_target_valid_distance": "25",
+      "target": "selected",
+      "cost": "1194 MP",
+      "pvpdmgratio": "65 %",
+      "e1.spellatk_instant.fixdamage": "3744"
+    }
+  }
+}

@@ -1,0 +1,4197 @@
+{
+  "fighter": {
+    "fi_anklegrab": {
+      "ord": 1,
+      "levels": [
+        28
+      ],
+      "type": 1,
+      "icon": "cbt_fi_anklegrab",
+      "quality": "rare",
+      "shards": [
+        84
+      ]
+    },
+    "fi_berserkstance": {
+      "ord": 2,
+      "levels": [
+        45
+      ],
+      "type": 2,
+      "icon": "live_fi_berserkstance",
+      "quality": "rare",
+      "require": [
+        "fi_lockdownimpact"
+      ],
+      "shards": [
+        225
+      ],
+      "abyss": [
+        13750
+      ]
+    },
+    "fi_blademode": {
+      "ord": 3,
+      "levels": [
+        48
+      ],
+      "type": 1,
+      "icon": "cbt_fi_blademode",
+      "quality": "rare",
+      "shards": [
+        144
+      ]
+    },
+    "fi_burserklance": {
+      "ord": 4,
+      "levels": [
+        55
+      ],
+      "type": 2,
+      "icon": "live_fi_burserklance",
+      "quality": "unique",
+      "require": [
+        "fi_chargingshock",
+        "fi_kneecrash"
+      ],
+      "shards": [
+        275
+      ],
+      "abyss": [
+        152700
+      ]
+    },
+    "fi_charginghit": {
+      "ord": 5,
+      "levels": [
+        45,
+        48,
+        51,
+        54
+      ],
+      "type": 2,
+      "icon": "live_fi_charginghit",
+      "quality": "rare",
+      "require": [
+        "fi_enfeeblehit",
+        "fi_cripplingcut"
+      ],
+      "shards": [
+        225,
+        240,
+        255,
+        270
+      ],
+      "abyss": [
+        13750,
+        26500,
+        34500,
+        45700
+      ]
+    },
+    "fi_chargingshock": {
+      "ord": 6,
+      "levels": [
+        50,
+        53
+      ],
+      "type": 2,
+      "icon": "live_fi_chargingshock",
+      "quality": "legend",
+      "require": [
+        "fi_charginghit",
+        "fi_berserkstance"
+      ],
+      "shards": [
+        250,
+        265
+      ],
+      "abyss": [
+        38700,
+        85800
+      ]
+    },
+    "fi_cripplingcut": {
+      "ord": 7,
+      "levels": [
+        22,
+        28,
+        34,
+        40,
+        46,
+        52
+      ],
+      "type": 1,
+      "icon": "cbt_fi_cripplingcut",
+      "quality": "rare",
+      "shards": [
+        66,
+        84,
+        102,
+        120,
+        138,
+        156
+      ]
+    },
+    "fi_drainsword": {
+      "ord": 8,
+      "levels": [
+        55
+      ],
+      "type": 2,
+      "icon": "live_fi_drainsword",
+      "quality": "unique",
+      "require": [
+        "fi_vorpalhit",
+        "fi_jumpattack"
+      ],
+      "shards": [
+        275
+      ],
+      "abyss": [
+        152700
+      ]
+    },
+    "fi_enfeeblehit": {
+      "ord": 9,
+      "levels": [
+        25,
+        31,
+        37,
+        43,
+        49,
+        55
+      ],
+      "type": 1,
+      "icon": "live_fi_enfeeblehit",
+      "quality": "rare",
+      "shards": [
+        75,
+        93,
+        111,
+        129,
+        147,
+        165
+      ]
+    },
+    "fi_heavyimpact": {
+      "ord": 10,
+      "levels": [
+        44,
+        50
+      ],
+      "type": 1,
+      "icon": "cbt_fi_heavyimpact",
+      "quality": "rare",
+      "shards": [
+        132,
+        150
+      ]
+    },
+    "fi_howling": {
+      "ord": 11,
+      "levels": [
+        34
+      ],
+      "type": 1,
+      "icon": "cbt_fi_howling",
+      "quality": "rare",
+      "shards": [
+        102
+      ]
+    },
+    "fi_jumpattack": {
+      "ord": 12,
+      "levels": [
+        52,
+        55
+      ],
+      "type": 2,
+      "icon": "live_fi_jumpattack",
+      "quality": "legend",
+      "require": [
+        "p_equip_dual",
+        "fi_revengeslash"
+      ],
+      "shards": [
+        260,
+        275
+      ],
+      "abyss": [
+        78800,
+        101800
+      ]
+    },
+    "fi_kneecrash": {
+      "ord": 13,
+      "levels": [
+        52,
+        55
+      ],
+      "type": 2,
+      "icon": "live_fi_kneecrash",
+      "quality": "legend",
+      "require": [
+        "fi_lockdownimpact",
+        "fi_cripplingcut"
+      ],
+      "shards": [
+        260,
+        275
+      ],
+      "abyss": [
+        78800,
+        101800
+      ]
+    },
+    "fi_lockdownimpact": {
+      "ord": 14,
+      "levels": [
+        31,
+        37,
+        43,
+        49,
+        55
+      ],
+      "type": 1,
+      "icon": "cbt_fi_lockdownimpact",
+      "quality": "rare",
+      "shards": [
+        93,
+        111,
+        129,
+        147,
+        165
+      ]
+    },
+    "fi_potentialhealth": {
+      "ord": 15,
+      "levels": [
+        20
+      ],
+      "type": 1,
+      "icon": "cbt_fi_potentialhealth",
+      "quality": "rare",
+      "shards": [
+        60
+      ]
+    },
+    "fi_ragespirit": {
+      "ord": 16,
+      "levels": [
+        34,
+        40,
+        47,
+        53
+      ],
+      "type": 1,
+      "icon": "live_fi_ragespirit",
+      "quality": "rare",
+      "shards": [
+        102,
+        120,
+        141,
+        159
+      ]
+    },
+    "fi_revengeslash": {
+      "ord": 17,
+      "levels": [
+        28,
+        34,
+        40,
+        47,
+        53
+      ],
+      "type": 1,
+      "icon": "cbt_fi_revengeslash",
+      "quality": "rare",
+      "shards": [
+        84,
+        102,
+        120,
+        141,
+        159
+      ]
+    },
+    "fi_seismicdrain": {
+      "ord": 18,
+      "levels": [
+        34,
+        46
+      ],
+      "type": 1,
+      "icon": "live_fi_seismicdrain",
+      "quality": "rare",
+      "shards": [
+        102,
+        138
+      ]
+    },
+    "fi_sharpnesshit": {
+      "ord": 19,
+      "levels": [
+        45,
+        48,
+        51,
+        54
+      ],
+      "type": 2,
+      "icon": "live_fi_sharpnesshit",
+      "quality": "rare",
+      "require": [
+        "p_equip_dual"
+      ],
+      "shards": [
+        225,
+        240,
+        255,
+        270
+      ],
+      "abyss": [
+        13750,
+        26500,
+        34500,
+        45700
+      ]
+    },
+    "fi_stigma_draincut": {
+      "ord": 20,
+      "levels": [
+        45,
+        51
+      ],
+      "type": 1,
+      "icon": "live_fi_stigma_draincut",
+      "quality": "rare",
+      "shards": [
+        135,
+        153
+      ]
+    },
+    "fi_stigma_forceblast_light": {
+      "ord": 21,
+      "levels": [
+        45
+      ],
+      "type": 1,
+      "icon": "cbt_fi_forceblast",
+      "race": "pc_light",
+      "quality": "unique",
+      "shards": [
+        135
+      ],
+      "alt": "fi_stigma_shockimpulse_dark"
+    },
+    "fi_stigma_forceburst_light": {
+      "ord": 22,
+      "levels": [
+        50
+      ],
+      "type": 1,
+      "icon": "live_fi_stigma_forceburst",
+      "race": "pc_light",
+      "quality": "rare",
+      "shards": [
+        150
+      ],
+      "alt": "fi_stigma_shockburst_dark"
+    },
+    "fi_stigma_shockburst_dark": {
+      "ord": 23,
+      "levels": [
+        50
+      ],
+      "type": 1,
+      "icon": "live_fi_stigma_shockburst",
+      "race": "pc_dark",
+      "quality": "rare",
+      "shards": [
+        150
+      ],
+      "alt": "fi_stigma_forceburst_light"
+    },
+    "fi_stigma_shockimpulse_dark": {
+      "ord": 24,
+      "levels": [
+        45
+      ],
+      "type": 1,
+      "icon": "cbt_fi_shockimpulse",
+      "race": "pc_dark",
+      "quality": "unique",
+      "shards": [
+        135
+      ],
+      "alt": "fi_stigma_forceblast_light"
+    },
+    "fi_survivorstance": {
+      "ord": 25,
+      "levels": [
+        54
+      ],
+      "type": 1,
+      "icon": "live_fi_survivorstance",
+      "quality": "rare",
+      "shards": [
+        162
+      ]
+    },
+    "fi_technicalcounter": {
+      "ord": 26,
+      "levels": [
+        45,
+        48,
+        51,
+        54
+      ],
+      "type": 2,
+      "icon": "live_fi_technicalcounter",
+      "quality": "rare",
+      "require": [
+        "fi_revengeslash",
+        "fi_ragespirit"
+      ],
+      "shards": [
+        225,
+        240,
+        255,
+        270
+      ],
+      "abyss": [
+        13750,
+        26500,
+        34500,
+        45700
+      ]
+    },
+    "fi_vorpalhit": {
+      "ord": 27,
+      "levels": [
+        50,
+        53
+      ],
+      "type": 2,
+      "icon": "live_fi_vorpalhit",
+      "quality": "legend",
+      "require": [
+        "fi_technicalcounter",
+        "fi_sharpnesshit"
+      ],
+      "shards": [
+        250,
+        265
+      ],
+      "abyss": [
+        38700,
+        85800
+      ]
+    },
+    "p_equip_dual": {
+      "ord": 28,
+      "levels": [
+        20,
+        40
+      ],
+      "type": 1,
+      "icon": "cbt_p_equip_dual",
+      "quality": "rare",
+      "shards": [
+        60,
+        120
+      ]
+    },
+    "wa_gatecrush": {
+      "ord": 29,
+      "levels": [
+        40,
+        46,
+        52
+      ],
+      "type": 1,
+      "icon": "cbt_wa_gatecrush",
+      "quality": "rare",
+      "shards": [
+        120,
+        138,
+        156
+      ]
+    },
+    "wa_steadiness": {
+      "ord": 30,
+      "levels": [
+        37
+      ],
+      "type": 1,
+      "icon": "cbt_wa_steadiness",
+      "quality": "rare",
+      "shards": [
+        111
+      ]
+    }
+  },
+  "knight": {
+    "kn_absolutescare": {
+      "ord": 1,
+      "levels": [
+        48
+      ],
+      "type": 1,
+      "icon": "cbt_kn_absolutescare",
+      "quality": "rare",
+      "shards": [
+        144
+      ]
+    },
+    "kn_brainstorm": {
+      "ord": 2,
+      "levels": [
+        45,
+        48,
+        51,
+        54
+      ],
+      "type": 2,
+      "icon": "live_kn_brainstorm",
+      "quality": "rare",
+      "require": [
+        "kn_breakpower",
+        "kn_divinepower"
+      ],
+      "shards": [
+        225,
+        240,
+        255,
+        270
+      ],
+      "abyss": [
+        13750,
+        26500,
+        34500,
+        45700
+      ]
+    },
+    "kn_breakpower": {
+      "ord": 3,
+      "levels": [
+        34,
+        40,
+        46,
+        52
+      ],
+      "type": 1,
+      "icon": "cbt_kn_breakpower",
+      "quality": "rare",
+      "shards": [
+        102,
+        120,
+        138,
+        156
+      ]
+    },
+    "kn_conquestmind": {
+      "ord": 4,
+      "levels": [
+        44,
+        50
+      ],
+      "type": 1,
+      "icon": "cbt_kn_conquestmind",
+      "quality": "rare",
+      "shards": [
+        132,
+        150
+      ]
+    },
+    "kn_destructshield": {
+      "ord": 5,
+      "levels": [
+        55
+      ],
+      "type": 2,
+      "icon": "live_kn_destructshield",
+      "quality": "unique",
+      "require": [
+        "kn_destructwish",
+        "kn_fortitudewave"
+      ],
+      "shards": [
+        275
+      ],
+      "abyss": [
+        152700
+      ]
+    },
+    "kn_destructwish": {
+      "ord": 6,
+      "levels": [
+        50
+      ],
+      "type": 2,
+      "icon": "live_kn_destructwish",
+      "quality": "legend",
+      "require": [
+        "kn_brainstorm",
+        "kn_powersink"
+      ],
+      "shards": [
+        250
+      ],
+      "abyss": [
+        38700
+      ]
+    },
+    "kn_divinepower": {
+      "ord": 7,
+      "levels": [
+        20
+      ],
+      "type": 1,
+      "icon": "cbt_kn_divinepower",
+      "quality": "rare",
+      "shards": [
+        60
+      ]
+    },
+    "kn_divineslash": {
+      "ord": 8,
+      "levels": [
+        28,
+        34,
+        40,
+        46,
+        52
+      ],
+      "type": 1,
+      "icon": "cbt_kn_divineslash",
+      "quality": "rare",
+      "shards": [
+        84,
+        102,
+        120,
+        138,
+        156
+      ]
+    },
+    "kn_fortitudewave": {
+      "ord": 9,
+      "levels": [
+        52,
+        55
+      ],
+      "type": 2,
+      "icon": "live_kn_fortitudewave",
+      "quality": "legend",
+      "require": [
+        "kn_breakpower",
+        "kn_holywrath"
+      ],
+      "shards": [
+        260,
+        275
+      ],
+      "abyss": [
+        78800,
+        101800
+      ]
+    },
+    "kn_grandprotection": {
+      "ord": 10,
+      "levels": [
+        37
+      ],
+      "type": 1,
+      "icon": "cbt_kn_grandprotection",
+      "quality": "rare",
+      "shards": [
+        111
+      ]
+    },
+    "kn_highprovoke": {
+      "ord": 11,
+      "levels": [
+        28,
+        34,
+        40,
+        46,
+        52
+      ],
+      "type": 1,
+      "icon": "live_kn_highprovoke",
+      "quality": "rare",
+      "shards": [
+        84,
+        102,
+        120,
+        138,
+        156
+      ]
+    },
+    "kn_holywrath": {
+      "ord": 12,
+      "levels": [
+        20,
+        31,
+        42,
+        54
+      ],
+      "type": 1,
+      "icon": "cbt_kn_holywrath",
+      "quality": "rare",
+      "shards": [
+        60,
+        93,
+        126,
+        162
+      ]
+    },
+    "kn_intimidation": {
+      "ord": 13,
+      "levels": [
+        52,
+        55
+      ],
+      "type": 2,
+      "icon": "live_kn_intimidation",
+      "quality": "legend",
+      "require": [
+        "kn_highprovoke",
+        "kn_grandprotection"
+      ],
+      "shards": [
+        260,
+        275
+      ],
+      "abyss": [
+        78800,
+        101800
+      ]
+    },
+    "kn_invinsibleprotect": {
+      "ord": 14,
+      "levels": [
+        55
+      ],
+      "type": 2,
+      "icon": "live_kn_invinsibleprotect",
+      "quality": "unique",
+      "require": [
+        "kn_invinsibleshield",
+        "kn_intimidation"
+      ],
+      "shards": [
+        275
+      ],
+      "abyss": [
+        152700
+      ]
+    },
+    "kn_invinsibleshield": {
+      "ord": 15,
+      "levels": [
+        50
+      ],
+      "type": 2,
+      "icon": "live_kn_invinsibleshield",
+      "quality": "legend",
+      "require": [
+        "kn_recover",
+        "kn_sentinel"
+      ],
+      "shards": [
+        250
+      ],
+      "abyss": [
+        38700
+      ]
+    },
+    "kn_massiveprovoke": {
+      "ord": 16,
+      "levels": [
+        25,
+        31,
+        37,
+        43,
+        49,
+        55
+      ],
+      "type": 1,
+      "icon": "cbt_kn_massiveprovoke",
+      "quality": "rare",
+      "shards": [
+        75,
+        93,
+        111,
+        129,
+        147,
+        165
+      ]
+    },
+    "kn_powersink": {
+      "ord": 17,
+      "levels": [
+        45,
+        48,
+        51,
+        54
+      ],
+      "type": 2,
+      "icon": "live_kn_powersink",
+      "quality": "rare",
+      "require": [
+        "kn_holywrath"
+      ],
+      "shards": [
+        225,
+        240,
+        255,
+        270
+      ],
+      "abyss": [
+        13750,
+        26500,
+        34500,
+        45700
+      ]
+    },
+    "kn_recover": {
+      "ord": 18,
+      "levels": [
+        45,
+        48,
+        51,
+        54
+      ],
+      "type": 2,
+      "icon": "live_kn_recover",
+      "quality": "rare",
+      "require": [
+        "kn_highprovoke"
+      ],
+      "shards": [
+        225,
+        240,
+        255,
+        270
+      ],
+      "abyss": [
+        13750,
+        26500,
+        34500,
+        45700
+      ]
+    },
+    "kn_reflectshield": {
+      "ord": 19,
+      "levels": [
+        54
+      ],
+      "type": 1,
+      "icon": "live_kn_reflectshield",
+      "quality": "rare",
+      "shards": [
+        162
+      ]
+    },
+    "kn_sentinel": {
+      "ord": 20,
+      "levels": [
+        45,
+        48,
+        51,
+        54
+      ],
+      "type": 2,
+      "icon": "live_kn_sentinel",
+      "quality": "rare",
+      "require": [
+        "kn_massiveprovoke",
+        "kn_grandprotection"
+      ],
+      "shards": [
+        225,
+        240,
+        255,
+        270
+      ],
+      "abyss": [
+        13750,
+        26500,
+        34500,
+        45700
+      ]
+    },
+    "kn_stigma_demonpunishment_dark": {
+      "ord": 21,
+      "levels": [
+        50
+      ],
+      "type": 1,
+      "icon": "live_kn_stigma_demonpunishment",
+      "race": "pc_dark",
+      "quality": "rare",
+      "shards": [
+        150
+      ],
+      "alt": "kn_stigma_godpunishment_light"
+    },
+    "kn_stigma_drainsword_dark": {
+      "ord": 22,
+      "levels": [
+        45
+      ],
+      "type": 1,
+      "icon": "cbt_kn_drainsword",
+      "race": "pc_dark",
+      "quality": "unique",
+      "shards": [
+        135
+      ],
+      "alt": "kn_stigma_godjudgement_light"
+    },
+    "kn_stigma_godjudgement_light": {
+      "ord": 23,
+      "levels": [
+        45
+      ],
+      "type": 1,
+      "icon": "cbt_kn_godjudgement",
+      "race": "pc_light",
+      "quality": "unique",
+      "shards": [
+        135
+      ],
+      "alt": "kn_stigma_drainsword_dark"
+    },
+    "kn_stigma_godpunishment_light": {
+      "ord": 24,
+      "levels": [
+        50
+      ],
+      "type": 1,
+      "icon": "live_kn_stigma_godpunishment",
+      "race": "pc_light",
+      "quality": "rare",
+      "shards": [
+        150
+      ],
+      "alt": "kn_stigma_demonpunishment_dark"
+    },
+    "kn_stigma_resistarmor": {
+      "ord": 25,
+      "levels": [
+        45
+      ],
+      "type": 1,
+      "icon": "live_kn_stigma_resistarmor",
+      "quality": "rare",
+      "shards": [
+        135
+      ]
+    },
+    "kn_stunningsnacher": {
+      "ord": 26,
+      "levels": [
+        22
+      ],
+      "type": 1,
+      "icon": "cbt_kn_stunningsnacher",
+      "quality": "rare",
+      "shards": [
+        66
+      ]
+    },
+    "kn_thunderblade": {
+      "ord": 27,
+      "levels": [
+        40,
+        52
+      ],
+      "type": 1,
+      "icon": "live_kn_thunderblade",
+      "quality": "rare",
+      "shards": [
+        120,
+        156
+      ]
+    },
+    "wa_gatecrush": {
+      "ord": 28,
+      "levels": [
+        40,
+        46,
+        52
+      ],
+      "type": 1,
+      "icon": "cbt_wa_gatecrush",
+      "quality": "rare",
+      "shards": [
+        120,
+        138,
+        156
+      ]
+    },
+    "wa_steadiness": {
+      "ord": 29,
+      "levels": [
+        34
+      ],
+      "type": 1,
+      "icon": "cbt_wa_steadiness",
+      "quality": "rare",
+      "shards": [
+        111
+      ]
+    }
+  },
+  "ranger": {
+    "ra_backdashstab": {
+      "ord": 1,
+      "levels": [
+        22
+      ],
+      "type": 1,
+      "icon": "cbt_ra_backdashstab",
+      "quality": "rare",
+      "shards": [
+        66
+      ]
+    },
+    "ra_blazingtrap_dark": {
+      "ord": 3,
+      "levels": [
+        52,
+        55
+      ],
+      "type": 2,
+      "icon": "live_ra_dark_blazingtrap",
+      "race": "pc_dark",
+      "quality": "legend",
+      "require": [
+        "ra_breathofnature",
+        [
+          "ra_throwingtrap_light",
+          "ra_throwingtrap_dark"
+        ]
+      ],
+      "shards": [
+        260,
+        275
+      ],
+      "abyss": [
+        78800,
+        101800
+      ]
+    },
+    "ra_blazingtrap_light": {
+      "ord": 12,
+      "levels": [
+        52,
+        55
+      ],
+      "type": 2,
+      "icon": "live_ra_light_blazingtrap",
+      "race": "pc_light",
+      "quality": "legend",
+      "require": [
+        "ra_breathofnature",
+        [
+          "ra_throwingtrap_light",
+          "ra_throwingtrap_dark"
+        ]
+      ],
+      "shards": [
+        260,
+        275
+      ],
+      "abyss": [
+        78800,
+        101800
+      ]
+    },
+    "ra_breathofnature": {
+      "ord": 2,
+      "levels": [
+        34,
+        40,
+        46,
+        52
+      ],
+      "type": 1,
+      "icon": "cbt_ra_breathofnature",
+      "quality": "rare",
+      "shards": [
+        102,
+        120,
+        138,
+        156
+      ]
+    },
+    "ra_callcompanion_dark": {
+      "ord": 4,
+      "levels": [
+        54
+      ],
+      "type": 1,
+      "icon": "live_ra_dark_callcompanion",
+      "race": "pc_dark",
+      "quality": "rare",
+      "shards": [
+        162
+      ]
+    },
+    "ra_callcompanion_light": {
+      "ord": 13,
+      "levels": [
+        54
+      ],
+      "type": 1,
+      "icon": "live_ra_light_callcompanion",
+      "race": "pc_light",
+      "quality": "rare",
+      "shards": [
+        162
+      ]
+    },
+    "ra_draineye": {
+      "ord": 8,
+      "levels": [
+        48
+      ],
+      "type": 1,
+      "icon": "live_ra_draineye",
+      "quality": "rare",
+      "shards": [
+        144
+      ]
+    },
+    "ra_enchantbow": {
+      "ord": 9,
+      "levels": [
+        28
+      ],
+      "type": 1,
+      "icon": "live_ra_enchantbow",
+      "quality": "rare",
+      "shards": [
+        84
+      ]
+    },
+    "ra_explosionarrow": {
+      "ord": 10,
+      "levels": [
+        45,
+        48,
+        51,
+        54
+      ],
+      "type": 2,
+      "icon": "live_ra_explosionarrow",
+      "quality": "rare",
+      "require": [
+        "ra_enchantbow",
+        "sc_trueshotmind"
+      ],
+      "shards": [
+        225,
+        240,
+        255,
+        270
+      ],
+      "abyss": [
+        13750,
+        26500,
+        34500,
+        45700
+      ]
+    },
+    "ra_fairyflare_dark": {
+      "ord": 5,
+      "levels": [
+        31
+      ],
+      "type": 1,
+      "icon": "cbt_ra_dark_fairyflare",
+      "race": "pc_dark",
+      "quality": "rare",
+      "shards": [
+        93
+      ]
+    },
+    "ra_fairyflare_light": {
+      "ord": 14,
+      "levels": [
+        31
+      ],
+      "type": 1,
+      "icon": "cbt_ra_light_fairyflare",
+      "race": "pc_light",
+      "quality": "rare",
+      "shards": [
+        93
+      ]
+    },
+    "ra_heavenstrap_dark": {
+      "ord": 6,
+      "levels": [
+        28,
+        34,
+        40,
+        46,
+        52
+      ],
+      "type": 1,
+      "icon": "cbt_ra_dark_heavenstrap",
+      "race": "pc_dark",
+      "quality": "rare",
+      "shards": [
+        84,
+        102,
+        120,
+        138,
+        156
+      ]
+    },
+    "ra_heavenstrap_light": {
+      "ord": 15,
+      "levels": [
+        28,
+        34,
+        40,
+        46,
+        52
+      ],
+      "type": 1,
+      "icon": "cbt_ra_light_heavenstrap",
+      "race": "pc_light",
+      "quality": "rare",
+      "shards": [
+        84,
+        102,
+        120,
+        138,
+        156
+      ]
+    },
+    "ra_huntermind": {
+      "ord": 11,
+      "levels": [
+        45
+      ],
+      "type": 2,
+      "icon": "live_ra_huntermind",
+      "quality": "rare",
+      "require": [
+        "ra_spoutarrow"
+      ],
+      "shards": [
+        225
+      ],
+      "abyss": [
+        13750
+      ]
+    },
+    "ra_lightningshot": {
+      "ord": 17,
+      "levels": [
+        55
+      ],
+      "type": 2,
+      "icon": "live_ra_lightningshot",
+      "quality": "unique",
+      "require": [
+        "ra_shadowarrow",
+        [
+          "ra_blazingtrap_light",
+          "ra_blazingtrap_dark"
+        ]
+      ],
+      "shards": [
+        275
+      ],
+      "abyss": [
+        152700
+      ]
+    },
+    "ra_marksmanmode": {
+      "ord": 18,
+      "levels": [
+        37
+      ],
+      "type": 1,
+      "icon": "cbt_ra_marksmanmode",
+      "quality": "rare",
+      "shards": [
+        111
+      ]
+    },
+    "ra_massexplosionarrow": {
+      "ord": 19,
+      "levels": [
+        50,
+        53
+      ],
+      "type": 2,
+      "icon": "live_ra_massexplosionarrow",
+      "quality": "legend",
+      "require": [
+        "ra_explosionarrow",
+        "ra_huntermind"
+      ],
+      "shards": [
+        250,
+        265
+      ],
+      "abyss": [
+        38700,
+        85800
+      ]
+    },
+    "ra_movingshot": {
+      "ord": 20,
+      "levels": [
+        45,
+        48,
+        51,
+        54
+      ],
+      "type": 2,
+      "icon": "live_ra_movingshot",
+      "quality": "rare",
+      "require": [
+        "ra_backdashstab",
+        "ra_breathofnature"
+      ],
+      "shards": [
+        225,
+        240,
+        255,
+        270
+      ],
+      "abyss": [
+        13750,
+        26500,
+        34500,
+        45700
+      ]
+    },
+    "ra_painarrow": {
+      "ord": 21,
+      "levels": [
+        55
+      ],
+      "type": 2,
+      "icon": "live_ra_painarrow",
+      "quality": "unique",
+      "require": [
+        "ra_massexplosionarrow",
+        "ra_trackermind"
+      ],
+      "shards": [
+        275
+      ],
+      "abyss": [
+        152700
+      ]
+    },
+    "ra_panthermove": {
+      "ord": 22,
+      "levels": [
+        45
+      ],
+      "type": 2,
+      "icon": "live_ra_panthermove",
+      "quality": "rare",
+      "require": [
+        [
+          "ra_throwingtrap_light",
+          "ra_throwingtrap_dark"
+        ]
+      ],
+      "shards": [
+        225
+      ],
+      "abyss": [
+        13750
+      ]
+    },
+    "ra_paralyzearrow": {
+      "ord": 23,
+      "levels": [
+        20
+      ],
+      "type": 1,
+      "icon": "cbt_ra_paralyzearrow",
+      "quality": "rare",
+      "shards": [
+        60
+      ]
+    },
+    "ra_resistmind": {
+      "ord": 24,
+      "levels": [
+        48
+      ],
+      "type": 1,
+      "icon": "cbt_ra_resistmind",
+      "quality": "rare",
+      "shards": [
+        144
+      ]
+    },
+    "ra_shadowarrow": {
+      "ord": 25,
+      "levels": [
+        50,
+        53
+      ],
+      "type": 2,
+      "icon": "live_ra_shadowarrow",
+      "quality": "legend",
+      "require": [
+        "ra_movingshot",
+        "ra_panthermove"
+      ],
+      "shards": [
+        250,
+        265
+      ],
+      "abyss": [
+        38700,
+        85800
+      ]
+    },
+    "ra_silentarrow": {
+      "ord": 26,
+      "levels": [
+        25,
+        31,
+        37,
+        42,
+        48,
+        54
+      ],
+      "type": 1,
+      "icon": "cbt_ra_silentarrow",
+      "quality": "rare",
+      "shards": [
+        75,
+        93,
+        111,
+        126,
+        144,
+        162
+      ]
+    },
+    "ra_spoutarrow": {
+      "ord": 27,
+      "levels": [
+        20,
+        25,
+        31,
+        37,
+        43,
+        49,
+        55
+      ],
+      "type": 1,
+      "icon": "cbt_ra_spoutarrow",
+      "quality": "rare",
+      "shards": [
+        60,
+        75,
+        93,
+        111,
+        129,
+        147,
+        165
+      ]
+    },
+    "ra_stigma_ancientarrow_light": {
+      "ord": 28,
+      "levels": [
+        50
+      ],
+      "type": 1,
+      "icon": "live_ra_stigma_ancientarrow",
+      "race": "pc_light",
+      "quality": "rare",
+      "shards": [
+        150
+      ],
+      "alt": "ra_stigma_mysticarrow_dark"
+    },
+    "ra_stigma_destructarrow_dark": {
+      "ord": 29,
+      "levels": [
+        45
+      ],
+      "type": 1,
+      "icon": "cbt_ra_destructarrow",
+      "race": "pc_dark",
+      "quality": "unique",
+      "shards": [
+        135
+      ],
+      "alt": "ra_stigma_phoenixarrow_light"
+    },
+    "ra_stigma_mysticarrow_dark": {
+      "ord": 30,
+      "levels": [
+        50
+      ],
+      "type": 1,
+      "icon": "live_ra_stigma_mysticarrow",
+      "race": "pc_dark",
+      "quality": "rare",
+      "shards": [
+        150
+      ],
+      "alt": "ra_stigma_ancientarrow_light"
+    },
+    "ra_stigma_phoenixarrow_light": {
+      "ord": 31,
+      "levels": [
+        45
+      ],
+      "type": 1,
+      "icon": "cbt_ra_phoenixarrow",
+      "race": "pc_light",
+      "quality": "unique",
+      "shards": [
+        135
+      ],
+      "alt": "ra_stigma_destructarrow_dark"
+    },
+    "ra_stigma_tigereye": {
+      "ord": 32,
+      "levels": [
+        45
+      ],
+      "type": 1,
+      "icon": "live_ra_stigma_tigereye",
+      "quality": "rare",
+      "shards": [
+        135
+      ]
+    },
+    "ra_throwingtrap_dark": {
+      "ord": 7,
+      "levels": [
+        37,
+        43,
+        49,
+        55
+      ],
+      "type": 1,
+      "icon": "live_ra_dark_throwingtrap",
+      "race": "pc_dark",
+      "quality": "rare",
+      "shards": [
+        111,
+        129,
+        147,
+        165
+      ]
+    },
+    "ra_throwingtrap_light": {
+      "ord": 16,
+      "levels": [
+        37,
+        43,
+        49,
+        55
+      ],
+      "type": 1,
+      "icon": "live_ra_light_throwingtrap",
+      "race": "pc_light",
+      "quality": "rare",
+      "shards": [
+        111,
+        129,
+        147,
+        165
+      ]
+    },
+    "ra_trackermind": {
+      "ord": 33,
+      "levels": [
+        52
+      ],
+      "type": 2,
+      "icon": "live_ra_trackermind",
+      "quality": "legend",
+      "require": [
+        "ra_spoutarrow",
+        "sc_trueshotmind"
+      ],
+      "shards": [
+        260
+      ],
+      "abyss": [
+        78800
+      ]
+    },
+    "sc_trueshotmind": {
+      "ord": 34,
+      "levels": [
+        44
+      ],
+      "type": 1,
+      "icon": "cbt_sc_trueshotmind",
+      "quality": "rare",
+      "shards": [
+        132
+      ]
+    }
+  },
+  "assassin": {
+    "as_assaultslash": {
+      "ord": 1,
+      "levels": [
+        50,
+        53
+      ],
+      "type": 2,
+      "icon": "live_as_assaultslash",
+      "quality": "legend",
+      "require": [
+        "as_explosionpoison",
+        "as_flashslash"
+      ],
+      "shards": [
+        250,
+        265
+      ],
+      "abyss": [
+        38700,
+        85800
+      ]
+    },
+    "as_blindingburst": {
+      "ord": 2,
+      "levels": [
+        37
+      ],
+      "type": 1,
+      "icon": "cbt_as_blindingburst",
+      "quality": "rare",
+      "shards": [
+        111
+      ]
+    },
+    "as_blindside": {
+      "ord": 3,
+      "levels": [
+        25,
+        31,
+        37,
+        43,
+        49,
+        55
+      ],
+      "type": 1,
+      "icon": "cbt_as_blindside",
+      "quality": "rare",
+      "shards": [
+        75,
+        93,
+        111,
+        129,
+        147,
+        165
+      ]
+    },
+    "as_carvesignetchain": {
+      "ord": 4,
+      "levels": [
+        20,
+        25,
+        31,
+        37,
+        41,
+        47,
+        53
+      ],
+      "type": 1,
+      "icon": "cbt_as_carvesignetchain",
+      "quality": "rare",
+      "shards": [
+        60,
+        75,
+        93,
+        111,
+        123,
+        141,
+        159
+      ]
+    },
+    "as_chainsignetburst": {
+      "ord": 5,
+      "levels": [
+        50,
+        53
+      ],
+      "type": 2,
+      "icon": "live_as_chainsignetburst",
+      "quality": "legend",
+      "require": [
+        "as_tigerassault",
+        "as_windslash"
+      ],
+      "shards": [
+        250,
+        265
+      ],
+      "abyss": [
+        38700,
+        85800
+      ]
+    },
+    "as_explosionpoison": {
+      "ord": 6,
+      "levels": [
+        45,
+        48,
+        51,
+        54
+      ],
+      "type": 2,
+      "icon": "live_as_explosionpoison",
+      "quality": "rare",
+      "require": [
+        "as_stuningintention",
+        "as_hitmanmind"
+      ],
+      "shards": [
+        225,
+        240,
+        255,
+        270
+      ],
+      "abyss": [
+        13750,
+        26500,
+        34500,
+        45700
+      ]
+    },
+    "as_flashslash": {
+      "ord": 7,
+      "levels": [
+        45,
+        48,
+        51,
+        54
+      ],
+      "type": 2,
+      "icon": "live_as_flashslash",
+      "quality": "rare",
+      "require": [
+        "as_blindingburst"
+      ],
+      "shards": [
+        225,
+        240,
+        255,
+        270
+      ],
+      "abyss": [
+        13750,
+        26500,
+        34500,
+        45700
+      ]
+    },
+    "as_hitmanmind": {
+      "ord": 8,
+      "levels": [
+        31
+      ],
+      "type": 1,
+      "icon": "live_as_hitmanmind",
+      "quality": "rare",
+      "shards": [
+        93
+      ]
+    },
+    "as_mirrorattack": {
+      "ord": 9,
+      "levels": [
+        44,
+        50
+      ],
+      "type": 1,
+      "icon": "cbt_as_mirrorattack",
+      "quality": "rare",
+      "shards": [
+        132,
+        150
+      ]
+    },
+    "as_quickmove": {
+      "ord": 10,
+      "levels": [
+        20
+      ],
+      "type": 1,
+      "icon": "cbt_as_quickmove",
+      "quality": "rare",
+      "shards": [
+        60
+      ]
+    },
+    "as_senseboost": {
+      "ord": 11,
+      "levels": [
+        52
+      ],
+      "type": 2,
+      "icon": "live_as_senseboost",
+      "quality": "legend",
+      "require": [
+        "as_stuningintention",
+        "as_blindingburst"
+      ],
+      "shards": [
+        260
+      ],
+      "abyss": [
+        78800
+      ]
+    },
+    "as_shadowdodge": {
+      "ord": 12,
+      "levels": [
+        40
+      ],
+      "type": 1,
+      "icon": "live_as_shadowdodge",
+      "quality": "rare",
+      "shards": [
+        120
+      ]
+    },
+    "as_signetflare": {
+      "ord": 13,
+      "levels": [
+        28,
+        34,
+        40,
+        46,
+        52
+      ],
+      "type": 1,
+      "icon": "live_as_signetflare",
+      "quality": "rare",
+      "shards": [
+        84,
+        102,
+        120,
+        138,
+        156
+      ]
+    },
+    "as_signetwave": {
+      "ord": 14,
+      "levels": [
+        34,
+        40,
+        46,
+        52
+      ],
+      "type": 1,
+      "icon": "cbt_as_signetwave",
+      "quality": "rare",
+      "shards": [
+        102,
+        120,
+        138,
+        156
+      ]
+    },
+    "as_silentburst": {
+      "ord": 15,
+      "levels": [
+        55
+      ],
+      "type": 2,
+      "icon": "live_as_silentburst",
+      "quality": "unique",
+      "require": [
+        "as_chainsignetburst",
+        "as_stunburst"
+      ],
+      "shards": [
+        275
+      ],
+      "abyss": [
+        152700
+      ]
+    },
+    "as_stabstance": {
+      "ord": 16,
+      "levels": [
+        48
+      ],
+      "type": 1,
+      "icon": "live_as_stabstance",
+      "quality": "rare",
+      "shards": [
+        144
+      ]
+    },
+    "as_stigma_demonicburst_dark": {
+      "ord": 17,
+      "levels": [
+        45
+      ],
+      "type": 1,
+      "icon": "cbt_as_demonicburst",
+      "race": "pc_dark",
+      "quality": "unique",
+      "shards": [
+        135
+      ],
+      "alt": "as_stigma_novaburst_light"
+    },
+    "as_stigma_moonburst_dark": {
+      "ord": 18,
+      "levels": [
+        50
+      ],
+      "type": 1,
+      "icon": "live_as_stigma_moonburst",
+      "race": "pc_dark",
+      "quality": "rare",
+      "shards": [
+        150
+      ],
+      "alt": "as_stigma_sunburst_light"
+    },
+    "as_stigma_novaburst_light": {
+      "ord": 19,
+      "levels": [
+        45
+      ],
+      "type": 1,
+      "icon": "cbt_as_novaburst",
+      "race": "pc_light",
+      "quality": "unique",
+      "shards": [
+        135
+      ],
+      "alt": "as_stigma_demonicburst_dark"
+    },
+    "as_stigma_shadowwalk": {
+      "ord": 20,
+      "levels": [
+        45
+      ],
+      "type": 1,
+      "icon": "live_as_stigma_shadowwalk",
+      "quality": "rare",
+      "shards": [
+        135
+      ]
+    },
+    "as_stigma_sunburst_light": {
+      "ord": 21,
+      "levels": [
+        50
+      ],
+      "type": 1,
+      "icon": "live_as_stigma_sunburst",
+      "race": "pc_light",
+      "quality": "rare",
+      "shards": [
+        150
+      ],
+      "alt": "as_stigma_moonburst_dark"
+    },
+    "as_stunburst": {
+      "ord": 22,
+      "levels": [
+        52,
+        55
+      ],
+      "type": 2,
+      "icon": "live_as_stunburst",
+      "quality": "legend",
+      "require": [
+        "as_signetwave",
+        "as_visiouseye"
+      ],
+      "shards": [
+        260,
+        275
+      ],
+      "abyss": [
+        78800,
+        101800
+      ]
+    },
+    "as_stuningintention": {
+      "ord": 23,
+      "levels": [
+        28
+      ],
+      "type": 1,
+      "icon": "cbt_as_stuningintention",
+      "quality": "rare",
+      "shards": [
+        84
+      ]
+    },
+    "as_tigerassault": {
+      "ord": 24,
+      "levels": [
+        45,
+        48,
+        51,
+        54
+      ],
+      "type": 2,
+      "icon": "live_as_tigerassault",
+      "quality": "rare",
+      "require": [
+        "as_signetwave",
+        "as_signetflare"
+      ],
+      "shards": [
+        225,
+        240,
+        255,
+        270
+      ],
+      "abyss": [
+        13750,
+        26500,
+        34500,
+        45700
+      ]
+    },
+    "as_venomslash": {
+      "ord": 25,
+      "levels": [
+        55
+      ],
+      "type": 2,
+      "icon": "live_as_venomslash",
+      "quality": "unique",
+      "require": [
+        "as_assaultslash",
+        "as_senseboost"
+      ],
+      "shards": [
+        275
+      ],
+      "abyss": [
+        152700
+      ]
+    },
+    "as_venomstab": {
+      "ord": 26,
+      "levels": [
+        54
+      ],
+      "type": 1,
+      "icon": "live_as_venomstab",
+      "quality": "rare",
+      "shards": [
+        162
+      ]
+    },
+    "as_visiouseye": {
+      "ord": 27,
+      "levels": [
+        37
+      ],
+      "type": 1,
+      "icon": "cbt_as_visiouseye",
+      "quality": "rare",
+      "shards": [
+        111
+      ]
+    },
+    "as_whisperofgale": {
+      "ord": 28,
+      "levels": [
+        22
+      ],
+      "type": 1,
+      "icon": "cbt_as_whisperofgale",
+      "quality": "rare",
+      "shards": [
+        66
+      ]
+    },
+    "as_windslash": {
+      "ord": 29,
+      "levels": [
+        45,
+        48,
+        51,
+        54
+      ],
+      "type": 2,
+      "icon": "live_as_windslash",
+      "quality": "rare",
+      "require": [
+        "as_visiouseye"
+      ],
+      "shards": [
+        225,
+        240,
+        255,
+        270
+      ],
+      "abyss": [
+        13750,
+        26500,
+        34500,
+        45700
+      ]
+    }
+  },
+  "priest": {
+    "pr_bindingheal": {
+      "ord": 1,
+      "levels": [
+        48,
+        54
+      ],
+      "type": 1,
+      "icon": "cbt_pr_bindingheal",
+      "quality": "rare",
+      "shards": [
+        144,
+        162
+      ]
+    },
+    "pr_blindinglight": {
+      "ord": 2,
+      "levels": [
+        20
+      ],
+      "type": 1,
+      "icon": "cbt_pr_blindinglight",
+      "quality": "rare",
+      "shards": [
+        60
+      ]
+    },
+    "pr_calllightning": {
+      "ord": 3,
+      "levels": [
+        55
+      ],
+      "type": 2,
+      "icon": "live_pr_calllightning",
+      "quality": "unique",
+      "require": [
+        [
+          "pr_eternalservent_light",
+          "pr_eternalservent_dark"
+        ],
+        "pr_suffermemory"
+      ],
+      "shards": [
+        275
+      ],
+      "abyss": [
+        152700
+      ]
+    },
+    "pr_coursewound": {
+      "ord": 4,
+      "levels": [
+        28
+      ],
+      "type": 1,
+      "icon": "cbt_pr_coursewound",
+      "quality": "rare",
+      "shards": [
+        84
+      ]
+    },
+    "pr_eternalservent_dark": {
+      "ord": 5,
+      "levels": [
+        50,
+        53
+      ],
+      "type": 2,
+      "icon": "live_pr_dark_eternalservent",
+      "race": "pc_dark",
+      "quality": "legend",
+      "require": [
+        "pr_painlinks",
+        "pr_revivehand"
+      ],
+      "shards": [
+        250,
+        265
+      ],
+      "abyss": [
+        38700,
+        85800
+      ]
+    },
+    "pr_eternalservent_light": {
+      "ord": 11,
+      "levels": [
+        50,
+        53
+      ],
+      "type": 2,
+      "icon": "live_pr_light_eternalservent",
+      "race": "pc_light",
+      "quality": "legend",
+      "require": [
+        "pr_painlinks",
+        "pr_revivehand"
+      ],
+      "shards": [
+        250,
+        265
+      ],
+      "abyss": [
+        38700,
+        85800
+      ]
+    },
+    "pr_firstaid": {
+      "ord": 7,
+      "levels": [
+        25,
+        31,
+        37,
+        43,
+        49,
+        55
+      ],
+      "type": 1,
+      "icon": "cbt_pr_firstaid",
+      "quality": "rare",
+      "shards": [
+        75,
+        93,
+        111,
+        129,
+        147,
+        165
+      ]
+    },
+    "pr_graceofgod": {
+      "ord": 8,
+      "levels": [
+        20
+      ],
+      "type": 1,
+      "icon": "cbt_pr_graceofgod",
+      "quality": "rare",
+      "shards": [
+        60
+      ]
+    },
+    "pr_healershand": {
+      "ord": 9,
+      "levels": [
+        55
+      ],
+      "type": 2,
+      "icon": "live_pr_healershand",
+      "quality": "unique",
+      "require": [
+        "pr_tranquility",
+        [
+          "pr_healingservent_light",
+          "pr_healingservent_dark"
+        ]
+      ],
+      "shards": [
+        275
+      ],
+      "abyss": [
+        152700
+      ]
+    },
+    "pr_healinggrace": {
+      "ord": 10,
+      "levels": [
+        45
+      ],
+      "type": 1,
+      "icon": "live_pr_healinggrace",
+      "quality": "rare",
+      "shards": [
+        135
+      ]
+    },
+    "pr_healingservent_dark": {
+      "ord": 6,
+      "levels": [
+        52,
+        55
+      ],
+      "type": 2,
+      "icon": "live_pr_dark_healingservent",
+      "race": "pc_dark",
+      "quality": "legend",
+      "require": [
+        "pr_massdispel",
+        "pr_massemergentheal"
+      ],
+      "shards": [
+        260,
+        275
+      ],
+      "abyss": [
+        78800,
+        101800
+      ]
+    },
+    "pr_healingservent_light": {
+      "ord": 12,
+      "levels": [
+        52,
+        55
+      ],
+      "type": 2,
+      "icon": "live_pr_light_healingservent",
+      "race": "pc_light",
+      "quality": "legend",
+      "require": [
+        "pr_massdispel",
+        "pr_massemergentheal"
+      ],
+      "shards": [
+        260,
+        275
+      ],
+      "abyss": [
+        78800,
+        101800
+      ]
+    },
+    "pr_massdispel": {
+      "ord": 13,
+      "levels": [
+        44
+      ],
+      "type": 1,
+      "icon": "cbt_pr_massdispel",
+      "quality": "rare",
+      "shards": [
+        132
+      ]
+    },
+    "pr_massemergentheal": {
+      "ord": 14,
+      "levels": [
+        40,
+        46,
+        52
+      ],
+      "type": 1,
+      "icon": "cbt_pr_massemergentheal",
+      "quality": "rare",
+      "shards": [
+        120,
+        138,
+        156
+      ]
+    },
+    "pr_memoryblur": {
+      "ord": 15,
+      "levels": [
+        45,
+        48,
+        51,
+        54
+      ],
+      "type": 2,
+      "icon": "live_pr_memoryblur",
+      "quality": "rare",
+      "require": [
+        "pr_massdispel"
+      ],
+      "shards": [
+        225,
+        240,
+        255,
+        270
+      ],
+      "abyss": [
+        13750,
+        26500,
+        34500,
+        45700
+      ]
+    },
+    "pr_painlinks": {
+      "ord": 16,
+      "levels": [
+        45,
+        48,
+        51,
+        54
+      ],
+      "type": 2,
+      "icon": "live_pr_painlinks",
+      "quality": "rare",
+      "require": [
+        "pr_graceofgod",
+        "pr_purgatory"
+      ],
+      "shards": [
+        225,
+        240,
+        255,
+        270
+      ],
+      "abyss": [
+        13750,
+        26500,
+        34500,
+        45700
+      ]
+    },
+    "pr_powersmite": {
+      "ord": 17,
+      "levels": [
+        54
+      ],
+      "type": 1,
+      "icon": "live_pr_powersmite",
+      "quality": "rare",
+      "shards": [
+        162
+      ]
+    },
+    "pr_purgatory": {
+      "ord": 18,
+      "levels": [
+        28,
+        34,
+        40,
+        46,
+        52
+      ],
+      "type": 1,
+      "icon": "live_pr_purgatory",
+      "quality": "rare",
+      "shards": [
+        84,
+        102,
+        120,
+        138,
+        156
+      ]
+    },
+    "pr_regeneraitionshine": {
+      "ord": 19,
+      "levels": [
+        45,
+        48,
+        51,
+        54
+      ],
+      "type": 2,
+      "icon": "live_pr_regeneraitionshine",
+      "quality": "rare",
+      "require": [
+        "pr_firstaid",
+        "pr_massemergentheal"
+      ],
+      "shards": [
+        225,
+        240,
+        255,
+        270
+      ],
+      "abyss": [
+        13750,
+        26500,
+        34500,
+        45700
+      ]
+    },
+    "pr_reversecondition": {
+      "ord": 20,
+      "levels": [
+        28
+      ],
+      "type": 1,
+      "icon": "cbt_pr_reversecondition",
+      "quality": "rare",
+      "shards": [
+        84
+      ]
+    },
+    "pr_revivehand": {
+      "ord": 21,
+      "levels": [
+        45
+      ],
+      "type": 2,
+      "icon": "live_pr_revivehand",
+      "quality": "rare",
+      "require": [
+        "pr_sageswisdom"
+      ],
+      "shards": [
+        225
+      ],
+      "abyss": [
+        13750
+      ]
+    },
+    "pr_sageswisdom": {
+      "ord": 22,
+      "levels": [
+        34
+      ],
+      "type": 1,
+      "icon": "cbt_pr_sageswisdom",
+      "quality": "rare",
+      "shards": [
+        102
+      ]
+    },
+    "pr_stigma_abysalcircle_dark": {
+      "ord": 23,
+      "levels": [
+        45
+      ],
+      "type": 1,
+      "icon": "cbt_pr_abysalcircle",
+      "race": "pc_dark",
+      "quality": "unique",
+      "shards": [
+        135
+      ],
+      "alt": "pr_stigma_divinecircle_light"
+    },
+    "pr_stigma_abysalsanctuary_dark": {
+      "ord": 24,
+      "levels": [
+        50
+      ],
+      "type": 1,
+      "icon": "live_pr_stigma_abysalsanctuary",
+      "race": "pc_dark",
+      "quality": "rare",
+      "shards": [
+        150
+      ],
+      "alt": "pr_stigma_divinesanctuary_light"
+    },
+    "pr_stigma_divinecircle_light": {
+      "ord": 25,
+      "levels": [
+        45
+      ],
+      "type": 1,
+      "icon": "cbt_pr_divinecircle",
+      "race": "pc_light",
+      "quality": "unique",
+      "shards": [
+        135
+      ],
+      "alt": "pr_stigma_abysalcircle_dark"
+    },
+    "pr_stigma_divinesanctuary_light": {
+      "ord": 26,
+      "levels": [
+        50
+      ],
+      "type": 1,
+      "icon": "live_pr_stigma_divinesanctuary",
+      "race": "pc_light",
+      "quality": "rare",
+      "shards": [
+        150
+      ],
+      "alt": "pr_stigma_abysalsanctuary_dark"
+    },
+    "pr_stigma_suggestion": {
+      "ord": 27,
+      "levels": [
+        45,
+        51
+      ],
+      "type": 1,
+      "icon": "live_pr_stigma_suggestion",
+      "quality": "rare",
+      "shards": [
+        135,
+        153
+      ]
+    },
+    "pr_suffermemory": {
+      "ord": 28,
+      "levels": [
+        52,
+        55
+      ],
+      "type": 2,
+      "icon": "live_pr_suffermemory",
+      "quality": "legend",
+      "require": [
+        "pr_graceofgod",
+        "pr_sageswisdom"
+      ],
+      "shards": [
+        260,
+        275
+      ],
+      "abyss": [
+        78800,
+        101800
+      ]
+    },
+    "pr_tranquility": {
+      "ord": 29,
+      "levels": [
+        50,
+        53
+      ],
+      "type": 2,
+      "icon": "live_pr_tranquility",
+      "quality": "legend",
+      "require": [
+        "pr_regeneraitionshine",
+        "pr_memoryblur"
+      ],
+      "shards": [
+        250,
+        265
+      ],
+      "abyss": [
+        38700,
+        85800
+      ]
+    }
+  },
+  "chanter": {
+    "ch_blessprotect": {
+      "ord": 1,
+      "levels": [
+        45
+      ],
+      "type": 2,
+      "icon": "live_ch_blessprotect",
+      "quality": "rare",
+      "require": [
+        "ch_improvedalldefend"
+      ],
+      "shards": [
+        225
+      ],
+      "abyss": [
+        13750
+      ]
+    },
+    "ch_chakra": {
+      "ord": 2,
+      "levels": [
+        45,
+        48,
+        51,
+        54
+      ],
+      "type": 2,
+      "icon": "live_ch_chakra",
+      "quality": "rare",
+      "require": [
+        "ch_nightwish"
+      ],
+      "shards": [
+        225,
+        240,
+        255,
+        270
+      ],
+      "abyss": [
+        13750,
+        26500,
+        34500,
+        45700
+      ]
+    },
+    "ch_chant_improvedcritical": {
+      "ord": 3,
+      "levels": [
+        54
+      ],
+      "type": 1,
+      "icon": "live_ch_chant_improvedcritical",
+      "quality": "rare",
+      "shards": [
+        162
+      ]
+    },
+    "ch_chant_improvedresiststun": {
+      "ord": 4,
+      "levels": [
+        44
+      ],
+      "type": 1,
+      "icon": "cbt_ch_chant_improvedresiststun",
+      "quality": "rare",
+      "shards": [
+        132
+      ]
+    },
+    "ch_chant_invincible": {
+      "ord": 5,
+      "levels": [
+        50
+      ],
+      "type": 2,
+      "icon": "live_ch_chant_invincible",
+      "quality": "legend",
+      "require": [
+        "ch_mpheal",
+        "ch_blessprotect"
+      ],
+      "shards": [
+        250
+      ],
+      "abyss": [
+        38700
+      ]
+    },
+    "ch_healingtank": {
+      "ord": 6,
+      "levels": [
+        20,
+        25,
+        31,
+        37,
+        43,
+        49,
+        55
+      ],
+      "type": 1,
+      "icon": "cbt_ch_healingtank",
+      "quality": "rare",
+      "shards": [
+        60,
+        75,
+        93,
+        111,
+        129,
+        147,
+        165
+      ]
+    },
+    "ch_heroicstrike": {
+      "ord": 7,
+      "levels": [
+        48,
+        54
+      ],
+      "type": 1,
+      "icon": "cbt_ch_heroicstrike",
+      "quality": "rare",
+      "shards": [
+        144,
+        162
+      ]
+    },
+    "ch_imbuepower": {
+      "ord": 8,
+      "levels": [
+        45,
+        48,
+        51,
+        54
+      ],
+      "type": 2,
+      "icon": "live_ch_imbuepower",
+      "quality": "rare",
+      "require": [
+        "ch_swordbind",
+        "ch_splashswing"
+      ],
+      "shards": [
+        225,
+        240,
+        255,
+        270
+      ],
+      "abyss": [
+        13750,
+        26500,
+        34500,
+        45700
+      ]
+    },
+    "ch_improvedallattack": {
+      "ord": 9,
+      "levels": [
+        40
+      ],
+      "type": 1,
+      "icon": "cbt_ch_improvedallattack",
+      "quality": "rare",
+      "shards": [
+        120
+      ]
+    },
+    "ch_improvedalldefend": {
+      "ord": 10,
+      "levels": [
+        28
+      ],
+      "type": 1,
+      "icon": "cbt_ch_improvedalldefend",
+      "quality": "rare",
+      "shards": [
+        84
+      ]
+    },
+    "ch_improvedbody": {
+      "ord": 11,
+      "levels": [
+        55
+      ],
+      "type": 2,
+      "icon": "live_ch_improvedbody",
+      "quality": "unique",
+      "require": [
+        "ch_chant_invincible",
+        "ch_surperiorheal"
+      ],
+      "shards": [
+        275
+      ],
+      "abyss": [
+        152700
+      ]
+    },
+    "ch_improvedlifestream": {
+      "ord": 12,
+      "levels": [
+        34,
+        40,
+        46,
+        52
+      ],
+      "type": 1,
+      "icon": "cbt_ch_improvedlifestream",
+      "quality": "rare",
+      "shards": [
+        102,
+        120,
+        138,
+        156
+      ]
+    },
+    "ch_mountaincrash": {
+      "ord": 13,
+      "levels": [
+        50,
+        53
+      ],
+      "type": 2,
+      "icon": "live_ch_mountaincrash",
+      "quality": "legend",
+      "require": [
+        "ch_chakra",
+        "ch_imbuepower"
+      ],
+      "shards": [
+        250,
+        265
+      ],
+      "abyss": [
+        38700,
+        85800
+      ]
+    },
+    "ch_mpheal": {
+      "ord": 14,
+      "levels": [
+        45,
+        48,
+        51,
+        54
+      ],
+      "type": 2,
+      "icon": "live_ch_mpheal",
+      "quality": "rare",
+      "require": [
+        "ch_protectself",
+        "ch_improvedallattack"
+      ],
+      "shards": [
+        225,
+        240,
+        255,
+        270
+      ],
+      "abyss": [
+        13750,
+        26500,
+        34500,
+        45700
+      ]
+    },
+    "ch_nightwish": {
+      "ord": 15,
+      "levels": [
+        20
+      ],
+      "type": 1,
+      "icon": "cbt_ch_nightwish",
+      "quality": "rare",
+      "shards": [
+        60
+      ]
+    },
+    "ch_protectself": {
+      "ord": 16,
+      "levels": [
+        22,
+        28,
+        34,
+        40,
+        46,
+        52
+      ],
+      "type": 1,
+      "icon": "live_ch_protectself",
+      "quality": "rare",
+      "shards": [
+        66,
+        84,
+        102,
+        120,
+        138,
+        156
+      ]
+    },
+    "ch_shockwave": {
+      "ord": 17,
+      "levels": [
+        52,
+        55
+      ],
+      "type": 2,
+      "icon": "live_ch_shockwave",
+      "quality": "legend",
+      "require": [
+        "ch_nightwish",
+        "ch_swordbind"
+      ],
+      "shards": [
+        260,
+        275
+      ],
+      "abyss": [
+        78800,
+        101800
+      ]
+    },
+    "ch_slowcrash": {
+      "ord": 18,
+      "levels": [
+        55
+      ],
+      "type": 2,
+      "icon": "live_ch_slowcrash",
+      "quality": "unique",
+      "require": [
+        "ch_mountaincrash",
+        "ch_shockwave"
+      ],
+      "shards": [
+        275
+      ],
+      "abyss": [
+        152700
+      ]
+    },
+    "ch_soaredrock": {
+      "ord": 19,
+      "levels": [
+        43,
+        55
+      ],
+      "type": 1,
+      "icon": "live_ch_soaredrock",
+      "quality": "rare",
+      "shards": [
+        129,
+        165
+      ]
+    },
+    "ch_splashswing": {
+      "ord": 20,
+      "levels": [
+        40,
+        46,
+        52
+      ],
+      "type": 1,
+      "icon": "live_ch_splashswing",
+      "quality": "rare",
+      "shards": [
+        120,
+        138,
+        156
+      ]
+    },
+    "ch_stigma_angelicwall_light": {
+      "ord": 21,
+      "levels": [
+        50
+      ],
+      "type": 1,
+      "icon": "live_ch_stigma_angelicwall",
+      "race": "pc_light",
+      "quality": "rare",
+      "shards": [
+        150
+      ],
+      "alt": "ch_stigma_demonicwall_dark"
+    },
+    "ch_stigma_angelicwish_light": {
+      "ord": 22,
+      "levels": [
+        45
+      ],
+      "type": 1,
+      "icon": "cbt_ch_angelicwish",
+      "race": "pc_light",
+      "quality": "unique",
+      "shards": [
+        135
+      ],
+      "alt": "ch_stigma_demonicwish_dark"
+    },
+    "ch_stigma_demonicwall_dark": {
+      "ord": 23,
+      "levels": [
+        50
+      ],
+      "type": 1,
+      "icon": "live_ch_stigma_demonicwall",
+      "race": "pc_dark",
+      "quality": "rare",
+      "shards": [
+        150
+      ],
+      "alt": "ch_stigma_angelicwall_light"
+    },
+    "ch_stigma_demonicwish_dark": {
+      "ord": 24,
+      "levels": [
+        45
+      ],
+      "type": 1,
+      "icon": "cbt_ch_demonicwish",
+      "race": "pc_dark",
+      "quality": "unique",
+      "shards": [
+        135
+      ],
+      "alt": "ch_stigma_angelicwish_light"
+    },
+    "ch_stigma_recoverword": {
+      "ord": 25,
+      "levels": [
+        45,
+        51
+      ],
+      "type": 1,
+      "icon": "live_ch_stigma_recoverword",
+      "quality": "rare",
+      "shards": [
+        135,
+        153
+      ]
+    },
+    "ch_surperiorheal": {
+      "ord": 26,
+      "levels": [
+        52,
+        55
+      ],
+      "type": 2,
+      "icon": "live_ch_surperiorheal",
+      "quality": "legend",
+      "require": [
+        "ch_improvedallattack",
+        "ch_improvedalldefend"
+      ],
+      "shards": [
+        260,
+        275
+      ],
+      "abyss": [
+        78800,
+        101800
+      ]
+    },
+    "ch_swordbind": {
+      "ord": 27,
+      "levels": [
+        28
+      ],
+      "type": 1,
+      "icon": "cbt_ch_swordbind",
+      "quality": "rare",
+      "shards": [
+        84
+      ]
+    },
+    "cl_imbuemana": {
+      "ord": 28,
+      "levels": [
+        25,
+        37,
+        49,
+        55
+      ],
+      "type": 1,
+      "icon": "cbt_cl_imbuemana",
+      "quality": "rare",
+      "shards": [
+        75,
+        111,
+        147,
+        165
+      ]
+    }
+  },
+  "wizard": {
+    "wi_arcaneboost": {
+      "ord": 1,
+      "levels": [
+        37
+      ],
+      "type": 1,
+      "icon": "cbt_wi_arcaneboost",
+      "quality": "rare",
+      "shards": [
+        111
+      ]
+    },
+    "wi_arcanepower": {
+      "ord": 2,
+      "levels": [
+        28
+      ],
+      "type": 1,
+      "icon": "cbt_wi_arcanepower",
+      "quality": "rare",
+      "shards": [
+        84
+      ]
+    },
+    "wi_arcanewisdom": {
+      "ord": 3,
+      "levels": [
+        20
+      ],
+      "type": 1,
+      "icon": "cbt_wi_arcanewisdom",
+      "quality": "rare",
+      "shards": [
+        60
+      ]
+    },
+    "wi_countermagic": {
+      "ord": 4,
+      "levels": [
+        28,
+        40,
+        52
+      ],
+      "type": 1,
+      "icon": "cbt_wi_countermagic",
+      "quality": "rare",
+      "shards": [
+        84,
+        120,
+        156
+      ]
+    },
+    "wi_cursedtree": {
+      "ord": 5,
+      "levels": [
+        20
+      ],
+      "type": 1,
+      "icon": "cbt_wi_cursedtree",
+      "quality": "rare",
+      "shards": [
+        60
+      ]
+    },
+    "wi_elementalseal": {
+      "ord": 11,
+      "levels": [
+        52
+      ],
+      "type": 2,
+      "icon": "live_wi_elementalseal",
+      "quality": "legend",
+      "require": [
+        "wi_countermagic",
+        "wi_arcaneboost"
+      ],
+      "shards": [
+        260
+      ],
+      "abyss": [
+        78800
+      ]
+    },
+    "wi_flamestrike": {
+      "ord": 12,
+      "levels": [
+        50,
+        53
+      ],
+      "type": 2,
+      "icon": "live_wi_flamestrike",
+      "quality": "legend",
+      "require": [
+        "wi_rockfall",
+        "wi_soulgain"
+      ],
+      "shards": [
+        250,
+        265
+      ],
+      "abyss": [
+        38700,
+        85800
+      ]
+    },
+    "wi_frostpillar_dark": {
+      "ord": 6,
+      "levels": [
+        25,
+        37,
+        49,
+        55
+      ],
+      "type": 1,
+      "icon": "cbt_wi_dark_frostpillar",
+      "race": "pc_dark",
+      "quality": "rare",
+      "shards": [
+        75,
+        111,
+        147,
+        165
+      ]
+    },
+    "wi_frostpillar_light": {
+      "ord": 18,
+      "levels": [
+        25,
+        37,
+        49,
+        55
+      ],
+      "type": 1,
+      "icon": "cbt_wi_light_frostpillar",
+      "race": "pc_light",
+      "quality": "rare",
+      "shards": [
+        75,
+        111,
+        147,
+        165
+      ]
+    },
+    "wi_hpmpexchange": {
+      "ord": 13,
+      "levels": [
+        54
+      ],
+      "type": 1,
+      "icon": "live_wi_hpmpexchange",
+      "quality": "rare",
+      "shards": [
+        162
+      ]
+    },
+    "wi_icebarrier": {
+      "ord": 14,
+      "levels": [
+        48
+      ],
+      "type": 1,
+      "icon": "cbt_wi_icebarrier",
+      "quality": "rare",
+      "shards": [
+        144
+      ]
+    },
+    "wi_icyshield": {
+      "ord": 15,
+      "levels": [
+        55
+      ],
+      "type": 2,
+      "icon": "live_wi_icyshield",
+      "quality": "unique",
+      "require": [
+        "wi_sleepingstorm",
+        "wi_elementalseal"
+      ],
+      "shards": [
+        275
+      ],
+      "abyss": [
+        152700
+      ]
+    },
+    "wi_icyveins_dark": {
+      "ord": 7,
+      "levels": [
+        44
+      ],
+      "type": 1,
+      "icon": "cbt_wi_dark_icyveins",
+      "race": "pc_dark",
+      "quality": "rare",
+      "shards": [
+        132
+      ]
+    },
+    "wi_icyveins_light": {
+      "ord": 19,
+      "levels": [
+        44
+      ],
+      "type": 1,
+      "icon": "cbt_wi_light_icyveins",
+      "race": "pc_light",
+      "quality": "rare",
+      "shards": [
+        132
+      ]
+    },
+    "wi_illusiondance": {
+      "ord": 16,
+      "levels": [
+        45
+      ],
+      "type": 2,
+      "icon": "live_wi_illusiondance",
+      "quality": "rare",
+      "require": [
+        "wi_arcaneboost"
+      ],
+      "shards": [
+        225
+      ],
+      "abyss": [
+        13750
+      ]
+    },
+    "wi_illusionstorm": {
+      "ord": 17,
+      "levels": [
+        45,
+        48,
+        51,
+        54
+      ],
+      "type": 2,
+      "icon": "live_wi_illusionstorm",
+      "quality": "rare",
+      "require": [
+        "wi_cursedtree",
+        "wi_countermagic"
+      ],
+      "shards": [
+        225,
+        240,
+        255,
+        270
+      ],
+      "abyss": [
+        13750,
+        26500,
+        34500,
+        45700
+      ]
+    },
+    "wi_massexplosion": {
+      "ord": 23,
+      "levels": [
+        34,
+        46,
+        52
+      ],
+      "type": 1,
+      "icon": "cbt_wi_massexplosion",
+      "quality": "rare",
+      "shards": [
+        102,
+        138,
+        156
+      ]
+    },
+    "wi_rockfall": {
+      "ord": 24,
+      "levels": [
+        45,
+        48,
+        51,
+        54
+      ],
+      "type": 2,
+      "icon": "live_wi_rockfall",
+      "quality": "rare",
+      "require": [
+        [
+          "wi_frostpillar_light",
+          "wi_frostpillar_dark"
+        ],
+        "wi_windcutter"
+      ],
+      "shards": [
+        225,
+        240,
+        255,
+        270
+      ],
+      "abyss": [
+        13750,
+        26500,
+        34500,
+        45700
+      ]
+    },
+    "wi_sleepingstorm": {
+      "ord": 25,
+      "levels": [
+        50
+      ],
+      "type": 2,
+      "icon": "live_wi_sleepingstorm",
+      "quality": "legend",
+      "require": [
+        "wi_illusionstorm",
+        "wi_illusiondance"
+      ],
+      "shards": [
+        250
+      ],
+      "abyss": [
+        38700
+      ]
+    },
+    "wi_soulgain": {
+      "ord": 26,
+      "levels": [
+        45
+      ],
+      "type": 2,
+      "icon": "live_wi_soulgain",
+      "quality": "rare",
+      "require": [
+        "wi_arcanepower"
+      ],
+      "shards": [
+        225
+      ],
+      "abyss": [
+        13750
+      ]
+    },
+    "wi_stigma_atomicenergy_dark": {
+      "ord": 8,
+      "levels": [
+        45
+      ],
+      "type": 1,
+      "icon": "cbt_wi_dark_atomicenergy",
+      "race": "pc_dark",
+      "quality": "unique",
+      "shards": [
+        135
+      ]
+    },
+    "wi_stigma_atomicenergy_light": {
+      "ord": 20,
+      "levels": [
+        45
+      ],
+      "type": 1,
+      "icon": "cbt_wi_light_atomicenergy",
+      "race": "pc_light",
+      "quality": "unique",
+      "shards": [
+        135
+      ]
+    },
+    "wi_stigma_icelance": {
+      "ord": 27,
+      "levels": [
+        45,
+        51
+      ],
+      "type": 1,
+      "icon": "live_wi_stigma_icelance",
+      "quality": "rare",
+      "shards": [
+        135,
+        153
+      ]
+    },
+    "wi_stigma_lavawave_dark": {
+      "ord": 9,
+      "levels": [
+        50
+      ],
+      "type": 1,
+      "icon": "live_wi_dark_stigma_lavawave",
+      "race": "pc_dark",
+      "quality": "rare",
+      "shards": [
+        150
+      ],
+      "alt": "wi_stigma_volcanicflame_light"
+    },
+    "wi_stigma_volcanicflame_light": {
+      "ord": 21,
+      "levels": [
+        50
+      ],
+      "type": 1,
+      "icon": "live_wi_light_stigma_volcanicflame",
+      "race": "pc_light",
+      "quality": "rare",
+      "shards": [
+        150
+      ],
+      "alt": "wi_stigma_lavawave_dark"
+    },
+    "wi_stormshock": {
+      "ord": 28,
+      "levels": [
+        52,
+        55
+      ],
+      "type": 2,
+      "icon": "live_wi_stormshock",
+      "quality": "legend",
+      "require": [
+        [
+          "wi_frostpillar_light",
+          "wi_frostpillar_dark"
+        ],
+        "wi_arcanepower"
+      ],
+      "shards": [
+        260,
+        275
+      ],
+      "abyss": [
+        78800,
+        101800
+      ]
+    },
+    "wi_summontornado_dark": {
+      "ord": 10,
+      "levels": [
+        43,
+        55
+      ],
+      "type": 1,
+      "icon": "live_wi_summontornado",
+      "race": "pc_dark",
+      "quality": "rare",
+      "shards": [
+        129,
+        165
+      ]
+    },
+    "wi_summontornado_light": {
+      "ord": 22,
+      "levels": [
+        43,
+        55
+      ],
+      "type": 1,
+      "icon": "live_wi_summontornado",
+      "race": "pc_light",
+      "quality": "rare",
+      "shards": [
+        129,
+        165
+      ]
+    },
+    "wi_windcutter": {
+      "ord": 29,
+      "levels": [
+        31,
+        37,
+        43,
+        49,
+        55
+      ],
+      "type": 1,
+      "icon": "live_wi_windcutter",
+      "quality": "rare",
+      "shards": [
+        93,
+        111,
+        129,
+        147,
+        165
+      ]
+    },
+    "wi_zeropoint": {
+      "ord": 30,
+      "levels": [
+        55
+      ],
+      "type": 2,
+      "icon": "live_wi_zeropoint",
+      "quality": "unique",
+      "require": [
+        "wi_flamestrike",
+        "wi_stormshock"
+      ],
+      "shards": [
+        275
+      ],
+      "abyss": [
+        152700
+      ]
+    }
+  },
+  "elementalist": {
+    "el_bind": {
+      "ord": 1,
+      "levels": [
+        20
+      ],
+      "type": 1,
+      "icon": "cbt_el_bind",
+      "quality": "rare",
+      "shards": [
+        60
+      ]
+    },
+    "el_dimisspolymorph": {
+      "ord": 3,
+      "levels": [
+        34,
+        40,
+        46,
+        52
+      ],
+      "type": 1,
+      "icon": "cbt_el_dimisspolymorph",
+      "quality": "rare",
+      "shards": [
+        102,
+        120,
+        138,
+        156
+      ]
+    },
+    "el_drainenergy": {
+      "ord": 4,
+      "levels": [
+        20,
+        25,
+        31,
+        37,
+        41,
+        47,
+        53
+      ],
+      "type": 1,
+      "icon": "cbt_el_drainenergy",
+      "quality": "rare",
+      "shards": [
+        60,
+        75,
+        93,
+        111,
+        123,
+        141,
+        159
+      ]
+    },
+    "el_elementalcharge": {
+      "ord": 5,
+      "levels": [
+        52
+      ],
+      "type": 2,
+      "icon": "live_el_elementalcharge",
+      "quality": "legend",
+      "require": [
+        "el_sympatheticswitch",
+        "el_dimisspolymorph"
+      ],
+      "shards": [
+        260
+      ],
+      "abyss": [
+        78800
+      ]
+    },
+    "el_elementtransfer": {
+      "ord": 6,
+      "levels": [
+        40,
+        52
+      ],
+      "type": 1,
+      "icon": "live_el_elementtransfer",
+      "quality": "rare",
+      "shards": [
+        120,
+        156
+      ]
+    },
+    "el_enchantarmor": {
+      "ord": 7,
+      "levels": [
+        45
+      ],
+      "type": 2,
+      "icon": "live_el_enchantarmor",
+      "quality": "rare",
+      "require": [
+        "el_dimisspolymorph",
+        "el_ethercharge"
+      ],
+      "shards": [
+        225
+      ],
+      "abyss": [
+        13750
+      ]
+    },
+    "el_enchantmentburst": {
+      "ord": 8,
+      "levels": [
+        25,
+        31,
+        37,
+        42,
+        48,
+        54
+      ],
+      "type": 1,
+      "icon": "cbt_el_enchantmentburst",
+      "quality": "rare",
+      "shards": [
+        75,
+        93,
+        111,
+        126,
+        144,
+        162
+      ]
+    },
+    "el_enervationcurse": {
+      "ord": 9,
+      "levels": [
+        54
+      ],
+      "type": 1,
+      "icon": "live_el_enervationcurse",
+      "quality": "rare",
+      "shards": [
+        162
+      ]
+    },
+    "el_enfeeblement": {
+      "ord": 10,
+      "levels": [
+        45
+      ],
+      "type": 2,
+      "icon": "live_el_enfeeblement",
+      "quality": "rare",
+      "require": [
+        "el_bind",
+        "el_silence"
+      ],
+      "shards": [
+        225
+      ],
+      "abyss": [
+        13750
+      ]
+    },
+    "el_escape": {
+      "ord": 11,
+      "levels": [
+        40
+      ],
+      "type": 1,
+      "icon": "live_el_escape",
+      "quality": "rare",
+      "shards": [
+        120
+      ]
+    },
+    "el_ethercharge": {
+      "ord": 12,
+      "levels": [
+        44
+      ],
+      "type": 1,
+      "icon": "cbt_el_ethercharge",
+      "quality": "rare",
+      "shards": [
+        132
+      ]
+    },
+    "el_fireaid": {
+      "ord": 13,
+      "levels": [
+        31,
+        37,
+        43,
+        49,
+        55
+      ],
+      "type": 1,
+      "icon": "live_el_fireaid",
+      "quality": "rare",
+      "shards": [
+        93,
+        111,
+        129,
+        147,
+        165
+      ]
+    },
+    "el_hellcurse": {
+      "ord": 14,
+      "levels": [
+        55
+      ],
+      "type": 2,
+      "icon": "live_el_hellcurse",
+      "quality": "unique",
+      "require": [
+        "el_hellpain",
+        "el_sleepingspirit"
+      ],
+      "shards": [
+        275
+      ],
+      "abyss": [
+        152700
+      ]
+    },
+    "el_hellpain": {
+      "ord": 15,
+      "levels": [
+        50,
+        53
+      ],
+      "type": 2,
+      "icon": "live_el_hellpain",
+      "quality": "legend",
+      "require": [
+        "el_enfeeblement",
+        "el_manareverse"
+      ],
+      "shards": [
+        250,
+        265
+      ],
+      "abyss": [
+        38700,
+        85800
+      ]
+    },
+    "el_manareverse": {
+      "ord": 17,
+      "levels": [
+        45,
+        48,
+        51,
+        54
+      ],
+      "type": 2,
+      "icon": "live_el_manareverse",
+      "quality": "rare",
+      "require": [
+        "el_enchantmentburst"
+      ],
+      "shards": [
+        225,
+        240,
+        255,
+        270
+      ],
+      "abyss": [
+        13750,
+        26500,
+        34500,
+        45700
+      ]
+    },
+    "el_order_elementalfield": {
+      "ord": 18,
+      "levels": [
+        34
+      ],
+      "type": 1,
+      "icon": "cbt_el_order_elementalfield",
+      "quality": "rare",
+      "shards": [
+        102
+      ]
+    },
+    "el_order_omen": {
+      "ord": 19,
+      "levels": [
+        55
+      ],
+      "type": 2,
+      "icon": "live_el_order_omen",
+      "quality": "unique",
+      "require": [
+        "el_stigma_order_destructimpact",
+        "el_elementalcharge"
+      ],
+      "shards": [
+        275
+      ],
+      "abyss": [
+        152700
+      ]
+    },
+    "el_order_sacrifice": {
+      "ord": 20,
+      "levels": [
+        48
+      ],
+      "type": 1,
+      "icon": "cbt_el_order_sacrifice",
+      "quality": "rare",
+      "shards": [
+        144
+      ]
+    },
+    "el_silence": {
+      "ord": 21,
+      "levels": [
+        28
+      ],
+      "type": 1,
+      "icon": "cbt_el_silence",
+      "quality": "rare",
+      "shards": [
+        84
+      ]
+    },
+    "el_slave_stormservent_dark": {
+      "ord": 2,
+      "levels": [
+        45,
+        48,
+        51,
+        54
+      ],
+      "type": 2,
+      "icon": "live_el_dark_slave_stormservent",
+      "race": "pc_dark",
+      "quality": "rare",
+      "require": [
+        "el_sympatheticswitch"
+      ],
+      "shards": [
+        225,
+        240,
+        255,
+        270
+      ],
+      "abyss": [
+        13750,
+        26500,
+        34500,
+        45700
+      ]
+    },
+    "el_slave_stormservent_light": {
+      "ord": 16,
+      "levels": [
+        45,
+        48,
+        51,
+        54
+      ],
+      "type": 2,
+      "icon": "live_el_light_slave_stormservent",
+      "race": "pc_light",
+      "quality": "rare",
+      "require": [
+        "el_sympatheticswitch"
+      ],
+      "shards": [
+        225,
+        240,
+        255,
+        270
+      ],
+      "abyss": [
+        13750,
+        26500,
+        34500,
+        45700
+      ]
+    },
+    "el_sleepingspirit": {
+      "ord": 22,
+      "levels": [
+        52
+      ],
+      "type": 2,
+      "icon": "live_el_sleepingspirit",
+      "quality": "legend",
+      "require": [
+        "el_silence",
+        "el_enchantmentburst"
+      ],
+      "shards": [
+        260
+      ],
+      "abyss": [
+        78800
+      ]
+    },
+    "el_stigma_order_destructimpact": {
+      "ord": 23,
+      "levels": [
+        50
+      ],
+      "type": 2,
+      "icon": "live_el_stigma_order_destructimpact",
+      "quality": "legend",
+      "require": [
+        [
+          "el_slave_stormservent_light",
+          "el_slave_stormservent_dark"
+        ],
+        "el_enchantarmor"
+      ],
+      "shards": [
+        250
+      ],
+      "abyss": [
+        38700
+      ]
+    },
+    "el_stigma_order_etheremission_light": {
+      "ord": 24,
+      "levels": [
+        45
+      ],
+      "type": 1,
+      "icon": "cbt_el_order_etheremission",
+      "race": "pc_light",
+      "quality": "unique",
+      "shards": [
+        135
+      ],
+      "alt": "el_stigma_order_etherimpact_dark"
+    },
+    "el_stigma_order_ethereruption_light": {
+      "ord": 25,
+      "levels": [
+        50
+      ],
+      "type": 1,
+      "icon": "live_el_stigma_order_ethereruption",
+      "race": "pc_light",
+      "quality": "rare",
+      "shards": [
+        150
+      ],
+      "alt": "el_stigma_order_shadoweruption_dark"
+    },
+    "el_stigma_order_etherimpact_dark": {
+      "ord": 26,
+      "levels": [
+        45
+      ],
+      "type": 1,
+      "icon": "cbt_el_order_etherimpact",
+      "race": "pc_dark",
+      "quality": "unique",
+      "shards": [
+        135
+      ],
+      "alt": "el_stigma_order_etheremission_light"
+    },
+    "el_stigma_order_shadoweruption_dark": {
+      "ord": 27,
+      "levels": [
+        50
+      ],
+      "type": 1,
+      "icon": "live_el_stigma_order_shadoweruption",
+      "race": "pc_dark",
+      "quality": "rare",
+      "shards": [
+        150
+      ],
+      "alt": "el_stigma_order_ethereruption_light"
+    },
+    "el_stigma_stormblade": {
+      "ord": 28,
+      "levels": [
+        45,
+        51
+      ],
+      "type": 1,
+      "icon": "live_el_stigma_stormblade",
+      "quality": "rare",
+      "shards": [
+        135,
+        153
+      ]
+    },
+    "el_sympatheticswitch": {
+      "ord": 29,
+      "levels": [
+        22
+      ],
+      "type": 1,
+      "icon": "cbt_el_sympatheticswitch",
+      "quality": "rare",
+      "shards": [
+        66
+      ]
+    },
+    "el_terrorspirit": {
+      "ord": 30,
+      "levels": [
+        37
+      ],
+      "type": 1,
+      "icon": "cbt_el_terrorspirit",
+      "quality": "rare",
+      "shards": [
+        111
+      ]
+    }
+  }
+}
